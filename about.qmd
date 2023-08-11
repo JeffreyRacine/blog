@@ -1,0 +1,12 @@
+---
+title: "About"
+image: headshot_cropped_circle.png
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/JeffreyRacine
+---
+
+About this blog
