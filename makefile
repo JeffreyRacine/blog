@@ -1,4 +1,4 @@
 all:
 
 	quarto render
-	git add docs
+	git add docs posts
