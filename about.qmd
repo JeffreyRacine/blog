@@ -9,9 +9,9 @@ about:
       href: https://github.com/JeffreyRacine
 ---
 
-This website exists to encourage discussion about any manner of things, academic or otherwise. If this site has a bias, it is likely towards open and free computing technology that streamlines workflow, particularly tools for pursuing reproducible research. One difference between this site and my [primary academic website](https://facsocsci.mcmaster.ca/people/racinej) is the presence of a blog that presents a forum for further discussion in the public sphere.
+This website exists to encourage discussion about any manner of things, academic or otherwise. If this site has a bias, it is likely towards open and free computing technology that streamlines workflow, particularly tools for pursuing reproducible research. One difference between this site and my [primary academic website](https://experts.mcmaster.ca/display/racinej) is the presence of a blog that presents a forum for further discussion in the public sphere.
 
-If you are searching for working papers, information about R packages or textbooks that I have authored, a current curriculum vitae, course information and the like, kindly [visit my primary McMaster academic website](https://facsocsci.mcmaster.ca/people/racinej).
+If you are searching for working papers, information about R packages or textbooks that I have authored, a current curriculum vitae, course information and the like, kindly [visit my primary McMaster academic website](https://experts.mcmaster.ca/display/racinej).
 
 <i class="fa fa-rss"></i> To receive blog updates from this site, you can subscribe using an [RSS feed reader](https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader) by simply adding the URL for this site to your RSS feed (I use [feedly](https://feedly.com/i/welcome)).
 
