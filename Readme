@@ -1,0 +1,47 @@
+Aug 11 2023, Pretoria
+
+Lacks built-in RStudio option (add-in) for creating new posts
+
+1. In posts directory create a subdirectory beginning with date e.g. 2023-08-11-foo
+2. In that subdir best to copy the index.qmd from a previous post and modify (for now pending RStudio add-in)
+3. Edit post (can do this in RStudio directly until happy)
+4. in the weblog root dir run make (adds both the new post and the docs site to git)
+5. git commit -am "foo message"
+6. git push
+
+That's it.
+
+------
+
+add .nojekyll (touch .nojekyll will suffice, empty file)
+
+------
+
+Change default _site to docs for use with GitHub Pages
+
+To get started, change your project configuration to use docs as the output-dir. For example:
+
+_quarto.yml
+project:
+  type: website
+  output-dir: docs
+
+-----
+
+
+Creating GitHub repo required exxtra step git remote set-url origin git@github.com:JeffreyRacine/blog.git before push works
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/JeffreyRacine/blog.git
+git branch -M main
+git push -u origin main
+
+
+
+-----
+
+Site cranky, involves additional netlify step, going to migrate to quarto blog framework... may have more staying power...
+
+Following
+
+https://quarto.org/docs/websites/website-blog.html#:~:text=To%20create%20a%20new%20blog%20project%20within%20RStudio%2C%20use%20the,right%20of%20the%20source%20file.

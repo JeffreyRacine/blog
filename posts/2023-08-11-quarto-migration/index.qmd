@@ -1,0 +1,16 @@
+---
+title: Migrating from R blogdown to Quarto blogging
+author: Jeffrey S. Racine
+date: 20123-08-11
+draft: false
+---
+
+Ahh, the joys and sorrows of technological progress! 
+
+Some background is likely in order (and an apology for neglecting my blog). In 2018 I discovered R blogdown which was a big advance (for me at least) in creating a blog. The use of RStudio/blogdown for building websites was a very straightforward matter, and some features that streamlined creating new posts are in fact missing from Quarto's blog (at the moment, at least). However, this setup came with a set of issues, and having to actively maintain a theme (the hugo theme) and modify the theme to accomplish certain tasks created conditions for that blog incarnation's eventual neglect. In addition, I was using the free hosting platform netlify for hosting the site, and leveraging its ability to pull updated code from a GitHub repo and automatically rebuild the blog. But after not too much time had elapsed since adopting this approach, it became unmaintainable (read "not worth the effort" - netlify issuing security warnings about the hugo theme, issues with GitHub's security features and moving away from passwords, etc., conspired against this framework). In short, I was unwilling to invest the time to debug and keep this framework current, hence it lapsed which explains the large gap between some posts.
+
+But with my recent experiences using Quarto being quite positive, and with Quarto^[Quarto is a multi-language, next-generation version of R Markdown from Posit and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification.] broadening its embrace beyond RStudio and R (and re-branding as Posit), it is clear that clinging to R blogdown is a recipe for pain that I don't need.
+
+So, while visiting a co-author at the University of Pretoria this month, and after the jet lag had passed, I decided to dedicate part of the morning to migrating my old website to the Quarto blog framework and to host it directly on GitHub Pages (I am a big fan of GitHub Pages as you can see).
+
+The migration was very straightforward and in less than one hour I was up and running with the migrated site (probably closer to 1/2 an hour of work at most). So far I am very happy with the result, and there is far less to maintain than when using R blogdown (at least this is my recollection). And hopefully this platform turns out to be more "future-proofed" than its predecessor. I am more than happy to discuss details with you if you wish (shoot me an email!). Time will tell if this is more future-proofed than its predecessor.

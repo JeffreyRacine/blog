@@ -5,7 +5,7 @@ about:
   template: jolla
   links:
     - icon: github
-      text: My GitHub Repositories
+      text: Public GitHub Repositories
       href: https://github.com/JeffreyRacine
 ---
 
