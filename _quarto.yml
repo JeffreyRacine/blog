@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "weblog"
+  title: Jeffrey S. Racine's Personal Blog
   navbar:
     right:
       - about.qmd
