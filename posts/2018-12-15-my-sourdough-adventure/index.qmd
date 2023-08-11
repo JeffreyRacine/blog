@@ -291,7 +291,7 @@ The following images track a recent bake using the 900 gram pre-baked weight rec
 
 ## Cross-Section of The Crumb
 
-<img alt = 'Cross-section of the crumb' width='300' src='MG_1173.jpeg' />
+<img alt = 'Cross-section of the crumb' width='300' src='IMG_1173.jpeg' />
 
 # Some Useful Links
 
