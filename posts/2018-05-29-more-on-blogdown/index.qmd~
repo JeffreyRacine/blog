@@ -1,0 +1,65 @@
+---
+title: More on blogdown
+author: Jeffrey S. Racine
+date: '2018-05-29'
+slug: more-on-blogdown
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+bibliography: [post.bib]  
+---
+
+The R package blogdown "is an effort to integrate R Markdown with static website generators" according to its creator, Yihui Xie. He writes "Besides the advantage in website structures, another highlight of blogdown is that it inherited bookdown’s Markdown extensions (based on Pandoc’s Markdown), which means you can easily write technical content on your website, including everything that Pandoc supports (e.g., headings, lists, footnotes, tables, figures, citations,  \(\LaTeX\)  math, and quotes, etc) and bookdown’s extensions (e.g., figure and table captions, cross-references, theorems, proofs, numbered equations, and HTML widgets, etc)."
+
+I have been so focused on website and blog creation that the obvious had escaped my notice, namely that we have access to the entire universe of R Markdown and bookdown capabilities from within our website.
+
+By way of illustration, we can embed R code and enable code syntax highlighting:
+
+```{r,eval=FALSE}
+x <- rnorm(100)
+summary(x)
+```
+
+Furthermore, we can create mathematical expressions and equations using standard \(\LaTeX\) commands:
+\begin{equation}
+\hat\beta=(X'X)^{-1}X'Y
+\end{equation}
+
+We can also create tables using standard markdown syntax:
+
+-------------------------------------------------------------
+ Centered   Default           Right Left
+  Header    Aligned         Aligned Aligned
+----------- ------- --------------- -------------------------
+   First    row                12.0 Example of a row that
+                                    spans multiple lines.
+
+  Second    row                 5.0 Here's another one. Note
+                                    the blank line between
+                                    rows.
+-------------------------------------------------------------
+
+Table: Here's the caption. It, too, may span
+multiple lines.
+
+And, naturally, we can effortlessly generate figures via inline R code, complete with captions and figure numbering if desired:
+```{r testfig,echo=FALSE,fig.align='center',fig.cap="Kernel Density Estimator Example."}
+set.seed(42)
+plot(density(rchisq(10000,df=5)),main="")
+```
+
+We can also automatically cross-reference this figure using bookdown cross-referencing extensions, e.g., Figure \@ref(fig:testfig).
+
+As well, we can use BibTeX for references using bookdown reference syntax, as in @bookdown and @blogdown, with BibTeX being seamlessly invoked and the references being automatically generated and added to the end of this post.
+
+And, finally, we can create interactive HTML widgets using a simple R Markdown code chunk (this required only one line of R code); enter 0.2 in the search bar which will filter on rows with a Petal Width of 0.2:
+
+```{r,echo=FALSE}
+widgetframe::frameWidget(DT::datatable(iris), height='90%', width='90%')
+```
+
+So, from an academic perspective, this is pretty exciting since it takes all of the standard tools of the trade (R,  \(\LaTeX\), BibTeX, markdown and bookdown) and allows one to leverage these tools without having to master the art of website creation. *Focus on the narrative, not the tools*.
+
+# References

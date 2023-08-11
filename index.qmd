@@ -1,5 +1,5 @@
 ---
-title: "weblog"
+title: "Jeffrey S. Racine's Blog"
 listing:
   contents: posts
   sort: "date desc"

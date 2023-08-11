@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jeffrey S. Racine">
+<meta name="dcterms.date" content="2018-05-27">
 
-<title>weblog - Jeffrey S. Racine’s Blog</title>
+<title>weblog - Hugo, websites and blogdown</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,50 +61,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">weblog</span>
     </a>
   </div>
@@ -115,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About This Site</span></a>
   </li>  
   <li class="nav-item compact">
@@ -138,211 +107,52 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Jeffrey S. Racine’s Blog</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Hugo, websites and blogdown</h1>
                       </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jeffrey S. Racine </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 27, 2018</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<p>This week I became aware of the <a href="https://www.r-project.org">R</a> package <a href="https://bookdown.org/yihui/blogdown">blogdown</a>, which was <a href="https://CRAN.R-project.org/package=blogdown">released on CRAN on 2017-08-22</a> with the <a href="https://blog.rstudio.com/2017/09/11/announcing-blogdown">announcement</a> following shortly thereafter. Initially, given the name, I presumed that it was an R package that facilitated the creation of a blog. But it is much more than that.</p>
+<p>Prior to becoming aware of blogdown, I had been using reproducible tools (coincidentally created by the author of blogdown) which were designed for creating sophisticated products including books, research papers, and websites with an eye on reproducibility (<a href="https://rmarkdown.rstudio.com">R Markdown</a> and <a href="https://bookdown.org/yihui/bookdown">bookdown</a>). A key feature of R Markdown and bookdown is that you work with one file only, the file is a human readable Markdown script, and you remain agnostic about the output format; you can render the output in a range of formats from PDF/() to MS Word to HTML etc., which are rendered using <a href="http://pandoc.org">Pandoc</a>. These tools have become an indispensable part of my workflow.</p>
+<p>However, markdown and bookdown are referred to as “formal” while blogdown is referred to as “casual” by its creator, so they are intended for different audiences; blogdown is designed strictly for the creation of websites.</p>
+<p>The blogdown package is based on R Markdown and bookdown and the Go language, and is designed for <em>technical writing</em>. A few years ago I adopted R Markdown to create websites, and that worked brilliantly and was a big improvement over what I had been using prior to its adoption, however, certain features were missing. To remedy such shortcomings, blogdown adopts <a href="https://gohugo.io">Hugo</a>, natively provides <a href="https://disqus.com">disqus</a>, <a href="https://en.wikipedia.org/wiki/RSS">RSS</a>, and <a href="https://www.google.com/analytics/#?modal_active=none">Google Analytics</a> support and allows you to get up to speed creating static sites in an open and free environment, all enhanced by using <a href="https://github.com">GitHub</a> and <a href="https://www.netlify.com">netlify</a>. Furthermore, it features a “continuous deployment” model with netlify constantly monitoring GitHub for any change in a site repository’s content and rebuilding and deploying the site virtually instantaneously without any further intervention required.</p>
+<p>This site was created using blogdown, and you can clone this project from its <a href="https://github.com/JeffreyRacine/static-hugo-site">GitHub repository</a> and modify it to suit your needs. I found the <a href="https://notes.peter-baumgartner.net">blogdown tutorial</a> by Peter Baumgartner to be most valuable. By following his instructions I was up and running in no time.</p>
+<p>Co-author Rob Hyndman has a <a href="https://support.rbind.io/2017/05/15/converting-robjhyndman-to-blogdown">nice post</a> about his experience migrating his Wordpress site to blogdown where he highlights the inadequacies of various platforms he had used and how such limitations were overcome by switching to blogdown.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1544828400000" data-listing-file-modified-sort="1691744666245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="31">
-<div class="thumbnail">
-<p><a href="./posts/2018-12-15-my-sourdough-adventure/index.html"> <p class="card-img-top"><img src="posts/2018-12-15-my-sourdough-adventure/IMG_0993.jpeg" alt="Mockmill"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2018-12-15-my-sourdough-adventure/index.html">
-<h3 class="no-anchor listing-title">
-My sourdough adventure
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Every once in a while I find myself daydreaming about various ways to up my game in the kitchen and, recently, that dream morphed into an obsession over trying to bake <em>seriously…</em><em></em>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2018-12-15-my-sourdough-adventure/index.html">
-<div class="listing-date">
-Dec 15, 2018
-</div>
-<div class="listing-author">
-Jeffrey S. Racine
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1532642400000" data-listing-file-modified-sort="1691744877491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
-<div class="thumbnail">
-<p><a href="./posts/2018-07-27-why-this-function/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2018-07-27-why-this-function/index.html">
-<h3 class="no-anchor listing-title">
-Why This Function (WTF)? A diatribe on parametric model specification
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-It is not uncommon to encounter practitioners who scribble down a parametric regression model and then proceed <em>as if their model had generated the data</em>.<sup>1</sup> No model selection exercise is attempted, model uncertainty is ignored, and statements are made about the underlying process that generated the data based solely on the…<em></em><em></em>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2018-07-27-why-this-function/index.html">
-<div class="listing-date">
-Jul 27, 2018
-</div>
-<div class="listing-author">
-Jeffrey S. Racine
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1529704800000" data-listing-file-modified-sort="1691745091221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
-<div class="thumbnail">
-<p><a href="./posts/2018-06-23-academic-networks-public-profiles/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2018-06-23-academic-networks-public-profiles/index.html">
-<h3 class="no-anchor listing-title">
-Academic networks &amp; public profiles
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Knowledge transfer and the dissemination of research are vital components of the academic mission, yet sometimes these are afforded no more than an afterthought.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2018-06-23-academic-networks-public-profiles/index.html">
-<div class="listing-date">
-Jun 23, 2018
-</div>
-<div class="listing-author">
-Jeffrey S. Racine
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1527804000000" data-listing-file-modified-sort="1691745316090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/2018-06-01-github-education-and-private-repositories/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2018-06-01-github-education-and-private-repositories/index.html">
-<h3 class="no-anchor listing-title">
-GitHub Education and private repositories
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Yesterday I was discussing workflow with a PhD student who I recently started supervising and I encouraged her to get up to speed with GitHub, which she did.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2018-06-01-github-education-and-private-repositories/index.html">
-<div class="listing-date">
-Jun 1, 2018
-</div>
-<div class="listing-author">
-Jeffrey S. Racine
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1527544800000" data-listing-file-modified-sort="1691745448799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/2018-05-29-more-on-blogdown/index.html"> <p class="card-img-top"><img src="posts/2018-05-29-more-on-blogdown/index_files/figure-html/testfig-1.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2018-05-29-more-on-blogdown/index.html">
-<h3 class="no-anchor listing-title">
-More on blogdown
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-The R package blogdown “is an effort to integrate R Markdown with static website generators” according to its creator, Yihui Xie. He writes “Besides the advantage in website…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2018-05-29-more-on-blogdown/index.html">
-<div class="listing-date">
-May 29, 2018
-</div>
-<div class="listing-author">
-Jeffrey S. Racine
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1527372000000" data-listing-file-modified-sort="1691745584867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/2018-05-27-hugo-websites-and-blogdown/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2018-05-27-hugo-websites-and-blogdown/index.html">
-<h3 class="no-anchor listing-title">
-Hugo, websites and blogdown
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-This week I became aware of the R package blogdown, which was released on CRAN on 2017-08-22 with the announcement following shortly thereafter. Initially, given the name, I presumed that it was an R package that…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2018-05-27-hugo-websites-and-blogdown/index.html">
-<div class="listing-date">
-May 27, 2018
-</div>
-<div class="listing-author">
-Jeffrey S. Racine
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
