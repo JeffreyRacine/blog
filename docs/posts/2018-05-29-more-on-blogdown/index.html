@@ -196,14 +196,14 @@ div.csl-indent {
 
 
 
-<p>The R package blogdown “is an effort to integrate R Markdown with static website generators” according to its creator, Yihui Xie. He writes “Besides the advantage in website structures, another highlight of blogdown is that it inherited bookdown’s Markdown extensions (based on Pandoc’s Markdown), which means you can easily write technical content on your website, including everything that Pandoc supports (e.g., headings, lists, footnotes, tables, figures, citations, () math, and quotes, etc) and bookdown’s extensions (e.g., figure and table captions, cross-references, theorems, proofs, numbered equations, and HTML widgets, etc).”</p>
+<p>The R package blogdown “is an effort to integrate R Markdown with static website generators” according to its creator, Yihui Xie. He writes “Besides the advantage in website structures, another highlight of blogdown is that it inherited bookdown’s Markdown extensions (based on Pandoc’s Markdown), which means you can easily write technical content on your website, including everything that Pandoc supports (e.g., headings, lists, footnotes, tables, figures, citations, <span class="math inline">\(\rm\LaTeX\)</span> math, and quotes, etc) and bookdown’s extensions (e.g., figure and table captions, cross-references, theorems, proofs, numbered equations, and HTML widgets, etc).”</p>
 <p>I have been so focused on website and blog creation that the obvious had escaped my notice, namely that we have access to the entire universe of R Markdown and bookdown capabilities from within our website.</p>
 <p>By way of illustration, we can embed R code and enable code syntax highlighting:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">100</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(x)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Furthermore, we can create mathematical expressions and equations using standard () commands: <span class="math display">\[\begin{equation}
+<p>Furthermore, we can create mathematical expressions and equations using standard <span class="math inline">\(\rm\LaTeX\)</span> commands: <span class="math display">\[\begin{equation}
 \hat\beta=(X'X)^{-1}X'Y
 \end{equation}\]</span></p>
 <p>We can also create tables using standard markdown syntax:</p>
@@ -241,16 +241,16 @@ div.csl-indent {
 <p>And, naturally, we can effortlessly generate figures via inline R code, complete with captions and figure numbering if desired:</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
+<div id="fig-testfig" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="index_files/figure-html/testfig-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption">Kernel Density Estimator Example.</figcaption>
+<p><img src="index_files/figure-html/fig-testfig-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Kernel Density Estimator Example.</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>We can also automatically cross-reference this figure using bookdown cross-referencing extensions, e.g., Figure @ref(fig:testfig).</p>
-<p>As well, we can use BibTeX for references using bookdown reference syntax, as in <span class="citation" data-cites="bookdown">Xie (<a href="#ref-bookdown" role="doc-biblioref">2016</a>)</span> and <span class="citation" data-cites="blogdown">Xie (<a href="#ref-blogdown" role="doc-biblioref">2018</a>)</span>, with BibTeX being seamlessly invoked and the references being automatically generated and added to the end of this post.</p>
+<p>We can also automatically cross-reference this figure using bookdown cross-referencing extensions, e.g., <a href="#fig-testfig">Figure&nbsp;1</a>.</p>
+<p>As well, we can use Bib<span class="math inline">\(\rm\TeX\)</span> for references using bookdown reference syntax, as in <span class="citation" data-cites="bookdown">Xie (<a href="#ref-bookdown" role="doc-biblioref">2016</a>)</span> and <span class="citation" data-cites="blogdown">Xie (<a href="#ref-blogdown" role="doc-biblioref">2018</a>)</span>, with Bib<span class="math inline">\(\rm\TeX\)</span> being seamlessly invoked and the references being automatically generated and added to the end of this post.</p>
 <p>And, finally, we can create interactive HTML widgets using a simple R Markdown code chunk (this required only one line of R code); enter 0.2 in the search bar which will filter on rows with a Petal Width of 0.2:</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -258,7 +258,7 @@ div.csl-indent {
 <script type="application/json" data-for="htmlwidget-1fa1a6d1fec7645d8de6">{"x":{"url":"index_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-<p>So, from an academic perspective, this is pretty exciting since it takes all of the standard tools of the trade (R, (), BibTeX, markdown and bookdown) and allows one to leverage these tools without having to master the art of website creation. <em>Focus on the narrative, not the tools</em>.</p>
+<p>So, from an academic perspective, this is pretty exciting since it takes all of the standard tools of the trade (R, <span class="math inline">\(\rm\LaTeX\)</span>, Bib<span class="math inline">\(\rm\TeX\)</span>, markdown and bookdown) and allows one to leverage these tools without having to master the art of website creation. <em>Focus on the narrative, not the tools</em>.</p>
 <section id="references" class="level1">
 
 
