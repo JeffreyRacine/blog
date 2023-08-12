@@ -2,6 +2,8 @@
 title: More on blogdown
 author: Jeffrey S. Racine
 date: 2018-05-29
+draft: false
+feed: true
 bibliography: [post.bib]  
 ---
 

@@ -3,6 +3,7 @@ title: Migrating from R blogdown to Quarto blogging
 author: Jeffrey S. Racine
 date: 20123-08-11
 draft: false
+feed: true
 ---
 
 Ahh, the joys and sorrows of technological progress! 

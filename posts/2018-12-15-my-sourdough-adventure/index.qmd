@@ -3,6 +3,7 @@ title: My sourdough adventure
 author: Jeffrey S. Racine
 date: 2018-12-15
 draft: false
+feed: true
 ---
 
 Every once in a while I find myself daydreaming about various ways to up my game in the kitchen and, recently, that dream morphed into an obsession over trying to bake *seriously good bread* in a home kitchen. But not just any bread: *sourdough bread*.

@@ -2,6 +2,8 @@
 title: GitHub Education and private repositories
 author: Jeffrey S. Racine
 date: 2018-06-01
+draft: false
+feed: true
 ---
 
 Yesterday I was discussing workflow with a PhD student who I recently started supervising and I encouraged her to get up to speed with [GitHub](https://github.com), which she did. 

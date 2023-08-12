@@ -2,6 +2,8 @@
 title: Hugo, websites and blogdown
 author: Jeffrey S. Racine
 date: 2018-05-27
+draft: false
+feed: true
 ---
 
 This week I became aware of the [R](https://www.r-project.org) package [blogdown](https://bookdown.org/yihui/blogdown), which was [released on CRAN on 2017-08-22](https://CRAN.R-project.org/package=blogdown) with the [announcement](https://blog.rstudio.com/2017/09/11/announcing-blogdown) following shortly thereafter. Initially, given the name, I presumed that it was an R package that facilitated the creation of a blog. But it is much more than that. 

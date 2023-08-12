@@ -2,6 +2,8 @@
 title: Academic networks & public profiles
 author: Jeffrey S. Racine
 date: 2018-06-23
+draft: false
+feed: true
 ---
 
 Knowledge transfer and the dissemination of research are vital components of the academic mission, yet sometimes these are afforded no more than an afterthought.

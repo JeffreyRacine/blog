@@ -4,6 +4,7 @@ project:
 
 website:
   title: Jeffrey S. Racine's Personal Blog
+  site-url: https://jeffreyracine.github.io/blog
   navbar:
     right:
       - about.qmd
