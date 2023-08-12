@@ -9,4 +9,4 @@ preview:
 
 clean:
 
-	rm -rf docs */*~ */*/*~ */*/*/*~
+	rm -rf docs */*~ */*/*~ */*/*/*~ */*.bak */*/*.bak */*/*/*.bak
