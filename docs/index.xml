@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Jeffrey S. Racine&#39;s Personal Blog</title>
+<link>https://jeffreyracine.github.io/blog/index.html</link>
+<atom:link href="https://jeffreyracine.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Tue, 10 Aug 20123 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Migrating from R blogdown to Quarto blogging</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Ahh, the joys and sorrows of technological progress!</p>
+<p>Some background is likely in order (along with an apology for neglecting this blog for so long). In 2018 I discovered R blogdown, which struck me as a stable and forward-looking platform for creating and maintaining a free and open source blog. The use of RStudio and R blogdown for building websites was a very straightforward matter.<sup>1</sup> However, the R blogdown framework came with its own set of issues, and having to actively modify and maintain a theme in order to accomplish certain tasks created conditions for its eventual neglect (the <em>hugo</em> theme for the curious). In addition, I was using the free hosting platform netlify and leveraging its ability to pull updated code from a GitHub repo to automatically rebuild the blog. But, not long after adopting this approach, this framework became unmaintainable, i.e., not worth the effort. In particular, the cumulative effect of netlify issuing security warnings about the hugo theme, issues with GitHub’s security features, GitHub moving away from passwords, etc., all seemed to conspire against continued use of this adopted framework. In short, I was unwilling to invest the time to debug and maintain this framework, hence it lapsed and became YANB (<em>yet another neglected blog</em>) which explains the large gap between certain posts (and my offer of an apology).</p>
+<p>But with my recent experiences using Quarto markdown being quite positive, and with Quarto<sup>2</sup> broadening its embrace far beyond RStudio and R (and re-branding as Posit), it became clear that clinging to R blogdown was a recipe for pain that I didn’t need, and that Quarto was the obvious way forward.</p>
+<p>So, after the jet lag had passed while visiting a co-author at the University of Pretoria, I decided to devote part of this morning to migrating my old R blogdown code to the Quarto blogging framework and to host it directly on GitHub Pages (I am a big fan of GitHub Pages by the way).</p>
+<p>The migration was very straightforward, and in less than one hour I was up and running with the migrated site (probably closer to 1/2 an hour of work was required, at most). So far I am very happy with the result, and there seems to be far less to maintain than was the case when using R blogdown (at least this is my recollection). Hopefully this platform turns out to be more “future-proofed” than its predecessor!</p>
+<p>Time will tell if this newly adopted framework is more resilient than its predecessor. At minimum, a small time investment has resurrected my historical blog posts and allowed me to effortlessly create at least one new post, thanks to the efforts of the developers at Posit (formerly RStudio). I would be more than happy to discuss additional details with you if you wish (shoot me an email!).</p>
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Some features that streamlined creating new posts using RStudio are in fact currently missing from my newly migrated Quarto blogging framework, though since Quarto is an evolution of RStudio undertaken by the same team of developers, one might expect missing features to re-appear.↩︎</p></li>
+<li id="fn2"><p>Quarto is a multi-language, next-generation version of R Markdown from Posit and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/index.html</guid>
+  <pubDate>Tue, 10 Aug 20123 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>My sourdough adventure</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Every once in a while I find myself daydreaming about various ways to up my game in the kitchen and, recently, that dream morphed into an obsession over trying to bake <em>seriously good bread</em> in a home kitchen. But not just any bread: <em>sourdough bread</em>.</p>
+<p>As strange as it may seem, my bread obsession was triggered by another obsession, namely, knives and knife sharpening. Until recently, our kitchen knives were not all that sharp—I have had them ever since I was a graduate student, which dates their purchase to sometime during the Paleozoic Era. To maintain their edges I sharpened them with a Henckels pull-through ceramic bar sharpener which created a somewhat sharp but slightly uneven and pitted edge more akin to a micro-serrated edge than to the smooth, polished, razor’s edge that we associate with <em>seriously sharp</em> kitchen knives. Earlier this year, I came across a review of the book titled <em>Sharp</em> by Josh Donald, immediately ordered it, and I have read this book multiple times. This led to the purchase of a set of <em>entry-level</em> Japanese knives (Tojiro DP VG10 steel, <em>gyuto</em>, <em>petty</em>, <em>paring</em>, <em>serrated</em>), an entry-level whetstone (Yae Tek 1000/6000 combination stone), a class on knife sharpening, then the purchase of a Naniwa sink bridge, a Naniwa stone holder, a set of three Naniwa Super Stones (so-called <em>wet and go</em> stones recently reformulated and re-branded as <em>Sharpening Stones</em> in 400, 1000, and 5000 grit), a <em>nagura</em> stone, and a leather <em>strop paddle</em> (this deducted roughly 1K from our son’s inheritance). This segued into a shaving fixation moving away from disposable cartridge razors and cans of shaving gel towards safety and straight razors, shaving soap, badger hair soap brushes, alum blocks, and even commissioning a run of <em>shaving scuttles</em> from a local potter (the internationally renowned Master Potter and neighbour, Scott Barnim). I probably ought to also mention the foray into sharpening <em>serrated</em> knives (e.g., bread knives), which resulted in acquiring the indispensable <em>serrated tool diamond conical</em> files (DMT diafold coarse, fine, and extra fine). But I digress. Suffice it to say, sharp bread knives lead to thoughts of cutting bread: <em>seriously sharp knives</em> deserve nothing less than <em>seriously good bread</em> to cut. But not just any bread.</p>
+<p>Around a decade ago I read two books by Michael Pollen, <em>The Omnivor’s Dilemma</em> and <em>In Defence of Food: An Eater’s Manifesto</em>. More recently, I binge-watched Pollen’s Netflix series <em>Cooked</em>, and was particularly intrigued by the <em>cold fire</em> known as <em>fermentation</em>—watching Pollen wax poetic about the history of sourdough bread planted the seed in my mind, and then Jen (whose name must mean <em>she who grudgingly indulges me</em>) and I bought a few loaves of a local artisinal olive sourdough bread, at which point the temptation to attempt to produce something similar at home got the better of me.<sup>1</sup></p>
+<p>Not being the type who can dip just one toe into the ocean and emerge refreshed, I decided to go all in and take the plunge,<sup>2</sup> and asked (begged?) Jen for permission to get a KitchenAid stand mixer, then a set of bannetons for proving,<sup>3</sup> then a Mockmill stand mixer attachment for stone milling whole grain flour at home, a set of jars for making my own sourdough starter from scratch, jars for storing hard flour, all purpose flour, the sourdough starter feed mix, <em>wheat berries</em> (raw, dried wheat kernels<sup>4</sup> that, when milled, become whole grain flour), etc., and I was off on an adventure (and our son’s inheritance was further depleted). I engaged in lots of online reading, video watching, and Jen bought me two books, one titled <em>Artisan Sourdough Made Simple: A Beginner’s Guide to Delicious Handcrafted Bread with Minimal Kneeding</em> by Emilie Raffa, followed by <em>Flour, Water, Salt, Yeast: The Fundamentals of Artisan Bread and Pizza</em> by Ken Forkish. The former is insufficiently detailed for my tastes (Raffa skips the true autolyse step blending all ingredients at once) but her book contains some great recipes and beautiful photos, while the latter is a bit unorthodox but more in line with my needs (Forkish’s treatise is exceptionally well-written and insightful, though his method uses no scoring, he confesses a preference for extremely dark crusts and therefore bakes at higher than conventional temperatures, but there is an emphasis on temperature, time, and volumes that I have not encountered elsewhere).</p>
+<p>Getting the <em>starter culture</em> going in the cold Fall in Ontario, Canada, was a bit of a challenge, but we now have a healthy culture living in our kitchen (actually two, one that sat on the counter fed daily and one that lived mainly in the refrigerator fed weekly in case I accidentally killed either) and its offspring have been passed along to a few friends to date (Jason, a neighbour, and Bettina and Zach, work colleagues).</p>
+<p>My first attempts were utter failures—zero oven spring. I called the first loaf <em>Flat Stanley</em> given the uncanny resemblance of the loaf to the protagonist in author Jeff Brown’s famous children’s book series.<sup>5</sup> I was using a baking stone, and on subsequent attempts realized that I was doing everything wrong (the first attempts pre-dated reading the books mentioned above), but each failure contained a <em>teaching moment</em> unearthed when I re-evaluated my process with the benefit of hindsight aided by the fact that I kept detailed notes for each loaf baked. But subsequent attempts resulted in incremental improvements that prevented me from throwing in the towel, and I have baked a sufficient number of satisfactory <em>boules</em> (French for <em>round</em> loaf) and <em>batards</em> (French for <em>oblong</em> loaf) and, after much trial and error, can replicate the process and bake some <em>seriously good bread</em> (well, <em>good</em> is a relative construct, but we believe that it is as good or better than what we previously bought for 8 dollars per loaf). There is a sense of almost pure joy associated with eating a piece of recently baked fermented bread in the morning, effortlessly cut with a hand sharpened serrated bread knife, garnished with a bit of cheese, homemade butter, or jam, bread made from scratch by miraculously harvesting <em>wild yeasts</em> from thin air—flour, water, salt, and yeast—could anything else we might create be so simple yet so rewarding?</p>
+<p>I wanted to summarize noteworthy details that I have gleaned in the hope that perhaps it might be of use to others, hence this post.<sup>6</sup></p>
+<section id="a-brief-history-of-sourdough" class="level1">
+<h1>A Brief History of Sourdough</h1>
+<p>The origins of what today we refer to as <em>sourdough bread</em> have been traced back to ancient Egypt and appear to have spread from there. This nutritious miracle involves organisms that are omnipresent in the air that we all breathe, <em>wild yeasts</em>, that have miraculously colonized a mixture of <em>wheat flour</em> and <em>water</em> in what was likely a bowl of porridge left neglected for a few days which, after being colonized, started bubbling with activity (<em>fermenting</em>) and then was placed in a hot oven at which time an amazing transformation took place, perhaps doubling in size and being easy to digest, not to mention tasty and exceptionally nutritious.</p>
+<p>Though many associate <em>sourdough</em> with the taste of a popular San Francisco bread made from wheat flour (the famed <em>San Francisco Sourdough</em>), in fact <em>sourdough</em> refers to <em>any</em> bread made from a <em>wild yeast</em> starter or <em>levain</em><sup>7</sup> that undergoes a long and slow fermentation process in a series of carefully choreographed steps. Wheat, the most common grain used to make bread flour, is the most widely planted crop on the planet, and bread is a nutritional staple in every corner of the Earth—bread provides 20% of the daily protein and of the food calories for the Earth’s population. The sourdough process is the way bread was made for centuries, and is the way bread <em>ought</em> to be made, being infinitely preferable to <em>commercial</em> mass produced bread manufactured with <em>commercial flour</em> that has a long shelf life but lacks the nutritional value and natural wholesome goodness that arises from a long and slow sourdough fermentation involving <em>wild yeasts</em> and <em>whole grain</em> flour (which contains the endosperm, bran, and germ, the latter not being present in commercial flour as it quickly spoils but is, in fact, the star of the show).</p>
+<p>The following widely used commercial flours have the germ <em>and</em> bran removed, and are therefore <em>not</em> as nutritious as whole grain flours:</p>
+<ul>
+<li><p><em>Bread flour</em> is made with <em>hard</em> wheat, which is high in protein (12-14%). The high protein in this flour makes it ideal for yeast breads.</p></li>
+<li><p><em>All purpose flour</em> is made from a blend of <em>hard</em> and <em>soft</em> wheat grains and strikes the middle-ground in terms of protein (10-12%). It is used to make a variety of baked goods including muffins, cakes, pastries and waffles.</p></li>
+<li><p><em>Pastry</em> or <em>cake flour</em> is made with <em>soft</em> wheat, which is lower in protein (8-10%). The lower protein in this flour makes it ideal for making tender cakes, cookies, pastries and pasta.</p></li>
+</ul>
+</section>
+<section id="the-sourdough-process" class="level1">
+<h1>The Sourdough Process</h1>
+<p><em>It all starts with the starter</em> as Yogi Berra might have remarked. Sourdough starter is a mix of flour and water colonized by wild yeasts (<em>saccharomyces exiguus</em>) present in the air around us (yeasts can also be present in flour) and colonized also by <em>lactobacilli</em>, bacteria present in flour that produce lactic and acetic acid (members of the <em>lactic acid bacteria</em> or LAB for short)—the two coexist in the levain in a proportion of roughly 1:100. The lactobacilli produce the acids that give the bread its tangy (<em>sour</em>) taste, while the yeasts produce the CO<img src="https://latex.codecogs.com/png.latex?_2"> that creates the bubbles in the starter and, ultimately, in the baked boule (the yeasts also produce <em>ethanol</em>, i.e., <em>grain alchohol</em>).</p>
+<p>Unlike making bread using commercial fast rising <em>monoculture</em> yeasts (<em>saccharomyces cerevisiae</em>) and commercial flours, making sourdough is less a quick <em>recipe</em> and more a lengthy <em>process</em>, so the impatient need not apply. I use the following process, but themes and variations abound and all seem to produce exceptional outcomes:<sup>8</sup></p>
+<ol type="1">
+<li><p>Begin by mixing the <em>autolyse</em><sup>9</sup> (a simple mix of flour and water in a particular ratio, know as the <em>hydration</em> of the dough—a 75% hydration means a 75:100 water:flour ratio).</p></li>
+<li><p>After a short (or perhaps long) period of time during which the enzymes are being extracted, to the autolyse is added salt<sup>10</sup> (an important component) and some <em>starter culture</em> (the levain) whereupon the first ferment, called the <em>bulk ferment</em>, commences.</p></li>
+<li><p>For a period of time (typically during the early part of the bulk ferment), a series of <em>stretch-and-folds</em> take place that set up the <em>gluten</em><sup>11</sup> alignment (gluten is a key element of an airy and light bread—the stretchy gluten form bubbles arising from the off-gassing of the yeasts and bacteria), then typically four (or more) stretch-and-folds are undertaken in the first few hours until the dough <em>feels</em> right (i.e., resists further stretching).</p></li>
+<li><p>After the bulk ferment is complete, i.e., when the dough has doubled (or tripled) in size, it then undergoes a preliminary pre-shaping that involves creating <em>surface tension</em> on the <em>boule</em> achieved by <em>dragging while turning</em> with the bench scraper, at which point we let it rest (covered) for a short period (30-60 minutes). Then, a final shaping takes place whereupon the boule is placed in a <em>proving basket</em> or <em>banneton</em> (a cane basket that helps the wet dough, which would collapse without support, to hold its shape while it undergoes a second rise) and undergoes a second and final ferment. This is known as the <em>second prove</em> (the first being the bulk ferment).</p></li>
+<li><p>After a rest (<em>retard</em> in French) on the countertop and perhaps in a refrigerator overnight (or longer), the boule is removed from the banneton then <em>scored</em> on top with a <em>lame</em> (French for <em>blade</em>) thereby allowing it to expand properly when baked.</p></li>
+<li><p>The scored boule is then baked, ideally in a Dutch Oven, for 50 minutes in a kitchen oven heated to roughly 450 degrees Fahrenheit (20 minutes covered, 30 minutes uncovered).</p></li>
+<li><p>Finally, after being removed from the uncovered Dutch Oven, the boule is allowed to fully cool on a raised rack on the countertop. This is an extremely important part of the process that is not to be interrupted—flavours are developing, moisture is being pushed through the crust, and the cooling phase<sup>12</sup> is a key component of baking good bread (let it cool for <em>at least</em> 1 hour or more). If you do not place the boule on a rack and, instead, place it directly on the countertop, the bottom will become a wet mess of soggy dough (air needs to circulate all around the boule).</p></li>
+</ol>
+<p>The video by Master Baker Trevor J. Wilson mentioned at the end of this post is a very well-done 5 minute overview of the process and I highly recommend it for the uninitiated.</p>
+</section>
+<section id="a-whole-grain-sourdough-recipe-kalamata-olives-optional" class="level1">
+<h1>A Whole Grain Sourdough Recipe (Kalamata Olives Optional)</h1>
+<p>When the seed Michael Pollen inadvertently planted in my mind began to germinate, I had a singular goal in mind, namely, to produce a bread at home every bit as good as (or better than) what we had been paying 8 dollars per boule for in a local store. I have much to learn and am not attempting to duplicate the exact taste, rather I am attempting to produce a bread at home that we both love to eat. Here is my existing recipe for a whole grain sourdough boule at 75% hydration (50% whole grain/whole wheat). There are three total weights given, a small boule (one that will fit an Eddington 750 gram banneton), medium, and large (the latter two will fit an Eddington 1 kilogram banneton). Each recipe differs by roughly 10% in pre-baked and final weight. The local ingredient cost-per-boule is roughly 2-3 dollars (no Kalamata olives) or 4-5 dollars otherwise (this includes the cost of the flour(s) used to feed the starter on a daily basis).</p>
+<section id="gram-boule-pre-baked-weight" class="level2">
+<h2 class="anchored" data-anchor-id="gram-boule-pre-baked-weight">812 gram boule pre-baked weight</h2>
+<ul>
+<li><p>228 grams unbleached bread flour.</p></li>
+<li><p>206 grams hard wheat berries (e.g., red fife) home milled into whole grain flour.</p></li>
+<li><p>319 grams water (filtered, distilled, or left overnight on the countertop to allow chlorine, which inhibits fermentation, to evaporate).</p></li>
+<li><p>9 grams salt.</p></li>
+<li><p>50 grams rye/whole wheat/all purpose @ 100% hydration starter (in proportions 1/10, 3/10, 6/10).</p></li>
+<li><p>55 grams of pitted Kalamata olives (optional).</p></li>
+</ul>
+<p>This results in a 75% hydration boule of approximately 812 grams in pre-baked weight <em>excluding the olives</em> (roughly 742 grams in final weight).</p>
+</section>
+<section id="gram-boule-pre-baked-weight-1" class="level2">
+<h2 class="anchored" data-anchor-id="gram-boule-pre-baked-weight-1">900 gram boule pre-baked weight</h2>
+<ul>
+<li><p>253 grams unbleached bread flour.</p></li>
+<li><p>228 grams hard wheat berries (e.g., red fife) home milled into whole grain flour.</p></li>
+<li><p>354 grams water (filtered, distilled, or left overnight on the countertop to allow chlorine, which inhibits fermentation, to evaporate).</p></li>
+<li><p>10 grams salt.</p></li>
+<li><p>55 grams rye/whole wheat/all purpose @ 100% hydration starter (in proportions 1/10, 3/10, 6/10).</p></li>
+<li><p>62 grams of pitted Kalamata olives (optional).</p></li>
+</ul>
+<p>This results in a 75% hydration boule of approximately 900 grams in pre-baked weight <em>excluding the olives</em> (roughly 825 grams in final weight).</p>
+</section>
+<section id="kilogram-boule-pre-baked-weight" class="level2">
+<h2 class="anchored" data-anchor-id="kilogram-boule-pre-baked-weight">1 kilogram boule pre-baked weight</h2>
+<ul>
+<li><p>282 grams unbleached bread flour.</p></li>
+<li><p>253 grams hard wheat berries (e.g., red fife) home milled into whole grain flour.</p></li>
+<li><p>393 grams water (filtered, distilled, or left overnight on the countertop to allow chlorine, which inhibits fermentation, to evaporate).</p></li>
+<li><p>11 grams salt.</p></li>
+<li><p>61 grams rye/whole wheat/all purpose @ 100% hydration starter (in proportions 1/10, 3/10, 6/10).</p></li>
+<li><p>69 grams of pitted Kalamata olives (optional).</p></li>
+</ul>
+<p>This results in a 75% hydration boule of approximately 1 kilogram in pre-baked weight <em>excluding the olives</em> (roughly 917 grams in final weight).</p>
+</section>
+<section id="my-weekend-baking-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="my-weekend-baking-schedule">My Weekend Baking Schedule</h2>
+<p>Note that this post was written in the winter where our kitchen temperature is roughly 70F during the day, falling to roughly 60F overnight. The schedule below allows me to start the process on a Friday night and have 2 loaves for the week (double the recipe, bake one loaf after retarding overnight in the refrigerator, then bake the other after retarding for a few days longer than the first, i.e., mid-week).</p>
+<p>I would estimate that the total hands-on time is perhaps 1 hour though the process spans 2 days, while the stretch-and-folds conducted early during the bulk ferment require your presence for 1-2 minutes every 30-45 minutes or so over a period of roughly 2-3 hours. I simply set a timer at 30 minute increments to remind me and catch up on my reading during this part of the process.</p>
+<ol type="1">
+<li><p>Autolyse (Friday Night, 15 Minutes)</p>
+<ul>
+<li><p>6:30 pm: grind the wheat berries in the stone mill, heat the water to 95F (I heat a Pyrex glass measuring cup containing the amount of water given in the recipe in a microwave, checking the temperature every 30 seconds or so), then combine the water, the milled flour and the hard flour in the mixing bowl.</p></li>
+<li><p>Mix these ingredients using the stand mixer for 1-2 minutes on the lowest setting using a dough hook (you can, of course, do this by hand, though it may take a little longer), mixing until a <em>shaggy</em> ball of dough takes shape and all of the flour is incorporated.</p></li>
+<li><p>Let this autolyse rest on the countertop at room temperature overnight—leave it in the mixing bowl <em>covered</em> with plastic wrap (the starting dough temperature aimed for is around 78F).</p></li>
+<li><p>10:00 pm: feed the levain that will be used the next morning.</p></li>
+</ul></li>
+<li><p>Bulk Ferment (Saturday Morning, 15 Minutes Intermittently)</p>
+<ul>
+<li><p>7:30 am: use a warm water bath to bring the dough back to around 78F, achieved by placing the mixing bowl in the kitchen sink filled with 3-5 inches of warm water for roughly 10-15 minutes.</p></li>
+<li><p>7:45 am: add the <em>levain</em> and <em>salt</em> to the autolyse in the mixing bowl and then mix the dough for 1-2 minutes using the stand mixer at the lowest setting using the dough hook (again, you can do this by hand if you prefer), then <em>cover</em> with plastic wrap and return to the warm water bath until the dough returns to around 78F.</p></li>
+<li><p>8:00 am: let the bulk fermentation commence with a set of stretch-and-folds, 3-4 sets in total each occurring 30-45 minutes apart, and <em>cover</em> with plastic wrap in between.</p></li>
+<li><p>If Kalamata olives are to be added, check to make sure that there are no lingering pits (I slide a wooden skewer through the center hole of whole pitted olives to be certain), pat them dry with a paper towel then, during the first stretch-and-fold, add 1/4 of the olives, rotate, add 1/4, rotate, and so on.</p></li>
+</ul></li>
+<li><p>Pre-Shape, Shape, and Final Rise (Saturday Evening, 15 Minutes)</p>
+<ul>
+<li><p>6:00 pm: <em>very lightly</em> dust the countertop with flour, conduct the final stretch-and-fold to assist with removing the dough from the mixing bowl, pre-shape and tension, then rest on the countertop <em>covered</em> with plastic wrap.</p></li>
+<li><p>7:00 pm: lightly dust an adjacent part of the countertop with flour, lift the dough using the scraper to get underneath, flip the dough over and place it on the dusted countertop, then perform the final folding, shape, and tension which will produce a seam (bottom) and tight boule (top).</p></li>
+<li><p>Transfer the boule to a banneton that has been dusted with rice flour <em>seam side up</em> (this will be the bottom of the boule), and let it rise at room temperature until it doubles in size.</p></li>
+<li><p>Make sure you cover the banneton with a clear plastic bag to avoid moisture loss (insert the banneton into the bag and tuck the excess underneath to form a seal).</p></li>
+</ul></li>
+<li><p>Refrigerate, Then Bake (Overnight Saturday, Sunday Morning, 15 Minutes Intermittently)</p>
+<ul>
+<li><p>10:00 pm: refrigerate the covered banneton overnight at 37F.</p></li>
+<li><p>You can let the dough retard in the refrigerator anywhere from 12 to 36 hours at 37F (or longer, just keep an eye on things to avoid over-proving).</p></li>
+<li><p>We typically bake the first boule Sunday morning, and bake the second Wednesday morning before heading to work, which lasts us through the following Saturday.</p></li>
+<li><p>Bake for 50 minutes total in a kitchen oven pre-heated to roughly 450 degrees Fahrenheit (bake inside a pre-heated Dutch Oven for 20 minutes covered, then 30 minutes uncovered).</p></li>
+<li><p>Sourdough freezes beautifully, and we often cut a few slices and place them in an airtight container in the freezer and then pop them directly into the toaster when in need of a fresh fix.</p></li>
+</ul></li>
+</ol>
+</section>
+<section id="pro-tips" class="level2">
+<h2 class="anchored" data-anchor-id="pro-tips">Pro-Tips</h2>
+<ul>
+<li><p>Always hold back some of the starter to be fed and kept for the next session—20 grams or more is fine, I feed ours with an equal amount of water and starter mix (50 grams each). For weekly feeding, place the fed starter in the refrigerator, covered, and remove two days before needed and feed at least twice before using. I do the last feed prior to use just before going to bed after preparing the autolyse (for 2 loaves feed 25 grams of starter using 100 grams each of water and starter mix the night before—you can do this in a separate container from the one you keep your starter culture in if you prefer).</p></li>
+<li><p>Ken Forkish advises us to treat <em>time</em> and <em>temperature</em> as ingredients (there is an inverse relationship between the two with regards to fermentation).</p></li>
+<li><p>When temperatures are cooler (e.g., winter), to get more of a rise in a given amount of time simply increase the amount of starter by, say, 20% more than called for in the recipe (experiment with the amount, and let the final prove in the banneton be your guide).</p></li>
+<li><p>The key to an extended autolyse is to not let the dough get cold. When we are in the fermentation stage, a cold environment slows the rate of fermentation of bread, thus allowing flavors to develop. With the autolyse, the goal is to make the dough more extensible, and warmer temperatures help with this process. Why do we want extensible dough? Because extensible dough opens up more during baking, which is how we get that coveted <em>open crumb</em>. When the levain is added later, the acid will counter the extension benefits of autolyse, building and strengthening the dough. At the end of final fermentation, these two environments (autolyse, without added levain versus fermentation of the dough once levain is added) create a balanced dough that is both extensible and elastic.</p></li>
+<li><p>Bulk ferment in a bowl and, when stretching and folding, perform this <em>in</em> the bowl but first make sure to wet the fingers of your dominant hand so they don’t stick to the dough. Next, gently insert your moist fingers between the dough and wall of the bowl until they lie under roughly half of the dough, then gently peel the dough up and pull it away from the bowl wall <em>leaving</em> the rest sticking to the wall. <em>Stretch</em> the dough until the dough sticking to the wall has almost come away from the bowl wall, then <em>fold</em> the dough in half and rest it on top of the part sticking to the wall. Finally, rotate the bowl 90 degrees (i.e., one quarter of a turn clockwise if your right hand is dominant, counter-clockwise otherwise), then repeat the stretch-and-fold, for a total of four or five stretch-and-folds per set.</p></li>
+<li><p>Proving for an hour or two at room temperature gets the final rise going which is almost halted when retarding in the refrigerator at 37F—the aim is to get about 80% proved so that there is still <em>unspent fuel</em> present for <em>oven spring</em><sup>13</sup> to occur.</p></li>
+<li><p>If adding, say, pitted (i.e., pitless) Kalamata olives, do so on the first fold after starting the bulk ferment (though you can also add them when you mix the autolyse, salt, and levain).</p></li>
+<li><p>Use a Dutch Oven! During the first 10 minutes of the bake, steam plays a very important role by keeping the outer layer (eventually the crust) supple while the boule expands. Commercial bakers have special ovens with a steam feature, but the typical home oven does not, so steam must be introduced one way or another. Some use a spray bottle, others a pan with water in it, but these pale in comparison with using an oven designed for bread baking. However, if you trapped the moisture released by the dough during the first 10 minutes of baking, the hydration of a typical sourdough boule would create an environment almost identical to one found in an oven with a steam feature. And the Dutch Oven is perfect for trapping this moisture. In addition, sourdough boules tend to spread out as they bake, and an appropriately sized Dutch Oven (3-5 quarts with a 9-10 inch diameter base, such as the Lodge combo cooker) provides the additional support needed. So, by using a Dutch Oven you get greater oven spring (the extra support plus the steam) and a better crust to boot. Ken Forkish claims that he gets the same results using a Dutch Oven in his home oven as he does at his bakery. I have used a baking stone with water in a pan and have used a Dutch Oven, and hands down the Dutch Oven is the winner.</p></li>
+<li><p>Pre-heat the kitchen oven with the Dutch Oven inside for at least 15 minutes (or more) <em>after</em> the oven reaches 450F before baking the boule.</p></li>
+<li><p>For a loaf with a slightly thinner crust that is lighter in color (or if you find your crust to have a `burnt’ taste), lower the oven temperature to 400F after removing the lid (i.e., cook covered at 450F for 20 minutes then uncovered at 400F for 30 minutes). Or, you can cook covered at 450F for 20 minutes then uncovered at 450F for another 15-20 minutes (i.e., cook uncovered for 10-15 minutes less than the full 50 minutes, and do experiment to see what produces the best results in your oven).</p></li>
+<li><p>When removing the boule from the banneton, first place the banneton on the countertop on top of parchment paper cut in the shape of a sling. Next, transfer the boule from the banneton to the parchment paper with a smooth <em>flip and tap</em> of the banneton’s edge so that the boule rests dead center on the parchment covered countertop, then score the boule. Finally, gently pick up the sling and then lower it into the Dutch Oven being careful to <em>not touch</em> the sides of the hot Dutch Oven with your hands (one nice side effect of using parchment paper is that there is no need to clean the Dutch Oven afterwards—the parchment collects any debris).</p></li>
+<li><p>When scoring, rest your thumb and finger on the edge of the boule for stability, and score decisively–strive to be an artist, not a butcher. Scoring is not just to make a visually pretty design on the top of a boule. It is also how the baker controls the direction in which the boule expands. This impacts the shape of the boule cross section (rounder or more oval), the height of the boule, and whether it stays round or ends up more oblong.</p></li>
+<li><p>Let the boule cool on a rack for a few hours, then place it inside of a paper bag (this allows the boule to breathe and helps maintain a crispy crust). Leave it on the countertop for 1-2 days, then transfer to a bread storage bag (typically a cloth bag lined with a perforated plastic liner). The crust will remain firm, but the moisture does not evaporate as quickly in a bread bag—we keep loaves for up to a week using this process and they remain fresh while the sliced boule toasts beautifully.</p></li>
+<li><p>Use high quality fresh ingredients, and play around with different wheat berries (hard white spring versus hard red fife)—it is amazing what a difference milling at home makes, and the whole grain flour ground from the wheat berry imparts exceptional flavour on the boule (and on the caramelized crust via a <em>Maillard reaction</em>).</p></li>
+<li><p>Use filtered or distilled water, or, if your tap water contains chlorine, let the tap water sit overnight on the countertop to allow the chlorine, which inhibits fermentation, to evaporate.</p></li>
+<li><p>Use <em>rice flour</em> to dust your banneton before placing the boule in it. Nothing sticks to rice flour—not even the highest of hydration dough can overpower rice flour.</p></li>
+</ul>
+</section>
+</section>
+<section id="kitchen-kit-essential" class="level1">
+<h1>Kitchen Kit (Essential)</h1>
+<ul>
+<li><p>Kitchen scale with <em>tare</em> feature (i.e., a setting that can reset to zero grams after accounting for the weight of anything already on the scales).</p></li>
+<li><p>Spatula.</p></li>
+<li><p>Oven mits.</p></li>
+<li><p>Mixing bowl(s).</p></li>
+<li><p>Jar(s) for starter, flour etc.</p></li>
+<li><p>Dutch Oven (we use a vintage McCrary No 7 gifted by a kind neighbour, Carolyn).</p></li>
+<li><p>Flour(s), salt.</p></li>
+<li><p>Probe thermometer (instant read).</p></li>
+<li><p>Starter (from scratch or from a friend—see the <em>Creating Your Starter</em> link at the end of this post).</p></li>
+<li><p>Parchment paper.</p></li>
+<li><p>Clear plastic bag (large enough to hold a banneton).</p></li>
+<li><p>Dough scraper (plastic, rounded edge, for removing from the bowl).</p></li>
+<li><p>Bench scraper (metal, straight edge, for shaping).</p></li>
+<li><p>Cooling rack.</p></li>
+<li><p>Plastic cling wrap.</p></li>
+<li><p>Banneton(s) (Eddington 1 kg EDD70101 is a good all around size).</p></li>
+<li><p>Razor blade or sharp knife for scoring.</p></li>
+</ul>
+<section id="kitchen-kit-optional" class="level2">
+<h2 class="anchored" data-anchor-id="kitchen-kit-optional">Kitchen Kit (Optional)</h2>
+<ul>
+<li><p>Stand mixer (we use the KitchenAid Artisan model, you can mix by hand but it takes somewhat longer and is perhaps a bit messier—you can clean your hands or your mixer, your choice).</p></li>
+<li><p>Mill for milling whole grain flour from <em>wheat berries</em> (e.g., Mockmill 100 or Mockmill attachment for a KitchenAid stand mixer—we use the attachment).</p></li>
+<li><p>Lodge cast iron <em>combo oven</em> (ideal for baking boules and the one used in the <em>How to Make 50% Whole Wheat Sourdough Bread</em> video link at the end of this post)</p></li>
+<li><p>Proving appliance such as the units made by Brod &amp; Taylor (for sub-optimally cold environments, e.g., &lt;60F, where bulk fermentation at room temperature takes an intolerably long time).</p></li>
+<li><p>Wheat berries (you can use hard whole wheat flour in place of the wheat berries in the above recipes).</p></li>
+<li><p>Sturdy lame, e.g., the <em>Aeaker Premium Hand Crafted Bread Lame</em>.</p></li>
+</ul>
+</section>
+</section>
+<section id="a-recent-bake" class="level1">
+<h1>A Recent Bake</h1>
+<p>The following images track a recent bake using the 900 gram pre-baked weight recipe, starting with stone milling the wheat berries to the end of the bulk ferment through to the bake, then a peek at the crumb.</p>
+<section id="stone-milling-whole-grain-flour" class="level2">
+<h2 class="anchored" data-anchor-id="stone-milling-whole-grain-flour">Stone Milling Whole Grain Flour</h2>
+<p><img alt="Mockmill" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_0993.jpeg"></p>
+</section>
+<section id="stone-milling-rice-flour-for-dusting-the-banneton" class="level2">
+<h2 class="anchored" data-anchor-id="stone-milling-rice-flour-for-dusting-the-banneton">Stone Milling Rice Flour (For Dusting the Banneton)</h2>
+<p><img alt="Mockmill flour" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_0302.jpeg"></p>
+</section>
+<section id="bulk-fermentation-complete" class="level2">
+<h2 class="anchored" data-anchor-id="bulk-fermentation-complete">Bulk Fermentation Complete</h2>
+<p><img alt="End of bulk fermentation" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1178.jpeg"></p>
+</section>
+<section id="after-initial-shaping-and-rest-prior-to-final-shaping" class="level2">
+<h2 class="anchored" data-anchor-id="after-initial-shaping-and-rest-prior-to-final-shaping">After Initial Shaping and Rest, Prior to Final Shaping</h2>
+<p><img alt="After initial shaping and rest, prior to final shaping" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1135.jpeg"></p>
+</section>
+<section id="after-final-shaping-start-of-final-prove" class="level2">
+<h2 class="anchored" data-anchor-id="after-final-shaping-start-of-final-prove">After Final Shaping, Start of Final Prove</h2>
+<p><img alt="Start of final prove" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1181.jpeg"></p>
+</section>
+<section id="after-2-3-hours-proving-on-the-countertop-and-an-overnight-retard-in-the-refrigerator" class="level2">
+<h2 class="anchored" data-anchor-id="after-2-3-hours-proving-on-the-countertop-and-an-overnight-retard-in-the-refrigerator">After 2-3 Hours Proving on The Countertop and an Overnight Retard in The Refrigerator</h2>
+<p><img alt="After 2-3 hours proving on the countertop then overnight in the refrigerator" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1183.jpeg"></p>
+</section>
+<section id="oops-sloppy-parchment-sling-placement-just-before-scoring" class="level2">
+<h2 class="anchored" data-anchor-id="oops-sloppy-parchment-sling-placement-just-before-scoring">Oops, Sloppy Parchment Sling Placement, Just Before Scoring</h2>
+<p><img alt="Sloppy parchment sling placement" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1184.jpeg"></p>
+</section>
+<section id="sling-lowered-into-the-dutch-oven" class="level2">
+<h2 class="anchored" data-anchor-id="sling-lowered-into-the-dutch-oven">Sling Lowered Into The Dutch Oven</h2>
+<p><img alt="Sling lowered into the dutch oven" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1185.jpeg"></p>
+</section>
+<section id="lid-removed-after-20-minutes-in-the-dutch-oven" class="level2">
+<h2 class="anchored" data-anchor-id="lid-removed-after-20-minutes-in-the-dutch-oven">Lid Removed After 20 Minutes in the Dutch Oven</h2>
+<p><img alt="Lid removed after 20 minutes in the Dutch Oven" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1186.jpeg"></p>
+</section>
+<section id="the-baked-boule" class="level2">
+<h2 class="anchored" data-anchor-id="the-baked-boule">The Baked Boule</h2>
+<p><img alt="The baked boule" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1188.jpeg"></p>
+</section>
+<section id="cross-section-of-the-baked-boule" class="level2">
+<h2 class="anchored" data-anchor-id="cross-section-of-the-baked-boule">Cross-Section of The Baked Boule</h2>
+<p><img alt="Cross-section of the baked boule" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1189.jpeg"></p>
+</section>
+<section id="cross-section-of-the-crumb" class="level2">
+<h2 class="anchored" data-anchor-id="cross-section-of-the-crumb">Cross-Section of The Crumb</h2>
+<p><img alt="Cross-section of the crumb" width="300" src="https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/IMG_1173.jpeg"></p>
+</section>
+</section>
+<section id="some-useful-links" class="level1">
+<h1>Some Useful Links</h1>
+<ul>
+<li><p><a href="https://www.theperfectloaf.com/7-easy-steps-making-incredible-sourdough-starter-scratch/"><em>Creating Your Starter</em> (www.theperfectloaf.com)</a>.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=NR8P8hkmSvg"><em>How to Make 50% Whole Wheat Sourdough Bread</em> by Trevor J. Wilson (5 minute YouTube video)</a>.</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=jmin9PBXP_g"><em>How to Make Real Butter in a KitchenAid Stand Mixer</em> (6 minute YouTube video)</a>.</p></li>
+</ul>
+
+
+
+</section>
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Oscar Wilde remarked “The only way to get rid of a temptation is to yield to it”, and I wholeheartedly subscribe to his sentiment.↩︎</p></li>
+<li id="fn2"><p>While living in Florida a few decades ago, a friend and Luthier in Tampa, Jerry Goolsby, offered me the opportunity to visit his workshop on Sundays where he would assist me with the making of an acoustic guitar, and I immediately accepted. I purchased and digested books on guitar making and the one bit of advice was to <em>never</em> attempt a <em>Florentine Cutaway</em> for one’s first attempt at making an acoustic instrument—naturally we made just such a beast.↩︎</p></li>
+<li id="fn3"><p><em>Proving</em> (also called <em>proofing</em> or, less commonly, <em>blooming</em>), as the term is used by bakers, is the final rise of shaped bread dough before baking. It refers to a specific rest period within the more generalized process known as fermentation.↩︎</p></li>
+<li id="fn4"><p>A <em>wheat kernel</em> is comprised of <em>endosperm</em> (approximately 83% of the kernel), <em>bran</em> (approximately 14.5% of the kernel), and the <em>germ</em> (approximately 2.5% of the kernel). The <em>endosperm</em> is the main source of <em>energy</em> for commercial white flour. It contains the greatest amount of carbohydrates, protein, and iron. It also contains some of the other B-vitamins as well. The <em>bran</em> is the outer skin of the edible kernel. It contains large amounts of B vitamins, some protein, trace minerals, phytochemicals, and dietary fibre. The <em>germ</em> is the sprouting section of the seed. It is usually separated during the milling process because it contains the most fat, and therefore has a shorter shelf life. It also contains a higher protein content, more B-vitamins (niacin, riboflavin, and thiamine), and iron.↩︎</p></li>
+<li id="fn5"><p>While sleeping, <em>Stanley Lambchop</em> survived being <em>crushed flat</em> by a falling bulletin board. He makes the best of his altered state, and soon he is entering locked rooms by sliding under the door, being rolled up to go out to the park and playing with his younger brother by being used as a kite.↩︎</p></li>
+<li id="fn6"><p>This also dovetails with my obsession on academic preproducibility, reproducibility, and replicability.↩︎</p></li>
+<li id="fn7"><p><em>Levain</em> is the French term for a mixture of flour and water that has been colonized by yeasts and bacteria.↩︎</p></li>
+<li id="fn8"><p>A friend and mutual windsurfing addict in a past life, John LaCombe, who learned to brew beer from his father, once remarked “You know, the worst beer I have ever made at home is better than the best beer I can buy in a bar.” He introduced me to the craft of home brewing from scratch and I can confirm that the same applies to the bread you can bake at home.↩︎</p></li>
+<li id="fn9"><p>During the autolyse, the flour absorbs the water, becoming fully hydrated. This activates enzymes in the flour that stimulate the proteins to start gluten development. At the same time, further enzymes are starting to break starch down into the simple sugars that will feed the yeasts during the bulk fermentation.↩︎</p></li>
+<li id="fn10"><p>The functions of salt in baking include stabilizing the yeast fermentation rate, strengthening the dough, enhancing the flavor of the final product, and increasing dough mixing time.↩︎</p></li>
+<li id="fn11"><p><em>Gluten</em> is a substance present in wheat and other grains that is responsible for the elastic texture of dough. It is a mixture of two proteins, and is stored together with starch in the endosperm. Although gluten is, in fact, a mixture of hundreds of distinct proteins from the same family, it is mainly made from two different classes of proteins: <em>gliadin</em>, which gives bread the ability to <em>rise</em> during baking, and <em>glutenin</em>, which is responsible for dough’s <em>elasticity</em>.↩︎</p></li>
+<li id="fn12"><p>The five steps involved in making sourdough bread are 1) the autolyse, 2) the bulk ferment, 3) proving in a banneton, 4) baking, and 5) cooling (often neglected).↩︎</p></li>
+<li id="fn13"><p>As Emily Beuhler, author of <em>Bread Science</em> explains, oven-spring occurs primarily during the first ten minutes of baking. During these ten minutes, the yeasts—feeling the coming heat—speed up their fermentation and respiration, belching out a final burst of CO<img src="https://latex.codecogs.com/png.latex?_2">. As that CO<img src="https://latex.codecogs.com/png.latex?_2"> heats up, what was dissolved in our dough’s water comes out of solution. Like any gas, the CO<img src="https://latex.codecogs.com/png.latex?_2"> in our dough expands as it heats up. This same process occurs to the ethanol created by fermentation and a portion of the water mixed into our dough—i.e., they evaporate and expand upon heating. Since these gases are trapped inside our dough by the gluten matrix we formed during our mixing and fermentation stages, as they expand, so does our bread. It’s this expansion that causes our dough to leap upwards and outwards while in the oven. This is what oven-spring is, and we want as much as we can get.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/index.html</guid>
+  <pubDate>Fri, 14 Dec 2018 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why This Function (WTF)? A diatribe on parametric model specification</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>It is not uncommon to encounter practitioners who scribble down a parametric regression model and then proceed <em>as if their model had generated the data</em>.<sup>1</sup> No model selection exercise is attempted, model uncertainty is ignored, and statements are made about the underlying process that generated the data based solely on the model they scribbled down. That is, they proceed as if their ad hoc model is the <em>one true model</em> that faithfully mimics the unknown <em>data generating process</em> (DGP) and therefore could plausibly have generated the data. Any bridge that might otherwise connect the DGP to their model remains uncrossed. This is a conceit that betrays an excessively favourable opinion of the practitioner’s ability to divine the true nature of unknown relationships.</p>
+<!-- To run the gauntlet is to take part in a form of corporal
+punishment in which the party judged guilty is forced to run between
+two rows of soldiers who strike out and attack them. -->
+<p>Before proceeding further, a serious scientist engages in the process of model building and establishes that their parametric model runs the gauntlet of model diagnostics and is not likely to be at odds with the DGP. Serious scientists confront data because they are interested in learning about some aspect of the underlying DGP, not because they are entranced by the coefficients of some ad hoc model they scribbled down. Model uncertainty is acknowledged from the outset and a proper treatment of its existence is recognized to be the foundation upon which sound statistical inference rests. Analysis is based on data that is acknowledged to be generated by some unknown DGP, and not by some simplistic ad hoc parametric function; apparently, the two are easily confused.</p>
+<p>Suppose that Mother Nature took a random draw from the real number line <img src="https://latex.codecogs.com/png.latex?%5Cmathbb%7BR%7D"> (call this draw <img src="https://latex.codecogs.com/png.latex?%5Ctheta">). Now suppose that we took a random draw from <img src="https://latex.codecogs.com/png.latex?%5Cmathbb%7BR%7D"> (call this <img src="https://latex.codecogs.com/png.latex?%5Ctheta%5E*">). The real number line is dense, and the likelihood that the two draws are equal is zero (i.e., <img src="https://latex.codecogs.com/png.latex?%5Coperatorname%7BPr%7D(%5Ctheta%5E*=%5Ctheta)=0">). We teach students in introductory statistics that this is a measure zero event and is why we assign zero probability mass to the event. It would be a conceit for us to presume or assert that <img src="https://latex.codecogs.com/png.latex?%5Ctheta%5E*=%5Ctheta">, and we would be wrong 100% of the time.</p>
+<p>Suppose that Mother Nature drew a function at random from the space of, say, Lipschitz continuous functions <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BF%7D"> (call this <img src="https://latex.codecogs.com/png.latex?%5Ctheta(x)">). Now suppose that we drew a function at random from <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BF%7D"> (call this <img src="https://latex.codecogs.com/png.latex?%5Ctheta%5E*(x)">). The space <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BF%7D"> is dense, and obviously <img src="https://latex.codecogs.com/png.latex?%5Coperatorname%7BPr%7D(%5Ctheta%5E*(x)=%5Ctheta(x))=0"> almost everywhere (a.e.). It would be a conceit for us to presume or assert that <img src="https://latex.codecogs.com/png.latex?%5Ctheta%5E*(x)=%5Ctheta(x)"> a.e., and we would be wrong 100% of the time.</p>
+<p>We conduct regression analysis because we are interested in learning about some unknown conditional mean function <img src="https://latex.codecogs.com/png.latex?%5Coperatorname%7BE%7D(Y%7CX=x)">, denoted by <img src="https://latex.codecogs.com/png.latex?%5Ctheta(x)">. Presuming additive errors and strict exogeneity, then the unknown relationship of interest can be written as <img src="https://latex.codecogs.com/png.latex?y=%5Ctheta(x)+%5Cepsilon">, where <img src="https://latex.codecogs.com/png.latex?%5Cepsilon"> is a stochastic error term, <img src="https://latex.codecogs.com/png.latex?y"> is some outcome of interest, and <img src="https://latex.codecogs.com/png.latex?x"> is a vector of predictors. It is a conceit to presume or assert that, for any function we fancy writing down (call this <img src="https://latex.codecogs.com/png.latex?%5Ctheta%5E*(x)">), the function just so happens to coincide with that for the underlying DGP, i.e., to assert that <img src="https://latex.codecogs.com/png.latex?%5Ctheta%5E*(x)=%5Ctheta(x)"> a.e. After all, the space of conditional mean functions is dense.</p>
+<p>The statement that a fitted ad hoc parametric model (call this <img src="https://latex.codecogs.com/png.latex?%5Chat%5Ctheta%5E*(x)">) such as the popular linear additive specification is <em>statistically consistent</em> is therefore most curious. For instance, people often state that the OLS/ML estimator <img src="https://latex.codecogs.com/png.latex?%5Chat%5Cbeta=(X'X)%5E%7B-1%7DX'Y"> is consistent for <img src="https://latex.codecogs.com/png.latex?%5Cbeta"> in the model <img src="https://latex.codecogs.com/png.latex?X'%5Cbeta">, i.e., that <img src="https://latex.codecogs.com/png.latex?X'%5Chat%5Cbeta=%5Chat%5Ctheta%5E*(x)"> is consistent for <img src="https://latex.codecogs.com/png.latex?X'%5Cbeta=%5Ctheta%5E*(x)">. But the claim “a straight line fitted by the method of least squares is a consistent unbiased estimator of a straight line” is a far cry from the claim “a straight line fitted by the method of least squares is a consistent unbiased estimator of any unknown conditional mean function.” Since we are interested in the underlying DGP, what we in fact require is that <img src="https://latex.codecogs.com/png.latex?X'%5Chat%5Cbeta=%5Chat%5Ctheta%5E*(x)"> is consistent for <img src="https://latex.codecogs.com/png.latex?%5Ctheta(x)=%5Coperatorname%7BE%7D(Y%7CX=x)">; this will only hold if <img src="https://latex.codecogs.com/png.latex?%5Ctheta%5E*(x)=%5Ctheta(x)"> which, as noted above, is a rather unlikely event.</p>
+<p>There is no getting around the fact that any ad hoc underspecified model <img src="https://latex.codecogs.com/png.latex?%5Chat%5Ctheta%5E*(x)"> will be biased and inconsistent for <img src="https://latex.codecogs.com/png.latex?%5Ctheta(x)">. Furthermore, the linear (in parameters and predictors) additive model devoid of interaction terms is the simplest and most underspecified model possible—it is a corner solution, a limiting case; the only model more underspecified is a constant function, which would deliver the unconditional mean rather than the conditional mean. Notwithstanding, it is the go-to model for a not inconsequential number of practitioners. To claim consistency for every unknown DGP encountered betrays an alarming lack of sophistication. Furthermore, since the practitioner has assumed a fixed model that does not depend on the sample size, this approach typically indicates that the estimate is more precise (i.e., less variable) than it really is. Consequently, conclusions supported by such models may in fact be unsupportable, which is particularly worrisome; the production of biased and inconsistent estimates that appear more precise than they actually are should not be given a free pass.</p>
+<p>The not uncommon practice of writing down a linear additive model and sidestepping the important and non-trivial process of <em>model selection</em> is difficult to justify. The linear (in predictors and parameters) additive model lacking in interaction terms is a limiting and extreme case, a fiction that should be used solely for the purpose of teaching the principles of estimation and inference. Many have had it drilled into their heads that the presumption of linearity and additivity is for pedagogical purposes only and should not be used to describe <em>actual</em> relationships. Some apparently missed that lecture and use this naïve specification for all of their applied analysis regardless of the provenance of the data.</p>
+<p>If a practitioner behaves as if any parametric model they scribble down is correctly specified, then they are asserting they know the <em>one true functional form</em> of some underlying unknown relationship. But if they know the true functional form, why do they not know the true parameter values as well? Both require the same degree of self-deception to my way of thinking (though I presume that they would be less likely to get away with the latter). So, the next time you are presented with results from a simple additive, linear (in parameters and predictors), no interactions regression model, it would behoove you to pose the following question to the presenter—“WTF?”</p>
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>An easy <em>tell</em> is a parametric model that is additive, linear in parameters and predictors, and devoid of interaction terms.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/index.html</guid>
+  <pubDate>Thu, 26 Jul 2018 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Academic networks &amp; public profiles</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Knowledge transfer and the dissemination of research are vital components of the academic mission, yet sometimes these are afforded no more than an afterthought.</p>
+<p>I strive to impress upon my students and colleagues the often overlooked importance of replicability, automated backup procedures, and version control. But dissemination of work via academic conferences, being a visible member of the international academic community, and in general “marketing” our research to others often gets short shrift.</p>
+<p>It is a shame when one spends months and sometimes years engaged in a research project yet no one is aware of the work, even when it eventually appears in print. “If a tree falls…” comes to mind.</p>
+<p>The past decade has witnessed exponential growth in the number of social media outlets designed for the general public. Similar growth has occurred for <em>academic</em> social media outlets and other hosting platforms. Some of the more popular in my field include</p>
+<ul>
+<li><p><a href="https://github.com">GitHub <i class="fa fa-github"></i></a></p>
+<p>GitHub is a development platform inspired by the way you work. From open source to business, you can host and review code, manage projects, and build software alongside millions of other developers. GitHub has a strong commitment to education (visit the <a href="https://education.github.com">Github Education Site</a> for details).</p></li>
+<li><p><a href="https://scholar.google.ca">Google Scholar <i class="ai ai-google-scholar"></i></a></p>
+<p>Google Scholar provides a simple way to broadly search for scholarly literature. Google Scholar Citations provide a simple way for authors to keep track of citations to their articles. You can check who is citing your publications, graph citations over time, and compute several citation metrics.</p></li>
+<li><p><a href="https://ideas.repec.org">IDEAS/RePEc <i class="ai ai-ideas-repec"></i></a></p>
+<p>IDEAS is the largest bibliographic database dedicated to Economics and available freely on the Internet, based on RePEc. RePEc is a large volunteer effort to enhance the free dissemination of research in Economics which includes bibliographic metadata from over 2,000 participating archives, including all the major publishers and research outlets.</p></li>
+<li><p><a href="https://impactstory.org">Impactstory <i class="ai ai-impactstory"></i></a></p>
+<p>Impactstory is an open source, web-based tool that provides altmetrics to help researchers measure and share the impacts of all their research outputs—from traditional ones such as journal articles, to alternative research outputs such as blog posts, datasets, and software.</p></li>
+<li><p><a href="https://www.mendeley.com">Mendeley <i class="ai ai-mendeley"></i></a></p>
+<p>Mendeley is a free reference manager and an academic social network for managing and sharing research papers, discovering research data and collaborating online.</p></li>
+<li><p><a href="https://orcid.org">ORCID <i class="ai ai-orcid"></i></a></p>
+<p>ORCID provides a persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities ensuring that your work is recognized.</p></li>
+<li><p><a href="https://www.researchgate.net">ResearchGate <i class="ai ai-researchgate"></i></a></p>
+<p>ResearchGate is a social networking site for scientists and researchers to share papers, ask and answer questions, and find collaborators.</p></li>
+<li><p><a href="https://www.elsevier.com/solutions/scopus">Scopus</a></p>
+<p>Scopus is the largest abstract and citation database of <em>peer-reviewed</em> literature: scientific journals, books and conference proceedings.</p></li>
+</ul>
+<p>It doesn’t take much effort to create a profile, organize your publications and activities and add some basic information about your academic status, education, and research interests. Even though there may be some overlap among the services, by creating each of these profiles you can give the visibility of your research a potential boost.</p>
+<p>One tip I might offer is that you occasionally log into your profiles and ensure that they accurately reflect your record and are current (perhaps a calendar entry twice a year would be worth the effort - the same goes for your personal and academic websites, naturally).</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/index.html</guid>
+  <pubDate>Fri, 22 Jun 2018 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitHub Education and private repositories</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Yesterday I was discussing workflow with a PhD student who I recently started supervising and I encouraged her to get up to speed with <a href="https://github.com">GitHub</a>, which she did.</p>
+<p>I also discussed how I use GitHub when working with co-authors on R packages by adding them as “contributors” to a public GitHub repository (the default repository type on GitHub).</p>
+<p>I further suggested that this could be an ideal way for me to guide her through the process of writing her dissertation since, for one, tracking changes is trivial and relieves me of having to re-read chapters multiple times (she is writing her dissertation using R Markdown and bookdown, naturally).</p>
+<p>However, voicing privacy concerns, I asked her to look into creating private repositories which, I understood, were a GitHub feature that GitHub charged for. She did a quick search, located the <a href="https://education.github.com">GitHub Education site</a> and the <a href="https://education.github.com/pack/join">Github Student Pack</a> which now provides an unlimited number of private repositories <em>for free</em> for as long as you remain a student, subscribed and added me as a contributor to a new private repository that will house her dissertation. So far so good!</p>
+<p>Then I took a quick peek, stumbled upon the link <a href="https://education.github.com/discount_requests/new">“No, I’m not a student but would still like a discount”</a>, and submitted a request with a brief explanation of why I would like access to private repositories. I expected, if anything, a slight discount to the regular monthly fee ($7). Instead, I immediately received an email response stating</p>
+<blockquote class="blockquote">
+<p>Hey Jeffrey S. Racine, we have some awesome news</p>
+<p>We’ve upgraded you to a plan with unlimited free private repositories, which will be free for the next two years. After that, you’ll get an email saying that your coupon is expiring. You can reapply for another coupon if you still have academic status. We don’t have any collaboration limits, so any group projects you may encounter can be hosted via your account.</p>
+<p>If you need help getting started with Git and GitHub, check out:</p>
+<p>https://help.github.com/articles/good-resources-for-learning-git-and-github</p>
+<p>If you have any questions, contact us:</p>
+<p>https://education.github.com/contact</p>
+<p>Spread the word: we love giving educational discounts to students, teachers, administrators, and researchers! Please send them to:</p>
+<p>https://education.github.com</p>
+<p>Have an Octotastic day!</p>
+<p>– The GitHub Education Team</p>
+</blockquote>
+<p>Needless to say, I am grateful for this service as it allows me to collaborate with students and co-authors privately via GitHub for early-stage projects (once a project has resulted in a paper ready for circulation, I place that in the public sphere as a working paper on <a href="https://ideas.repec.org/e/pra175.html">IDEAS/RePec</a> and <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1401547">SSRN</a> where they then get picked up by other services such as <a href="https://scholar.google.com/citations?user=TXeKxGsAAAAJ">Google Scholar Citations</a>).</p>
+<p>Perhaps this previously unknown service might be of value to other academics, hence this post.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/index.html</guid>
+  <pubDate>Thu, 31 May 2018 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>More on blogdown</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The R package blogdown “is an effort to integrate R Markdown with static website generators” according to its creator, Yihui Xie. He writes “Besides the advantage in website structures, another highlight of blogdown is that it inherited bookdown’s Markdown extensions (based on Pandoc’s Markdown), which means you can easily write technical content on your website, including everything that Pandoc supports (e.g., headings, lists, footnotes, tables, figures, citations, <img src="https://latex.codecogs.com/png.latex?%5Crm%5CLaTeX"> math, and quotes, etc) and bookdown’s extensions (e.g., figure and table captions, cross-references, theorems, proofs, numbered equations, and HTML widgets, etc).”</p>
+<p>I have been so focused on website and blog creation that the obvious had escaped my notice, namely that we have access to the entire universe of R Markdown and bookdown capabilities from within our website.</p>
+<p>By way of illustration, we can embed R code and enable code syntax highlighting:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">x <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rnorm</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">summary</span>(x)</span></code></pre></div>
+</div>
+<p>Furthermore, we can create mathematical expressions and equations using standard <img src="https://latex.codecogs.com/png.latex?%5Crm%5CLaTeX"> commands: <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%5Chat%5Cbeta=(X'X)%5E%7B-1%7DX'Y%0A%5Cend%7Bequation%7D"></p>
+<p>We can also create tables using standard markdown syntax:</p>
+<table class="table">
+<caption>Here’s the caption. It, too, may span multiple lines.</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 11%">
+<col style="width: 22%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Centered Header</th>
+<th>Default Aligned</th>
+<th style="text-align: right;">Right Aligned</th>
+<th style="text-align: left;">Left Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">First</td>
+<td>row</td>
+<td style="text-align: right;">12.0</td>
+<td style="text-align: left;">Example of a row that spans multiple lines.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Second</td>
+<td>row</td>
+<td style="text-align: right;">5.0</td>
+<td style="text-align: left;">Here’s another one. Note the blank line between rows.</td>
+</tr>
+</tbody>
+</table>
+<p>And, naturally, we can effortlessly generate figures via inline R code, complete with captions and figure numbering if desired:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-testfig" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index_files/figure-html/fig-testfig-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Kernel Density Estimator Example.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>We can also automatically cross-reference this figure using bookdown cross-referencing extensions, e.g., Figure&nbsp;1.</p>
+<p>As well, we can use Bib<img src="https://latex.codecogs.com/png.latex?%5Crm%5CTeX"> for references using bookdown reference syntax, as in <span class="citation" data-cites="bookdown">Xie (2016)</span> and <span class="citation" data-cites="blogdown">Xie (2018)</span>, with Bib<img src="https://latex.codecogs.com/png.latex?%5Crm%5CTeX"> being seamlessly invoked and the references being automatically generated and added to the end of this post.</p>
+<p>And, finally, we can create interactive HTML widgets using a simple R Markdown code chunk (this required only one line of R code); enter 0.2 in the search bar which will filter on rows with a Petal Width of 0.2:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-1fa1a6d1fec7645d8de6" style="width:90%;height:90%;" class="widgetframe html-widget "></div>
+<script type="application/json" data-for="htmlwidget-1fa1a6d1fec7645d8de6">{"x":{"url":"index_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>So, from an academic perspective, this is pretty exciting since it takes all of the standard tools of the trade (R, <img src="https://latex.codecogs.com/png.latex?%5Crm%5CLaTeX">, Bib<img src="https://latex.codecogs.com/png.latex?%5Crm%5CTeX">, markdown and bookdown) and allows one to leverage these tools without having to master the art of website creation. <em>Focus on the narrative, not the tools</em>.</p>
+<section id="references" class="level1">
+
+
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bookdown" class="csl-entry">
+Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <span>R</span> Markdown</em>. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://github.com/rstudio/bookdown">https://github.com/rstudio/bookdown</a>.
+</div>
+<div id="ref-blogdown" class="csl-entry">
+———. 2018. <em>Blogdown: Create Blogs and Websites with r Markdown</em>. <a href="https://github.com/rstudio/blogdown">https://github.com/rstudio/blogdown</a>.
+</div>
+</div></section></div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index.html</guid>
+  <pubDate>Mon, 28 May 2018 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hugo, websites and blogdown</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This week I became aware of the <a href="https://www.r-project.org">R</a> package <a href="https://bookdown.org/yihui/blogdown">blogdown</a>, which was <a href="https://CRAN.R-project.org/package=blogdown">released on CRAN on 2017-08-22</a> with the <a href="https://blog.rstudio.com/2017/09/11/announcing-blogdown">announcement</a> following shortly thereafter. Initially, given the name, I presumed that it was an R package that facilitated the creation of a blog. But it is much more than that.</p>
+<p>Prior to becoming aware of blogdown, I had been using reproducible tools (coincidentally created by the author of blogdown) which were designed for creating sophisticated products including books, research papers, and websites with an eye on reproducibility (<a href="https://rmarkdown.rstudio.com">R Markdown</a> and <a href="https://bookdown.org/yihui/bookdown">bookdown</a>). A key feature of R Markdown and bookdown is that you work with one file only, the file is a human readable Markdown script, and you remain agnostic about the output format; you can render the output in a range of formats from PDF/<img src="https://latex.codecogs.com/png.latex?%5Crm%5CLaTeX"> to MS Word to HTML etc., which are rendered using <a href="http://pandoc.org">Pandoc</a>. These tools have become an indispensable part of my workflow.</p>
+<p>However, markdown and bookdown are referred to as “formal” while blogdown is referred to as “casual” by its creator, so they are intended for different audiences; blogdown is designed strictly for the creation of websites.</p>
+<p>The blogdown package is based on R Markdown and bookdown and the Go language, and is designed for <em>technical writing</em>. A few years ago I adopted R Markdown to create websites, and that worked brilliantly and was a big improvement over what I had been using prior to its adoption, however, certain features were missing. To remedy such shortcomings, blogdown adopts <a href="https://gohugo.io">Hugo</a>, natively provides <a href="https://disqus.com">disqus</a>, <a href="https://en.wikipedia.org/wiki/RSS">RSS</a>, and <a href="https://www.google.com/analytics/#?modal_active=none">Google Analytics</a> support and allows you to get up to speed creating static sites in an open and free environment, all enhanced by using <a href="https://github.com">GitHub</a> and <a href="https://www.netlify.com">netlify</a>. Furthermore, it features a “continuous deployment” model with netlify constantly monitoring GitHub for any change in a site repository’s content and rebuilding and deploying the site virtually instantaneously without any further intervention required.</p>
+<p>This site was created using blogdown, and you can clone this project from its <a href="https://github.com/JeffreyRacine/static-hugo-site">GitHub repository</a> and modify it to suit your needs. I found the <a href="https://notes.peter-baumgartner.net">blogdown tutorial</a> by Peter Baumgartner to be most valuable. By following his instructions I was up and running in no time.</p>
+<p>Co-author Rob Hyndman has a <a href="https://support.rbind.io/2017/05/15/converting-robjhyndman-to-blogdown">nice post</a> about his experience migrating his Wordpress site to blogdown where he highlights the inadequacies of various platforms he had used and how such limitations were overcome by switching to blogdown.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/index.html</guid>
+  <pubDate>Sat, 26 May 2018 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

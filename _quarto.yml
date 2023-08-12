@@ -13,6 +13,14 @@ website:
       - icon: rss
         href: index.xml
 
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  feed: true
+
 format:
   html:
     theme: cosmo

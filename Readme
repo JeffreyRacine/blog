@@ -1,3 +1,21 @@
+Aug 12 2023, Pretoria
+
+Looks like I needed to add the following to _quarto.yml to get the .xml files generated
+
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  feed: true
+
+See https://community.rstudio.com/t/setting-up-rss-feed-for-a-category-in-quarto-blog/146489/3
+
+---------
+
+Cleaning up, adding RSS feed: true to posts, modifying _quarto.yml per https://quarto.org/docs/websites/website-blog.html
+
 Aug 11 2023, Pretoria
 
 Lacks built-in RStudio option (add-in) for creating new posts
