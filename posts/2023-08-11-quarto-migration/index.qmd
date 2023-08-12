@@ -1,7 +1,7 @@
 ---
 title: Migrating from R blogdown to Quarto blogging
 author: Jeffrey S. Racine
-date: 20123-08-11
+date: 2023-08-11
 draft: false
 feed: true
 ---

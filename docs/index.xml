@@ -10,7 +10,7 @@
 <atom:link href="https://jeffreyracine.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Tue, 10 Aug 20123 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 10 Aug 2023 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Migrating from R blogdown to Quarto blogging</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
@@ -46,7 +46,7 @@ No matching items
 </ol>
 </section></div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/index.html</guid>
-  <pubDate>Tue, 10 Aug 20123 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 10 Aug 2023 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My sourdough adventure</title>
