@@ -39,7 +39,7 @@
     "href": "posts/2023-08-11-quarto-migration/index.html#footnotes",
     "title": "Migrating from R blogdown to Quarto blogging",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nIn fact, some features that streamlined creating new posts using RStudio are in fact currently missing from my newly migrated Quarto blogging framework, though since Quarto Markdown is an evolution of R Markdown undertaken by the same team of developers, one might expect missing features to re-appear.↩︎\nQuarto is a multi-language, next-generation version of R Markdown from Posit and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification.↩︎"
+    "text": "Footnotes\n\n\nIn fact, some features that streamlined creating new posts using RStudio are in fact currently missing from my newly migrated Quarto blogging framework, though since Quarto Markdown is an evolution of R Markdown undertaken by the same team of developers, one might expect missing features to re-appear.↩︎\nQuarto is a multi-language, next-generation version of R Markdown from Posit and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification. Quarto was recently released, has evolved rapidly, and is now quite stable (Version 1.0 was released publicly July 28 2022 - see Quarto Announcement.↩︎"
   },
   {
     "objectID": "posts/2018-06-01-github-education-and-private-repositories/index.html",
