@@ -42,7 +42,7 @@ No matching items
 
 <ol>
 <li id="fn1"><p>In fact, some features that streamlined creating new posts using RStudio are in fact currently missing from my newly migrated Quarto blogging framework, though since Quarto Markdown is an evolution of R Markdown undertaken by the same team of developers, one might expect missing features to re-appear.↩︎</p></li>
-<li id="fn2"><p>Quarto is a multi-language, next-generation version of R Markdown from Posit and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification. Quarto was recently released, has evolved rapidly, and is now quite stable (Version 1.0 was released publicly July 28 2022 - see <a href="https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system">Quarto Announcement</a>.↩︎</p></li>
+<li id="fn2"><p>Quarto is a multi-language, next-generation version of R Markdown from Posit and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification. Quarto was recently released, has evolved rapidly, and is now quite stable (Version 1.0 was released publicly July 28 2022 - see the <a href="https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system">Quarto Announcement</a> for details).↩︎</p></li>
 </ol>
 </section></div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/index.html</guid>
