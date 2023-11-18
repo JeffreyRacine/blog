@@ -10,7 +10,36 @@
 <atom:link href="https://jeffreyracine.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Thu, 10 Aug 2023 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 18 Nov 2023 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Lighting up Five Cats</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Well, when life gives you lemons, you don’t have make lemonade?</p>
+<p>This is to document my recent experiences with the five cats, or more accurately Ethernet Category Five (Cat 5) cables and related things.</p>
+<p>Some background is in order. Over a decade ago we bundled many home utilities (cellular phone, land line, internet, television) into a single package with a single provider (100 MB download speeds, 20 MB upload), Bell. But my workflow involves shuffling large amounts of data back and forth from home to the university which taxed the system, and although Bell kept saying we would see fiber optic line in our neighborhood for years, it never materialized. Then a competitor (Cogeco) provided much faster service to our neighborhood via coaxial cabling (1 GB download, 30 MB upload) and I switched, and was fairly happy. But we had line issues over the years (corrosion) though they were always resolved. A few years ago Bell finally brought fiber to our neighborhood, but I was not compelled to switch, and Cogeco always matched the Bell prices (which were less expensive) so that kept me happy. However, in early October the speeds dropped (upload in particular) and the service became unacceptable, as with 15 MB upload speeds using rsync to synchronize home and work computers was taking so long it was interfering with my workflow. So naturally I contacted Cogego, and a total shitshow erupted with 5 visits from technicians who never came with the right equipment, or were not given any instructions or details about previous visits, and after the 5th visit where the tech said “you have a signal problem” (diagnosed by the first tech after his second visit on the same day as he arrived with a broken signal meter) I started thinking about switching.</p>
+<p>But fate was being finicky. The first Cogeco rep said they offer newer wifi (mesh Wi-Fi 6) and on the 3rd visit they switched out our equipment (the old equipment was a router and two <em>wired</em> extenders that serviced the entire house fairly well). They installed the new router and two mesh <em>pods</em>, and then the show began. We had much worse network coverage throughout the house, and they recommended getting additional pods which became 6 in total. But still things were not good, and I started digging around for information on the system (Sagemcom Fast 3896 and Plume Superpods) and realized that I might need to hard wire the pods to the router. So, to experiment I bought two 100 foot Cat 6 Ethernet and started experiment. But the happy intervention of fate was reading that to get the best speeds from my computer I should connect my computer directly to the router, if possible. So I did, and the speeds were amazing (1 GB download, but sadly still 15 MB upload due to the ongling signal issue). I also learned that these routers have 1 10 GB/s port, the rest 1 GB/s. Cogeco’s shitshow turned into a learning experience in many ways. I discovered a utility called <em>networkQuality</em> that measures realized network speed, and was getting around 800 MB/s down and 15 MB/s up.</p>
+<p>Here is one happy unforseend outcome. After running <em>networkQuality</em> at home, I tried it at work, and was surprised to say the least. My office has 1 GB/s Ethernet, but I was getting 80 up and down?</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/index.html</guid>
+  <pubDate>Sat, 18 Nov 2023 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Migrating from R blogdown to Quarto blogging</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
@@ -46,7 +75,7 @@ No matching items
 </ol>
 </section></div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/index.html</guid>
-  <pubDate>Thu, 10 Aug 2023 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 11 Aug 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My sourdough adventure</title>
@@ -311,7 +340,7 @@ No matching items
 </ol>
 </section></div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/index.html</guid>
-  <pubDate>Fri, 14 Dec 2018 23:00:00 GMT</pubDate>
+  <pubDate>Sat, 15 Dec 2018 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Why This Function (WTF)? A diatribe on parametric model specification</title>
@@ -353,7 +382,7 @@ No matching items
 </ol>
 </section></div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/index.html</guid>
-  <pubDate>Thu, 26 Jul 2018 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 27 Jul 2018 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Academic networks &amp; public profiles</title>
@@ -401,7 +430,7 @@ No matching items
 </div>
 </div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/index.html</guid>
-  <pubDate>Fri, 22 Jun 2018 22:00:00 GMT</pubDate>
+  <pubDate>Sat, 23 Jun 2018 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>GitHub Education and private repositories</title>
@@ -444,7 +473,7 @@ No matching items
 </div>
 </div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/index.html</guid>
-  <pubDate>Thu, 31 May 2018 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 01 Jun 2018 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>More on blogdown</title>
@@ -548,7 +577,7 @@ Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <sp
 </div>
 </div></section></div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index.html</guid>
-  <pubDate>Mon, 28 May 2018 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 29 May 2018 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Hugo, websites and blogdown</title>
@@ -578,7 +607,7 @@ No matching items
 </div>
 </div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/index.html</guid>
-  <pubDate>Sat, 26 May 2018 22:00:00 GMT</pubDate>
+  <pubDate>Sun, 27 May 2018 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
