@@ -56,7 +56,7 @@ Then I realized I probably need to cut the cord with Cogeco and switch service p
 
 ![Bell Arrives On Time and Equipped](images/B022A8E1-7A34-41B3-9135-C013DD97F86E.jpg){fig-align="center" width="200"}
 
-He next installed fiber from the curb to the house, drilled a hole to pass the cable into the house, and then the two of us moved the new router to the middle of the house on the main floor and threaded the fiber directly to the new location of the router (the old router was situated on one side of the house in the basement where the coaxial cable entered the house).
+He next installed fiber from the curb to the house, drilled a hole to pass the cable into the house, and then we moved the new router to the middle of the house on the main floor and threaded the fiber directly to the new location of the router (the old router was situated on one side of the house in the basement where the coaxial cable entered the house).
 
 ![Fiber Is In The House](images/D7F19534-D431-4194-A859-3F2FEFD87F6D.jpg){fig-align="center" width="200"}
 
