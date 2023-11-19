@@ -22,9 +22,9 @@ But by happenstance fate intervened while I was getting up to speed on mesh netw
 
 Let me also point out a totally unexpected and additional benefit arising from the Cogeco \*\*\*t show. After running *networkQuality* at home, I tried it at work, and was surprised to say the least. My office at the university has 1 Gbps Ethernet, but I was only seeing 80 Mbps up and down according to *networkQuality*? WTF?
 
-I contacted UTS and they tested the line and confirmed, but suggested I first try a different patch cord, which I did, and the culprit was a short Cat 5 Ethernet cable that apparently has a maximum transmission speed of 100 Mbps.
+I contacted University Technology Services (UTS) and they tested the line and confirmed, but suggested I first try a different patch cord, which I did, and the culprit was a short Cat 5 Ethernet cable that apparently has a maximum transmission speed of 100 Mbps.
 
-My email to University Technology Services (UTS), for posterity:
+My email to UTS, for posterity:
 
 > Greetings, 
 >
