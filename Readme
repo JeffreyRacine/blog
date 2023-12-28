@@ -1,3 +1,12 @@
+Nov 21 2022
+
+1. Open weblog.Rproj
+2. Via file tab open post and edit
+3. Via build tab build (calls makefile via make)
+4. Commit and push via git tab
+
+Done.
+
 Aug 12 2023, Pretoria
 
 Looks like I needed to add the following to _quarto.yml to get the .xml files generated
