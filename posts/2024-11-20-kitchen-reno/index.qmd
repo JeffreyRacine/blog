@@ -63,17 +63,18 @@ wooden window jambs were cracked and in poor shape.
 The first step was to remove the old cabinets, countertops, and
 appliances. The multiple layers of non-original flooring was removed
 down to the original wide plank pine flooring that was covered in glue
-and concrete for levelling. The pantry/laundry area was gutted, and the
-mudroom closet was removed to expose then remove the exterior window
-with the insulation showing through the exterior glass. Ceilings had
-been lowered and a beam ran across the kitchen, while a box hid the
-stairs going upstairs to the loft above the kitchen. The beam was
-removed, and the box was torn down to reveal the stairs. The ceiling was
-raised to the original height, a hidden LVM beam was added which
-replaced the previous intrusive beam and the walls were insulated and
-drywalled. The old retro-fit windows with cross-bards that previously
-were above the sink were replaced with larger single-pane windows that
-were more in keeping with the original style of the house.
+and concrete for levelling. The pantry/laundry area was gutted, and
+the mudroom closet was removed to expose then remove the exterior
+window with the insulation showing through the exterior
+glass. Ceilings had been lowered and a beam ran across the kitchen,
+while a box hid the stairs going upstairs to the loft above the
+kitchen. The beam was removed, and the box was torn down to reveal the
+stairs. The ceiling was raised to the original height, a hidden LVM
+beam was added which replaced the previous intrusive beam and the
+walls were insulated and drywalled. The old retro-fit windows with
+view-blocking cross-bars that previously were above the sink were
+replaced with larger single-pane windows that were more in keeping
+with the original style of the house.
 
 ::: {layout-col="4"}
 ![](images/demo/full_view.jpg){width="150"}
@@ -121,22 +122,28 @@ ceiling cabinets, a sink and countertop/backsplash, and the side-by-side
 washer/dryer was stacked and moved.
 
 ::: {layout-col="4"}
-![](images/install/kitchen_full_view.jpg){width="150"
-fig-align="center"} ![](images/install/pantry.jpg){width="150"
-fig-align="center"} ![](images/install/mudroom.jpg){width="150"
-fig-align="center"} ![](images/install/windows.jpg){width="150"
-fig-align="center"}
+![](images/install/kitchen_full_view.jpg){width="150" fig-align="center"}
+![](images/install/pantry.jpg){width="150" fig-align="center"}
+![](images/install/mudroom.jpg){width="150" fig-align="center"}
+![](images/install/windows.jpg){width="150" fig-align="center"}
 :::
 
 # Countertops, Painting, and Finishing Touches
 
 To be continued...
 
+# What We Appreciate...
+
+The incredible crews who made this possible, the hidden surprises that
+made it worthwhile, and not dealing with a list of "little things" that
+no longer worked that rendered the old kitchen, pantry/laundry, and
+mudroom a less-than-ideal space in which to function...
+
 # What We Don't Miss...
 
 Our dining room standing in for our old kitchen, our bathtub standing in
-for our old dishwasher, and an induction pan and countertop "oven"
-standing in for our old stove.
+for our old dishwasher, and an induction pan and countertop mini oven
+standing in for our old stove...
 
 ::: {layout-col="4"}
 ![](images/fun/makeshift_kitchen.jpg){width="150"}
