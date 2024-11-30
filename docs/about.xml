@@ -13,16 +13,47 @@
 <url>https://jeffreyracine.github.io/blog/headshot_cropped_circle.png</url>
 <title>Jeffrey S. Racine&#39;s Personal Blog</title>
 <link>https://jeffreyracine.github.io/blog/about.html</link>
-<height>146</height>
-<width>144</width>
 </image>
-<generator>quarto-1.3.450</generator>
-<lastBuildDate>Sat, 18 Nov 2023 05:00:00 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Sat, 30 Nov 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Tired Old Kitchen Gets A Facelift</title>
+  <dc:creator>Jeffrey S. Racine</dc:creator>
+  <link>https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Spending your kids’ inheritance on a kitchen renovation is taxing in more ways than one. You have to deal with the mess, the noise, the dust, the inconvenience, the cost, and the stress. But the journey was worth it. The kitchen is the heart of the home, and it’s where we spend most of our time. We have one previous kitchen reno under our belts in our home in Syracuse, a Home Depot design done in 2003. When we bought our current home in Dundas, the previous owners had spruced up the kitchen with maple door cabinets and engineered flooring layered on top of plywood layered on top of the original wide plank pine flooring. The kitchen was functional, but 20 years later it was tired, appliances were failing, and the cabinets were showing their age. We decided to take the plunge and do a full kitchen renovation.</p>
+<section id="pre-renovation-gallery" class="level1">
+<h1>Pre Renovation Gallery</h1>
+<div data-layout-col="4">
+<p><img src="https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/images/pre/kitchen_full_view.jpg" class="img-fluid quarto-figure quarto-figure-center" width="150"> <img src="https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/images/pre/pantry.jpg" class="img-fluid quarto-figure quarto-figure-center" width="150"> <img src="https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/images/pre/stovetop.jpg" class="img-fluid quarto-figure quarto-figure-center" width="150"> <img src="https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/images/pre/cabinet_laminate.jpg" class="img-fluid quarto-figure quarto-figure-center" width="150"> <img src="https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/images/pre/floor_layer.jpg" class="img-fluid quarto-figure quarto-figure-center" width="150"> <img src="https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/images/pre/microwave.jpg" class="img-fluid quarto-figure quarto-figure-center" width="150"> <img src="https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/images/pre/backsplash.jpg" class="img-fluid quarto-figure quarto-figure-center" width="150"> <img src="https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/images/pre/floor_grey.jpg" class="img-fluid quarto-figure quarto-figure-center" width="150"></p>
+</div>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div> ]]></description>
+  <guid>https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/</guid>
+  <pubDate>Sat, 30 Nov 2024 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Lighting up six cats</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
-  <link>https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/index.html</link>
+  <link>https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -35,7 +66,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/3F1230BD-D508-4FE0-B547-994D56544834.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Experimenting with Cat 6 Ethernet cabling - The Cogeco Mesh ***t show</figcaption>
+<figcaption>Experimenting with Cat 6 Ethernet cabling - The Cogeco Mesh ***t show</figcaption>
 </figure>
 </div>
 <p>But by happenstance fate intervened while I was getting up to speed on mesh network technology. I read that in order to get the best speeds from my computer I should connect my computer directly to a mesh pod or, better still, directly to the router if at all possible (“backhaul” is a term I soon became familiar with). So I experimented with a direct connection first to a pod and then to the router, testing speeds each time, after which the speeds were pretty impressive (1 Gbps download, but sadly still 15 Mbps upload due to the ongoing signal issue). I also learned that these routers have one 10 Gbps port, the rest being 1 Gbps. In effect, Cogeco’s ***t show turned into a learning experience in many unexpected ways. I discovered a utility called <em>networkQuality</em> that measures realized network speed (open software written by 3 Apple engineers), and was getting around 800 Mbps down and 15 Mbps up using this metric. You may think “this guy is an idiot, everyone knows they should do this”, but I didn’t, and I am probably not alone.</p>
@@ -73,46 +104,46 @@ Idle Latency: 6.000 milliseconds | 10000 RPM</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/B022A8E1-7A34-41B3-9135-C013DD97F86E.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Bell Arrives On Time And Equipped</figcaption>
+<figcaption>Bell Arrives On Time And Equipped</figcaption>
 </figure>
 </div>
 <p>He next ran fiber optic cable from the pole to the house, drilled a hole in the exterior wall to thread the cable into the house, and then relocated the router to the middle of the house on the main floor and threaded the cable directly to the new location with zero splices (the old router was situated on one side of the house in the basement where the coaxial cable entered the house, anything but central).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/D7F19534-D431-4194-A859-3F2FEFD87F6D.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Fiber Is In The House</figcaption>
+<figcaption>Fiber Is In The House</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/A80B1AA5-EDCC-4DB2-8EFF-EDCEB1D3B1B7.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Let There Be Light!</figcaption>
+<figcaption>Let There Be Light!</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/49FACC5A-83C7-40C4-9445-1401B06C482E.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Room Temperature Fusion Happening Indoors…</figcaption>
+<figcaption>Room Temperature Fusion Happening Indoors…</figcaption>
 </figure>
 </div>
 <p>After the main fiber cable was installed, glass fused at the router side to create a wall mount connection, and the router plugged in and tested, we fished Ethernet cables to my computer and to a pod on the far side of the house (a two-person job and I was more than happy to participate), and though the tech had brought 6 pods at my urging we kept only 4 and he felt that even this was overkill (he was right, we only need at most 3, and some online sleuthing revealed that the Bell branded equipment was a Sagemcom Fast 5689E gateway and Plume Wi-Fi 6E Superpods). When we first fired up my computer to test the transfer speeds (a 2023 M2 Apple Mac Studio), it was only measuring 1 Gbps up and down and I suspected a cable issue, but the installer had unknowingly plugged the cable into the 1 Gbps port and once he connected instead to the 10 Gbps port we instantly measured 3 Gbps up and down<sup>2</sup>, and he was positively giddy and took a screenshot declaring it was the fastest he has ever seen (typically maxes out around 2.5 Gbps he said - we subscribed to their 3 Gbps up/down service, the fastest currently offered in our neighborhood). Post-installation I experienced some interference glitches, and the Bell Wi-Fi app won’t be available to me for a week as this is a new install so I can’t yet fully optimize the system, but otherwise all is good. On Wi-Fi the transmission speeds range from roughly 250 Mbps to 750 Mbps (fastest near the router and wired pod), and hard wired to the 10 Gbps port we are consistently seeing 3 Gbps up and down. And, as an aside, the Bell Fibe TV is much better than Cogeco’s, and the Bell Fibe TV app is very well designed (we can watch TV on a phone, tablet, laptop or desktop anywhere in the house by simply pointing a browser at <a href="tv.bell.ca">tv.bell.ca</a>, and it is super fast and responsive). So, at the end of the day we have much faster internet (and hopefully more reliable), a better TV experience, no increase in price and the very latest Wi-Fi 6E equipment - color me happy!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/066224F9-DD31-4BF1-90FE-B4BF2F79EF62.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Fiber Is Lit, On With The Show</figcaption>
+<figcaption>Fiber Is Lit, On With The Show</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/CF7BBA67-8D3E-45BF-98F9-4A8EDABD9FDD.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">After The (Cogeco ***t) Show, Kudos To Bell (Bell Branded Sagemcom 5689E Gateway)</figcaption>
+<figcaption>After The (Cogeco ***t) Show, Kudos To Bell (Bell Branded Sagemcom 5689E Gateway)</figcaption>
 </figure>
 </div>
 <p>Epilogue - Cogeco’s <em>***t show</em> nudged me to learn about mesh networking, Ethernet cable transmission speeds (Cat 5 versus 6), Wi-Fi 6 versus Wi-Fi 6E (Cogeco supported the former, Bell the latter), coaxial versus fiber cabling, and inadvertently led me to diagnose a network issue that had affected me for far too many years at work. My wading through the network tech literature allowed me to determine a better location for the router in our home, figure out how to get my system running at the fastest possible speed, and wind up in a far better place both at home and at the university. Hat-tip to Bell as a company, to the Bell manager who patiently walked me through the installation process and detailed all of the unpleasant yet uncommon things that might have occurred during installation (but did not, thanks Anar!), and most of all to the Bell tech who patiently tolerated my desire to get the most from their fiber optic network (thanks Chris!). I am truly grateful, and have benefited both from Cogeco’s failure and from Bell’s poaching prowess and professionalism.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/3A469198-3AAF-4EB7-A020-B12013C7A3CB.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption class="figure-caption">Things That Apparently Make Install Techs Giddy</figcaption>
+<figcaption>Things That Apparently Make Install Techs Giddy</figcaption>
 </figure>
 </div>
 
@@ -134,14 +165,15 @@ No matching items
 <li id="fn2"><p>Sgt.&nbsp;Major Dickerson [Pointing to his rank insignia]: What does three up and three down mean to you, airman? Adrian Cronauer: End of an inning? Goooooooood morning Vietnam!↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <guid>https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/index.html</guid>
+  <guid>https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/</guid>
   <pubDate>Sat, 18 Nov 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Migrating from R blogdown to Quarto blogging</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
-  <link>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/index.html</link>
+  <link>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -171,14 +203,15 @@ No matching items
 <li id="fn2"><p>Quarto is a multi-language, next-generation version of R Markdown from Posit and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification. Quarto was recently released, has evolved rapidly, and is now quite stable (Version 1.0 was released publicly July 28 2022 - see the <a href="https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system">Quarto Announcement</a> for details).↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <guid>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/index.html</guid>
+  <guid>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/</guid>
   <pubDate>Fri, 11 Aug 2023 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>My sourdough adventure</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
-  <link>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/index.html</link>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -436,14 +469,15 @@ No matching items
 <li id="fn13"><p>As Emily Beuhler, author of <em>Bread Science</em> explains, oven-spring occurs primarily during the first ten minutes of baking. During these ten minutes, the yeasts—feeling the coming heat—speed up their fermentation and respiration, belching out a final burst of CO<img src="https://latex.codecogs.com/png.latex?_2">. As that CO<img src="https://latex.codecogs.com/png.latex?_2"> heats up, what was dissolved in our dough’s water comes out of solution. Like any gas, the CO<img src="https://latex.codecogs.com/png.latex?_2"> in our dough expands as it heats up. This same process occurs to the ethanol created by fermentation and a portion of the water mixed into our dough—i.e., they evaporate and expand upon heating. Since these gases are trapped inside our dough by the gluten matrix we formed during our mixing and fermentation stages, as they expand, so does our bread. It’s this expansion that causes our dough to leap upwards and outwards while in the oven. This is what oven-spring is, and we want as much as we can get.↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <guid>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/index.html</guid>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/</guid>
   <pubDate>Sat, 15 Dec 2018 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Why This Function (WTF)? A diatribe on parametric model specification</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
-  <link>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/index.html</link>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -478,14 +512,15 @@ No matching items
 <li id="fn1"><p>An easy <em>tell</em> is a parametric model that is additive, linear in parameters and predictors, and devoid of interaction terms.↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <guid>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/index.html</guid>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/</guid>
   <pubDate>Fri, 27 Jul 2018 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Academic networks &amp; public profiles</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
-  <link>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/index.html</link>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -526,14 +561,15 @@ No matching items
 No matching items
 </div>
 </div> ]]></description>
-  <guid>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/index.html</guid>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/</guid>
   <pubDate>Sat, 23 Jun 2018 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>GitHub Education and private repositories</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
-  <link>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/index.html</link>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -569,14 +605,15 @@ No matching items
 No matching items
 </div>
 </div> ]]></description>
-  <guid>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/index.html</guid>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/</guid>
   <pubDate>Fri, 01 Jun 2018 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>More on blogdown</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
-  <link>https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index.html</link>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -598,7 +635,7 @@ font-style: inherit;">summary</span>(x)</span></code></pre></div>
 </div>
 <p>Furthermore, we can create mathematical expressions and equations using standard <img src="https://latex.codecogs.com/png.latex?%5Crm%5CLaTeX"> commands: <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%5Chat%5Cbeta=(X'X)%5E%7B-1%7DX'Y%0A%5Cend%7Bequation%7D"></p>
 <p>We can also create tables using standard markdown syntax:</p>
-<table class="table">
+<table class="caption-top table">
 <caption>Here’s the caption. It, too, may span multiple lines.</caption>
 <colgroup>
 <col style="width: 16%">
@@ -632,10 +669,14 @@ font-style: inherit;">summary</span>(x)</span></code></pre></div>
 <p>And, naturally, we can effortlessly generate figures via inline R code, complete with captions and figure numbering if desired:</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-testfig" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index_files/figure-html/fig-testfig-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Kernel Density Estimator Example.</figcaption>
+<div id="fig-testfig" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-testfig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index_files/figure-html/fig-testfig-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-testfig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Kernel Density Estimator Example.
+</figcaption>
 </figure>
 </div>
 </div>
@@ -645,7 +686,7 @@ font-style: inherit;">summary</span>(x)</span></code></pre></div>
 <p>And, finally, we can create interactive HTML widgets using a simple R Markdown code chunk (this required only one line of R code); enter 0.2 in the search bar which will filter on rows with a Petal Width of 0.2:</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-1fa1a6d1fec7645d8de6" style="width:90%;height:90%;" class="widgetframe html-widget "></div>
+<div id="htmlwidget-1fa1a6d1fec7645d8de6" style="width:90%;height:90%;" class="widgetframe html-widget"></div>
 <script type="application/json" data-for="htmlwidget-1fa1a6d1fec7645d8de6">{"x":{"url":"index_files/figure-html//widgets/widget_unnamed-chunk-2.html","options":{"xdomain":"*","allowfullscreen":false,"lazyload":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
@@ -665,7 +706,7 @@ font-style: inherit;">summary</span>(x)</span></code></pre></div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-bookdown" class="csl-entry">
 Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <span>R</span> Markdown</em>. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://github.com/rstudio/bookdown">https://github.com/rstudio/bookdown</a>.
 </div>
@@ -673,14 +714,15 @@ Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <sp
 ———. 2018. <em>Blogdown: Create Blogs and Websites with r Markdown</em>. <a href="https://github.com/rstudio/blogdown">https://github.com/rstudio/blogdown</a>.
 </div>
 </div></section></div> ]]></description>
-  <guid>https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index.html</guid>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/</guid>
   <pubDate>Tue, 29 May 2018 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Hugo, websites and blogdown</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
-  <link>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/index.html</link>
+  <link>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -703,7 +745,7 @@ Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <sp
 No matching items
 </div>
 </div> ]]></description>
-  <guid>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/index.html</guid>
+  <guid>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/</guid>
   <pubDate>Sun, 27 May 2018 04:00:00 GMT</pubDate>
 </item>
 </channel>
