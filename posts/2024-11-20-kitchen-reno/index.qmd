@@ -4,19 +4,47 @@ author: Jeffrey S. Racine
 date: 2024-11-30
 draft: false
 feed: true
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-Spending your kids' inheritance on a kitchen renovation is taxing in more ways than one. You have to deal with the mess, the noise, the dust, the inconvenience, the cost, and the stress. But the journey was worth it. The kitchen is the heart of the home, and it's where we spend most of our time. We have one previous kitchen reno under our belts in our home in Syracuse, a Home Depot design done in 2003. When we bought our current home in Dundas, the previous owners had spruced up the kitchen with maple door cabinets and engineered flooring layered on top of plywood layered on top of the original wide plank pine flooring. The kitchen was functional, but 20 years later it was tired, appliances were failing, and the cabinets were showing their age. We decided to take the plunge and do a full kitchen renovation.
+Spending your kids' inheritance on a kitchen renovation is taxing in
+more ways than one. You have to deal with the mess, the noise, the dust,
+the inconvenience, the cost, and the stress. But the journey was worth
+it. The kitchen is the heart of the home, and it's where we spend most
+of our time. We have one previous kitchen reno under our belts in our
+home in Syracuse, a Home Depot design done in 2003. When we bought our
+current home in Dundas, the previous owners had spruced up the kitchen
+with maple door cabinets and engineered flooring layered on top of
+plywood layered on top of the original wide plank pine flooring. The
+kitchen was functional, but 20 years later it was tired, appliances were
+failing, and the cabinets were showing their age. We decided to take the
+plunge and do a full kitchen renovation.
 
 # Pre Renovation Gallery
 
-::: {layout-col=4}
+::: {layout-col="4"}
 ![](images/pre/kitchen_full_view.jpg){width="150" fig-align="center"}
 ![](images/pre/pantry.jpg){width="150" fig-align="center"}
-![](images/pre/stovetop.jpg){width="150" fig-align="center"}
-![](images/pre/cabinet_laminate.jpg){width="150" fig-align="center"}
-![](images/pre/floor_layer.jpg){width="150" fig-align="center"}
-![](images/pre/microwave.jpg){width="150" fig-align="center"}
-![](images/pre/backsplash.jpg){width="150" fig-align="center"}
-![](images/pre/floor_grey.jpg){width="150" fig-align="center"}
+![](images/pre/mudroom.jpg){width="150"
+fig-align="center"}![](images/pre/mudroom_window.jpg){width="150"
+fig-align="center"} ![](images/pre/cabinet_laminate.jpg){width="150"
+fig-align="center"} ![](images/pre/floor_layer.jpg){width="150"
+fig-align="center"} ![](images/pre/microwave.jpg){width="150"
+fig-align="center"} ![](images/pre/backsplash.jpg){width="150"
+fig-align="center"}
+:::
+
+# Demolition and Structural Repairs
+
+::: {layout-col="4"}
+![](images/demo/full_view.jpg){width="150" fig-align="center"}
+![](images/demo/pantry.jpg){width="150" fig-align="center"}
+![](images/demo/mudroom.jpg){width="150" fig-align="center"}
+![](images/demo/mudroom_window.jpg){width="150" fig-align="center"}
+![](images/demo/habitat.jpg){width="150" fig-align="center"}
+![](images/demo/beam.jpg){width="150" fig-align="center"}
+![](images/demo/subfloor.jpg){width="150" fig-align="center"}
+![](images/demo/knob_tube.jpg){width="150" fig-align="center"}
 :::
