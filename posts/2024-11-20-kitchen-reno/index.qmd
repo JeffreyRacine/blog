@@ -1,5 +1,5 @@
 ---
-title: Tired Old Kitchen Gets A Facelift
+title: Tired old kitchen gets a faceg-lift
 author: Jeffrey S. Racine
 date: 2024-11-30
 draft: false
@@ -15,19 +15,22 @@ the inconvenience, the cost, and the stress. But the journey was worth
 it. The kitchen is the heart of the home, and it's where we spend most
 of our time.
 
-We had previous kitchen renovation experiences with previous home in
-Syracuse, and there we used a functional but inexpensive Home Depot
-design kitchen completed in 2003. When we bought our current home in
-Dundas (dating back to 1816), the previous owners had spruced up the
-kitchen with maple door cabinets and engineered flooring layered on top
-of plywood layered on top of the original wide plank pine flooring. The
-kitchen was functional, but 20 years later it was tired, appliances were
-failing, and the cabinets were showing their age. In 2023 we decided it
-was time to take the plunge and do a full kitchen renovation.
+We have some kitchen renovation experience from our previous home in
+Syracuse (a 1910 Tudor-style home), and there we used a functional but
+inexpensive Home Depot designed kitchen completed in 2003. When we
+bought our current home in Dundas (an 1816 Heritage home), the previous
+owners had spruced up the kitchen with maple door cabinets and
+engineered flooring layered on top of plywood layered on top of the
+original wide plank pine flooring. The kitchen was functional, but after
+20 years of daily use it was tired, appliances were failing, and the
+cabinets were showing their age. In 2023 we decided it was time to take
+the plunge and do a full kitchen renovation, though the thought of
+washing our dishes in our bathtub for months on end almost deterred us
+from taking this one on.
 
 In the spring of 2024 we settled on a contractor and cabinet maker and
-planned to start construction early in the Fall of 2024. Construction
-was complete by the New years in 2025.
+planned to start construction early in the Fall of 2024. Construction is
+expected to be finished hopefully by the New years in 2025.
 
 I charted progress with photos, and in the pictorial timeline below the
 left top three pictures are of the same objects throughout, namely the
@@ -48,6 +51,7 @@ wooden window jambs were cracked and in poor shape.
 ![](images/pre/pantry.jpg){width="150" fig-align="center"}
 ![](images/pre/mudroom.jpg){width="150" fig-align="center"}
 ![](images/pre/mudroom_window.jpg){width="150" fig-align="center"}
+
 ![](images/pre/cabinet_laminate.jpg){width="150" fig-align="center"}
 ![](images/pre/floor_layer.jpg){width="150" fig-align="center"}
 ![](images/pre/microwave.jpg){width="150" fig-align="center"}
@@ -65,21 +69,22 @@ with the insulation showing through the exterior glass. Ceilings had
 been lowered and a beam ran across the kitchen, while a box hid the
 stairs going upstairs to the loft above the kitchen. The beam was
 removed, and the box was torn down to reveal the stairs. The ceiling was
-raised to the original height, a hiddenh LVM beam was added which
+raised to the original height, a hidden LVM beam was added which
 replaced the previous intrusive beam and the walls were insulated and
 drywalled. The old retro-fit windows with cross-bards that previously
 were above the sink were replaced with larger single-pane windows that
 were more in keeping with the original style of the house.
 
 ::: {layout-col="4"}
-![](images/demo/full_view.jpg){width="150" fig-align="center"}
-![](images/demo/pantry.jpg){width="150" fig-align="center"}
-![](images/demo/mudroom.jpg){width="150" fig-align="center"}
-![](images/demo/mudroom_window.jpg){width="150" fig-align="center"}
-![](images/demo/habitat.jpg){width="150" fig-align="center"}
-![](images/demo/beam.jpg){width="150" fig-align="center"}
-![](images/demo/subfloor.jpg){width="150" fig-align="center"}
-![](images/demo/knob_tube.jpg){width="150" fig-align="center"}
+![](images/demo/full_view.jpg){width="150"}
+![](images/demo/pantry.jpg){width="150"}
+![](images/demo/mudroom.jpg){width="150"}
+![](images/demo/mudroom_window.jpg){width="150"}
+
+![](images/demo/habitat.jpg){width="150"}
+![](images/demo/beam.jpg){width="150"}
+![](images/demo/subfloor.jpg){width="150"}
+![](images/demo/support.jpg){width="150"}
 :::
 
 # Construction & Floors
@@ -97,10 +102,10 @@ original height. The new windows were installed, and the floors were
 refinished.
 
 ::: {layout-col="4"}
-![](images/during/kitchen_full_view.jpg){width="150" fig-align="center"}
-![](images/during/pantry.jpg){width="150" fig-align="center"}
-![](images/during/mudroom.jpg){width="150" fig-align="center"}
-![](images/during/floor.jpg){width="150" fig-align="center"}
+![](images/during/kitchen_full_view.jpg){width="150"}
+![](images/during/pantry.jpg){width="150"}
+![](images/during/mudroom.jpg){width="150"}
+![](images/during/floor.jpg){width="150"}
 :::
 
 # Cabinet Installation
@@ -112,7 +117,7 @@ made locally but this time not with wood but with PVC to avoid water
 damage (the jamb will be quartz up to the window for ease of cleaning
 and longevity). The pantry/laundry area underwent the biggest change
 removing a wall that hid the pantry shelving, the installing floor to
-ceiling cabinets, a sink and countertop/backsplach, and the side-by-side
+ceiling cabinets, a sink and countertop/backsplash, and the side-by-side
 washer/dryer was stacked and moved.
 
 ::: {layout-col="4"}
@@ -124,3 +129,17 @@ fig-align="center"}
 :::
 
 # Countertops, Painting, and Finishing Touches
+
+To be continued...
+
+# What We Don't Miss...
+
+Our dining room standing in for our old kitchen, our bathtub standing in
+for our old dishwasher, and an induction pan and countertop "oven"
+standing in for our old stove.
+
+::: {layout-col="4"}
+![](images/fun/makeshift_kitchen.jpg){width="150"}
+![](images/fun/bathtub.jpg){width="150"}
+![](images/fun/hotdog.jpg){width="150"}
+:::

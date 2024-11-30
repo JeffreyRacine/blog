@@ -22,11 +22,11 @@
     "items": []
   },
   {
-    "listing": "/posts/2018-06-01-github-education-and-private-repositories/index.html",
+    "listing": "/posts/2024-11-20-kitchen-reno/index.html",
     "items": []
   },
   {
-    "listing": "/posts/2018-06-23-academic-networks-public-profiles/index.html",
+    "listing": "/posts/2018-05-29-more-on-blogdown/index.html",
     "items": []
   },
   {
@@ -34,7 +34,11 @@
     "items": []
   },
   {
-    "listing": "/posts/2018-05-29-more-on-blogdown/index.html",
+    "listing": "/posts/2018-06-23-academic-networks-public-profiles/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2018-06-01-github-education-and-private-repositories/index.html",
     "items": []
   },
   {
@@ -58,9 +62,5 @@
       "/posts/2018-05-29-more-on-blogdown/index.html",
       "/posts/2018-05-27-hugo-websites-and-blogdown/index.html"
     ]
-  },
-  {
-    "listing": "/posts/2024-11-20-kitchen-reno/index.html",
-    "items": []
   }
 ]
