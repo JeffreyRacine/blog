@@ -27,13 +27,12 @@ plunge and do a full kitchen renovation.
 ::: {layout-col="4"}
 ![](images/pre/kitchen_full_view.jpg){width="150" fig-align="center"}
 ![](images/pre/pantry.jpg){width="150" fig-align="center"}
-![](images/pre/mudroom.jpg){width="150"
-fig-align="center"}![](images/pre/mudroom_window.jpg){width="150"
-fig-align="center"} ![](images/pre/cabinet_laminate.jpg){width="150"
-fig-align="center"} ![](images/pre/floor_layer.jpg){width="150"
-fig-align="center"} ![](images/pre/microwave.jpg){width="150"
-fig-align="center"} ![](images/pre/backsplash.jpg){width="150"
-fig-align="center"}
+![](images/pre/mudroom.jpg){width="150" fig-align="center"}
+![](images/pre/mudroom_window.jpg){width="150" fig-align="center"}
+![](images/pre/cabinet_laminate.jpg){width="150" fig-align="center"}
+![](images/pre/floor_layer.jpg){width="150" fig-align="center"}
+![](images/pre/microwave.jpg){width="150" fig-align="center"}
+![](images/pre/backsplash.jpg){width="150" fig-align="center"}
 :::
 
 # Demolition and Structural Repairs
@@ -48,3 +47,21 @@ fig-align="center"}
 ![](images/demo/subfloor.jpg){width="150" fig-align="center"}
 ![](images/demo/knob_tube.jpg){width="150" fig-align="center"}
 :::
+
+# Construction & Floors
+
+:::: {layout-col="4"}
+![](images/during/kitchen_full_view.jpg){width="150" fig-align="center"}
+![](images/during/pantry.jpg){width="150" fig-align="center"}
+![](images/during/mudroom.jpg){width="150" fig-align="center"}
+![](images/during/floor.jpg){width="150" fig-align="center"}
+
+# Cabinet Install
+
+::: {layout-col="4"}
+![](images/install/kitchen_full_view.jpg){width="150" fig-align="center"}
+![](images/install/pantry.jpg){width="150" fig-align="center"} 
+![](images/install/mudroom.jpg){width="150" fig-align="center"}
+![](images/install/windows.jpg){width="150" fig-align="center"}
+:::
+::::
