@@ -87,16 +87,15 @@ appeared to be in salvageable condition, fingers crossed (bottom right
 below).
 
 ::: {layout-col="4"}
-![](images/pre/kitchen_full_view.jpg){width="150" fig-align="center"}
-![](images/pre/pantry.jpg){width="150" fig-align="center"}
-![](images/pre/mudroom.jpg){width="150" fig-align="center"}
-![](images/pre/mudroom_window.jpg){width="150" fig-align="center"}
+![](images/pre/kitchen_full_view.jpg){width="150"}
+![](images/pre/pantry.jpg){width="150"}
+![](images/pre/mudroom.jpg){width="150"}
+![](images/pre/mudroom_window.jpg){width="150"}
 
-![](images/pre/cabinet_laminate.jpg){width="150"
-fig-align="center"}![](images/pre/microwave.jpg){width="150"
-fig-align="center"} ![](images/pre/backsplash.jpg){width="150"
-fig-align="center"}![](images/pre/floor_layer.jpg){width="150"
-fig-align="center"}
+![](images/pre/cabinet_laminate.jpg){width="150"}
+![](images/pre/microwave.jpg){width="150"}
+![](images/pre/backsplash.jpg){width="150"}
+![](images/pre/floor_layer.jpg){width="150"}
 :::
 
 # Demolition and Structural Repairs
@@ -178,11 +177,10 @@ almost double the cabinet and closet space, which was noticeably absent
 in the previous configuration.
 
 ::: {layout-col="4"}
-![](images/install/kitchen_full_view.jpg){width="150"
-fig-align="center"} ![](images/install/pantry.jpg){width="150"
-fig-align="center"} ![](images/install/mudroom.jpg){width="150"
-fig-align="center"} ![](images/install/windows.jpg){width="150"
-fig-align="center"}
+![](images/install/kitchen_full_view.jpg){width="150"}
+![](images/install/pantry.jpg){width="150"}
+![](images/install/mudroom.jpg){width="150"}
+![](images/install/windows.jpg){width="150"}
 :::
 
 # Countertops, Painting, And Finishing Touches
