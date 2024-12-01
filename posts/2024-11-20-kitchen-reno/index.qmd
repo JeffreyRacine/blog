@@ -9,7 +9,7 @@ editor:
     wrap: 72
 ---
 
-# Confession time
+# Confession Time
 
 I have a confession to make - I suffer from emotional trauma caused by a
 prior kitchen renovation. This arose from a questionable decision made
@@ -154,7 +154,7 @@ original floors were refinished.
 ![](images/during/floor.jpg){width="150"}
 :::
 
-# Cabinet and Closet Installation
+# Cabinet And Closet Installation
 
 With the demo, floor recovery and refinishing, and wall/ceiling
 reconstruction complete, the refinished floors were covered in Ram
@@ -185,7 +185,7 @@ fig-align="center"} ![](images/install/windows.jpg){width="150"
 fig-align="center"}
 :::
 
-# Countertops, Painting, and Finishing Touches
+# Countertops, Painting, And Finishing Touches
 
 To be continued... new solid wood doors installed with trim matching the
 cabinet doors, plumbing, sinks, countertops, electrical, appliances...
