@@ -110,15 +110,15 @@ exterior wall expertly restored (top right below). The ceilings had been
 lowered, and a beam ran across the kitchen, while a box hid the stairs
 going upstairs to the loft above the kitchen. The beam was removed, and
 the box was torn down to reveal the stairs. The ceiling was raised to
-the original height, a hidden LVM beam was added which replaced the
-previous intrusive beam, and the walls were insulated and drywalled. The
-old retro-fit windows above the sink with view-blocking cross-bars were
-replaced with larger locally manufactured single-pane windows that were
-more in keeping with the original style of the house (no photo). The
-floor joists in the pantry/laundry required support (the log
-construction of parts of the house was sagging and in need of support),
-so concrete footers were poured in the basement below, and steel beams
-were then installed using metal supporting posts (bottom right below).
+the original height and a hidden LVM beam was added which replaced the
+previous intrusive beam. The old retro-fit windows above the sink with
+view-blocking cross-bars were replaced with larger locally manufactured
+single-pane windows that were more in keeping with the original style of
+the house (no photo). The floor joists in the pantry/laundry required
+support (the log construction of parts of the house was sagging and in
+need of support), so concrete footers were poured in the basement below,
+and steel beams were then installed using metal supporting posts (bottom
+right below).
 
 ::: {layout-col="4"}
 ![](images/demo/full_view.jpg){width="150"}
