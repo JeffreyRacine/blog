@@ -118,9 +118,9 @@ larger locally manufactured single-pane windows that were more in
 keeping with the original style of the house. The floor joists in the
 pantry/laundry required support (the hand-hewn log construction in parts
 of the house was sagging and in need of support), so concrete footers
-were poured in the basement below the pantry/laundry area and steel
-beams were then installed with metal supporting posts (bottom right
-below).
+were poured in the basement below the pantry/laundry area and new wood
+joists, steel beams, and metal supporting posts were installed (bottom
+right below).
 
 ::: {layout-col="4"}
 ![](images/demo/full_view.jpg){width="150"}
