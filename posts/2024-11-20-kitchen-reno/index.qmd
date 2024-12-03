@@ -183,6 +183,11 @@ in the previous configuration.
 ![](images/install/pantry.jpg){width="150"}
 ![](images/install/mudroom.jpg){width="150"}
 ![](images/install/windows.jpg){width="150"}
+
+![](images/install_progress/kitchen_full_view.jpg){width="150"}
+![](images/install_progress/pantry.jpg){width="150"}
+![](images/install_progress/mudroom.jpg){width="150"}
+![](images/install_progress/windows.jpg){width="150"}
 :::
 
 # Countertops, Painting, And Finishing Touches
