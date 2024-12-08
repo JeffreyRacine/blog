@@ -247,52 +247,52 @@ The following images track a recent bake using the 900 gram pre-baked weight rec
 
 ## Stone Milling Whole Grain Flour
 
-<img alt = 'Mockmill' width='300' src='IMG_0993.jpeg' />
+<img alt = 'Mockmill' width='300' src='images/IMG_0993.jpeg' />
 
 ## Stone Milling Rice Flour (For Dusting the Banneton)
 
-<img alt = 'Mockmill flour' width='300' src='IMG_0302.jpeg' />
+<img alt = 'Mockmill flour' width='300' src='images/IMG_0302.jpeg' />
 
 
 ## Bulk Fermentation Complete
 
-<img alt = 'End of bulk fermentation' width='300' src='IMG_1178.jpeg' />
+<img alt = 'End of bulk fermentation' width='300' src='images/IMG_1178.jpeg' />
 
 ## After Initial Shaping and Rest, Prior to Final Shaping
 
-<img alt = 'After initial shaping and rest, prior to final shaping' width='300' src='IMG_1135.jpeg' />
+<img alt = 'After initial shaping and rest, prior to final shaping' width='300' src='images/IMG_1135.jpeg' />
 
 ## After Final Shaping, Start of Final Prove
 
-<img alt = 'Start of final prove' width='300' src='IMG_1181.jpeg' />
+<img alt = 'Start of final prove' width='300' src='images/IMG_1181.jpeg' />
 
 ## After 2-3 Hours Proving on The Countertop and an Overnight Retard in The Refrigerator
 
-<img alt = 'After 2-3 hours proving on the countertop then overnight in the refrigerator' width='300' src='IMG_1183.jpeg' />
+<img alt = 'After 2-3 hours proving on the countertop then overnight in the refrigerator' width='300' src='images/IMG_1183.jpeg' />
 
 ## Oops, Sloppy Parchment Sling Placement, Just Before Scoring
 
-<img alt = 'Sloppy parchment sling placement' width='300' src='IMG_1184.jpeg' />
+<img alt = 'Sloppy parchment sling placement' width='300' src='images/IMG_1184.jpeg' />
 
 ## Sling Lowered Into The Dutch Oven
 
-<img alt = 'Sling lowered into the dutch oven' width='300' src='IMG_1185.jpeg' />
+<img alt = 'Sling lowered into the dutch oven' width='300' src='images/IMG_1185.jpeg' />
 
 ## Lid Removed After 20 Minutes in the Dutch Oven
 
-<img alt = 'Lid removed after 20 minutes in the Dutch Oven' width='300' src='IMG_1186.jpeg' />
+<img alt = 'Lid removed after 20 minutes in the Dutch Oven' width='300' src='images/IMG_1186.jpeg' />
 
 ## The Baked Boule
 
-<img alt = 'The baked boule' width='300' src='IMG_1188.jpeg' />
+<img alt = 'The baked boule' width='300' src='images/IMG_1188.jpeg' />
 
 ## Cross-Section of The Baked Boule
 
-<img alt = 'Cross-section of the baked boule' width='300' src='IMG_1189.jpeg' />
+<img alt = 'Cross-section of the baked boule' width='300' src='images/IMG_1189.jpeg' />
 
 ## Cross-Section of The Crumb
 
-<img alt = 'Cross-section of the crumb' width='300' src='IMG_1173.jpeg' />
+<img alt = 'Cross-section of the crumb' width='300' src='images/IMG_1173.jpeg' />
 
 # Some Useful Links
 
