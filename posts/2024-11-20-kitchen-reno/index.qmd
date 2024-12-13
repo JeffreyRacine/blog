@@ -78,14 +78,16 @@ the pantry/laundry off the main kitchen, and the mudroom hall off the
 main kitchen. There was also a window hidden in the mudroom closet with
 insulation showing on the outside (top right below). The kitchen
 counters were unsightly, the cabinet box edge laminate was delaminating
-(bottom left below), the appliances were worn out, and the backsplash by
-the sink was studded with calcified deposits, while the wooden window
-jambs were cracked and in poor shape. The pantry had never functioned
-well for us, and the mudroom closet was poorly designed and poorly
-constructed. On the plus side, some pre-renovation floor excavation
-revealed original wide plank pine flooring in potentially salvageable
-condition buried beneath layers of engineered flooring, plywood, glue
-and leveling concrete (bottom right below).
+(bottom left below), the engineered veneer flooring had worn through the
+top veneer layer, the sink cabinet door water damaged, the appliances
+were worn out, the stove top cracked, and the backsplash by the sink was
+studded with calcified deposits, while the wooden window jambs were
+cracked and in poor shape. The pantry had never functioned well for us,
+and the mudroom closet was poorly designed and poorly constructed. On
+the plus side, some pre-renovation floor excavation revealed original
+wide plank pine flooring in potentially salvageable condition buried
+beneath layers of engineered flooring, plywood, glue and leveling
+concrete (bottom right below).
 
 ::: {layout-col="4"}
 ![](images/pre/kitchen_full_view.jpg){width="150"}
@@ -96,6 +98,11 @@ and leveling concrete (bottom right below).
 ![](images/pre/cabinet_laminate.jpg){width="150"}
 ![](images/pre/microwave.jpg){width="150"}
 ![](images/pre/backsplash.jpg){width="150"}
+![](images/pre/dryer_handle.jpg){width="150"}
+
+![](images/pre/sink_cabinet_door.jpg){width="150"}
+![](images/pre/floor_grey.jpg){width="150"}
+![](images/pre/stovetop.jpg){width="150"}
 ![](images/pre/floor_layer.jpg){width="150"}
 :::
 
