@@ -63,32 +63,32 @@ During this renovation, I logged progress with photos, and decided to
 share the story in this blog post. I think the pictures are pretty
 interesting, and the placement in each block of photos that follow makes
 it easy to track each area from start to finish. The scope of the
-project grew beyond just the kitchen, and we took the kitchen,
-pantry/laundry, and mudroom down to the studs, or more accurately, down
-to the lathe-and-plaster walls and knob-and-tube wiring. Note that, in
-the pictorial timeline below, the top left three pictures are of the
-same three objects throughout, namely 1) the main kitchen, 2) the
-pantry/laundry room, and 3) the mudroom, while other pics in each block
-appear for posterity in no particular order.
+project grew beyond just the kitchen, and we took the kitchen, pantry
+and laundry, and mudroom down to the studs, or more accurately, down to
+the lathe-and-plaster walls and knob-and-tube wiring. Note that, in the
+pictorial timeline below, the top left three pictures are of the same
+three objects throughout, namely 1) the main kitchen, 2) the pantry and
+laundry room, and 3) the mudroom, while other pics in each block appear
+for posterity in no particular order.
 
 # Pre-Renovation
 
-The areas in need of attention were the main kitchen (top left below),
-the pantry/laundry off the main kitchen, the mudroom leading into the
-main kitchen, and the bathroom off the main kitchen. There was also a
-window hidden in the mudroom closet with insulation showing on the
-outside (top right below). The kitchen counters were unsightly, the
-cabinet box edge laminate was delaminating (middle left below), the
-engineered veneer flooring had worn through the top veneer layer, the
-sink cabinet door water damaged, the appliances were worn out, the stove
-top cracked, and the backsplash by the sink was studded with calcified
-deposits, while the wooden window jambs were cracked and in poor shape.
-The pantry had never functioned well for us, and the mudroom closet was
-poorly designed and poorly constructed. On the plus side, some
-pre-renovation floor excavation revealed original wide plank pine
-flooring in potentially salvageable condition buried beneath layers of
-engineered flooring, plywood, glue and leveling concrete (bottom right
-below).
+The areas most in need of attention were the main kitchen (top left
+below), the pantry and laundry off the main kitchen, the mudroom leading
+into the main kitchen, and the bathroom off the main kitchen. There was
+also a window hidden behind the mudroom closet, stuffed with insulation,
+that could be seen from the exterior (top right below). The kitchen
+counters were unsightly, the cabinet box edge laminate was delaminating
+(middle left below), the engineered veneer flooring had worn through the
+top veneer layer, the sink cabinet door water damaged, the appliances
+were worn out, the stove top cracked, and the backsplash by the sink was
+studded with calcified deposits, while the wooden window jambs were
+cracked and in poor shape. The pantry had never functioned well for us,
+and the mudroom closet was poorly designed and poorly constructed. On
+the plus side, some pre-renovation floor excavation revealed original
+wide plank pine flooring in potentially salvageable condition buried
+beneath layers of engineered flooring, plywood, glue and leveling
+concrete (bottom right below).
 
 ::: {layout-col="4"}
 ![](images/pre/kitchen_full_view.jpg){width="150"}
@@ -112,7 +112,7 @@ below).
 The first step was to remove the old cabinets, countertops, and
 appliances. The multiple layers of non-original flooring were removed
 down to the original wide plank pine flooring that was covered in glue
-and leveling concrete (top left below). The pantry/laundry area was
+and leveling concrete (top left below). The pantry and laundry area was
 gutted, the pantry wall removed, and the mudroom closet gutted, while
 the exterior window behind the mudroom closet was removed and the
 exterior wall expertly restored (top right below). The ceilings had been
@@ -124,7 +124,7 @@ added which replaced the previous intrusive beam. The old retro-fit
 windows above the sink with view-blocking cross-bars were replaced with
 larger locally manufactured single-pane windows that were more in
 keeping with the original style of the house. The basement under the
-floor joists in the pantry/laundry required some attention (the
+floor joists in the pantry and laundry required some attention (the
 hand-hewn log beams used in parts of the house were sagging), so
 concrete footers were poured in the basement below and new wood joists,
 steel beams, and metal supporting posts were installed (bottom right
@@ -149,7 +149,7 @@ would find under the layers of flooring. But fortunately, the original
 wide plank pine floors were in fairly good shape, though they were
 covered in glue and concrete. The glue and concrete had to be removed,
 and then the floors were sanded down to the original wood. The floors
-were then sealed with a neutral finish. The pantry/laundry area was
+were then sealed with a neutral finish. The pantry and laundry area was
 reconfigured to allow for floor-to-ceiling cabinets and closets, a sink,
 countertop, and backsplash. The mudroom was reconfigured to allow for a
 new, larger, and more functional closet. The walls were insulated and
@@ -172,19 +172,19 @@ protection. After this, the kitchen, pantry, and mudroom cabinets and
 closets were installed. The cabinets and closets were built by a local
 cabinet maker, and the replacement windows above the sink were built
 locally with synthetic frames to avoid water damage. The jamb will be
-quartz up to the window for ease of cleaning and longevity. The
-pantry/laundry area underwent the biggest change after removing a wall
-that hid the narrow pantry shelving. In the pantry/laundry, they
+quartz up to the window for ease of cleaning and longevity. The pantry
+and laundry area underwent the biggest change after removing a wall that
+hid the narrow pantry shelving. In the pantry and laundry, they
 installed floor-to-ceiling cabinets, a sink, and a
 countertop/backsplash. The old side-by-side washer/dryer layout was
 reconfigured for stacked units and relocated. We are really happy that
 we decided to expand the scope of the original project (originally
-confined to the kitchen only) to include the pantry/laundry and mudroom
-closet. By tackling the pantry/laundry, we added two closets in the
-pantry that almost double the amount of closet space originally confined
-to the mudroom only. This has created a cohesive and unified layout with
-almost double the cabinet and closet space, which was noticeably absent
-in the previous configuration.
+confined to the kitchen only) to include the pantry and laundry and
+mudroom closet. By tackling the pantry and laundry, we added two closets
+in the pantry that almost double the amount of closet space originally
+confined to the mudroom only. This has created a cohesive and unified
+layout with almost double the cabinet and closet space, which was
+noticeably absent in the previous configuration.
 
 ::: {layout-col="4"}
 ![](images/install/kitchen_full_view.jpg){width="150"}
@@ -217,9 +217,8 @@ cabinet doors, plumbing, sinks, countertops, electrical, appliances...
 
 The incredible crews who made this possible, the hidden surprises that
 made it worthwhile, and not having to deal with a list of "little
-things" that no longer worked and rendered the old kitchen,
-pantry/laundry, and mudroom a less-than-ideal space in which to
-function...
+things" that no longer worked and rendered the old kitchen, pantry and
+laundry, and mudroom a less-than-ideal space in which to function...
 
 # What We Don't Miss...
 
@@ -228,12 +227,12 @@ for our old dishwasher, and an induction pan and countertop mini oven
 standing in for our old stove, flickering lights, a broken oven, manual
 under-counter lights (no light switches), budget hollow bi-fold mudroom
 closet doors that never closed properly, budget hollow doors on the
-pantry/laundry/mudroom closet/kitchen bathroom, gray bare flooring, lack
-of shelving in the pantry, lack of counter space, lack of electrical
-outlets, low ceilings, stepping down off a threshold into the dining
-room and pantry (due to engineered flooring on top of plywood on top of
-the original floors)... I am sure I missed a few things but you get the
-point...
+pantry and laundry/mudroom closet/kitchen bathroom, gray bare flooring,
+lack of shelving in the pantry, lack of counter space, lack of
+electrical outlets, low ceilings, stepping down off a threshold into the
+dining room and pantry (due to engineered flooring on top of plywood on
+top of the original floors)... I am sure I missed a few things but you
+get the point...
 
 ::: {layout-col="4"}
 ![](images/fun/makeshift_kitchen.jpg){width="150"}
