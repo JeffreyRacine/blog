@@ -221,10 +221,11 @@ cabinet doors, plumbing, sinks, countertops, electrical, appliances...
 
 :::: {layout-col="4"}
 ![](images/install_counter/truck.jpg){width="150"}
+![](images/install_counter/slabs.jpg){width="150"}
+![](images/install_counter/unloading.jpg){width="150"}
 ![](images/install_counter/counter_sliding.jpg){width="150"}
 ![](images/install_counter/kitchen_sill.jpg){width="150"}
 ![](images/install_counter/kitchen_cabinet.jpg){width="150"}
-
 ![](images/install_counter/pantry_backsplash.jpg){width="150"}
 :::
 
