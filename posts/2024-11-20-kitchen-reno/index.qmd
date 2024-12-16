@@ -216,7 +216,24 @@ noticeably absent in the previous configuration.
 
 # Countertops, Sinks, Appliances, Finishing Touches
 
-As scheduled, countertops were installed (Dec. 16), sinks were installed, and the craftsmanship and quality continue to impress us. Almost all of the jigsaw pieces were pre-cut off-site, but some pieces had to be done on site (backsplash below the microwave etc.). It is incredible to see digital technology being used for precise mapping of the kitchen structure, the use of digital design software which gets transferred to a CNC machine, then the precision cutting that follows, but in the end it all comes down to the skillset of the installers. The various slabs are joined with color-matched epoxy and devices are secured to each slab to draw them together tightly while the epoxy sets (which takes around 45 minutes we were told). The entire installation process was expected to take around six hours or so. Other trades were doing odd tasks in the kitchen and around the house while this was occurring (new bathroom fans were installed in all bathrooms as the old ones were noisy and not all were working, cast iron replacement heating vents were installed in the kitchen, pantry, and mudroom, etc.) and the following day the installation of the new appliances is supposed to occur.
+As scheduled, countertops were installed (Dec. 16), sinks were
+installed, and the craftsmanship and quality continue to impress us.
+Almost all of the jigsaw pieces were pre-cut off-site, but some pieces
+had to be done on site (backsplash below the microwave etc.). It is
+incredible to see digital technology being used for precise mapping of
+the kitchen structure, the use of digital design software which gets
+transferred to a CNC machine, then the precision cutting that follows,
+but in the end it all comes down to the skillset of the installers. The
+various slabs are joined with color-matched epoxy and devices are
+secured to each slab to draw them together tightly while the epoxy sets
+(which takes around 45 minutes we were told). The entire installation
+process was expected to take around six hours or so. Other trades were
+doing odd tasks in the kitchen and around the house while this was
+occurring (new bathroom fans were installed in all bathrooms as the old
+ones were noisy and not all were working, cast iron replacement heating
+vents were installed in the kitchen, pantry, and mudroom, etc.) and the
+following day the installation of the new appliances is supposed to
+occur.
 
 ::: {layout-col="4"}
 ![](images/install_counter/truck.jpg){width="150"}
@@ -228,9 +245,12 @@ As scheduled, countertops were installed (Dec. 16), sinks were installed, and th
 ![](images/install_counter/kitchen_sill.jpg){width="150"}
 ![](images/install_counter/kitchen_cabinet.jpg){width="150"}
 ![](images/install_counter/pantry_backsplash.jpg){width="150"}
+
+![](images/install_counter/kitchen_backsplash.jpg){width="150"}
+![](images/install_counter/pantry_sink.jpg){width="150"}
 :::
 
-# What We Appreciate...
+# What We Appreciate Most...
 
 The incredible crews who made this possible, the hidden surprises that
 made it worthwhile, and not having to deal with a list of "little
