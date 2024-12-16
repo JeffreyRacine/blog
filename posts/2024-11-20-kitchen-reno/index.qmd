@@ -216,13 +216,14 @@ noticeably absent in the previous configuration.
 
 # Countertops, Sinks, Appliances, Finishing Touches
 
-To be continued... new solid wood doors installed with trim matching the
-cabinet doors, plumbing, sinks, countertops, electrical, appliances...
+As scheduled, countertops were installed (Dec. 16), sinks were installed, and the craftsmanship and quality continue to impress us. ALmost all was pre-cut off-site, but some pieces had to be done on site (backsplash below the microwave etc.). It is incredible to see the digital technology being use for precise mapping of the structure then the use of digital design software which gets transferred to a CNC machine, but it all comes down to the installers. Slabs are joined with color-matched epoxy and devices secured to each slap to draw them together tightly while the epoxy sets (which takes around 45 minutes we were told). The process was expected to take around six hours or so. Other trades were doing odd tasks while this was occurring (new bathroom fans in all bathrooms as the old ones were noisy and not all were working), cast iron replacement heating vents were installed in the kitchen, pantry, and mudroom, and the following day the installation of the new appliances is supposed to occur.
 
-:::: {layout-col="4"}
+::: {layout-col="4"}
 ![](images/install_counter/truck.jpg){width="150"}
 ![](images/install_counter/slabs.jpg){width="150"}
+![](images/install_counter/slab.jpg){width="150"}
 ![](images/install_counter/unloading.jpg){width="150"}
+
 ![](images/install_counter/counter_sliding.jpg){width="150"}
 ![](images/install_counter/kitchen_sill.jpg){width="150"}
 ![](images/install_counter/kitchen_cabinet.jpg){width="150"}
@@ -261,5 +262,4 @@ get the point...
 We would like to thank not only the incredibly talented people who made
 this project blossom, but also our son who watched his future
 inheritance being squandered yet encouraged us to proceed texting "Spend
-as much as you like!! You’ve more than earned it, xoxo"
-::::
+as much as you like!! You’ve more than earned it, xoxo" ::::
