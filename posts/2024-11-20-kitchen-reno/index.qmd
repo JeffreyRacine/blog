@@ -219,6 +219,15 @@ noticeably absent in the previous configuration.
 To be continued... new solid wood doors installed with trim matching the
 cabinet doors, plumbing, sinks, countertops, electrical, appliances...
 
+:::: {layout-col="4"}
+![](images/install_counter/truck.jpg){width="150"}
+![](images/install_counter/counter_sliding.jpg){width="150"}
+![](images/install_counter/kitchen_sill.jpg){width="150"}
+![](images/install_counter/kitchen_cabinet.jpg){width="150"}
+
+![](images/install_counter/pantry_backsplash.jpg){width="150"}
+:::
+
 # What We Appreciate...
 
 The incredible crews who made this possible, the hidden surprises that
@@ -252,3 +261,4 @@ We would like to thank not only the incredibly talented people who made
 this project blossom, but also our son who watched his future
 inheritance being squandered yet encouraged us to proceed texting "Spend
 as much as you like!! You’ve more than earned it, xoxo"
+::::
