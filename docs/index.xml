@@ -111,7 +111,6 @@ No matching items
 
 
 
-
 <p>When life gives you lemons, you don’t have to make lemonade do you?</p>
 <p>This post describes my recent experiences that involved “six cats” or, more accurately, Ethernet Category Six (Cat 6 versus Cat 5) cables, fiber optic internet connections, and related things. You might take this as an endorsement of fiber optic internet connections (i.e., information travelling by light), which I guess it is. But it is more a story of how I was unwittingly nudged to switch from a coaxial cable-based to a fiber optic cable-based internet service provider, and the unexpected consequences of that switch.</p>
 <p>Some background is in order. More than a decade ago we bundled many home utilities (cellular phone, land line phone, internet, television) into a single package with a single provider, Bell Canada (back then they offered a maximum of 100 Mbps download and 10 Mbps upload speeds if memory serves). But my workflow often involves shuffling large amounts of data back and forth among compute clusters, my home computer, and my work computer at the university, which taxed the transmission network. And although for years Bell kept promising that we would see fiber optic services in our neighborhood, each time I inquired I was told “coming soon” yet it never quite materialized. Then a competitor (Cogeco) announced that they were providing a much faster service in our neighborhood based on a coaxial backbone (1 Gbps download, 30 Mbps upload) and I switched, and was fairly happy, though we did experience the occasional coaxial line issue over the years (caused by corrosion at the pole connection outside, though the issue was typically resolved shortly after reporting deteriorating transfer speeds).</p>
@@ -120,7 +119,7 @@ No matching items
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/3F1230BD-D508-4FE0-B547-994D56544834.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>Experimenting with Cat 6 Ethernet cabling - The Cogeco Mesh ***t show</figcaption>
+<figcaption class="figure-caption">Experimenting with Cat 6 Ethernet cabling - The Cogeco Mesh ***t show</figcaption>
 </figure>
 </div>
 <p>But by happenstance fate intervened while I was getting up to speed on mesh network technology. I read that in order to get the best speeds from my computer I should connect my computer directly to a mesh pod or, better still, directly to the router if at all possible (“backhaul” is a term I soon became familiar with). So I experimented with a direct connection first to a pod and then to the router, testing speeds each time, after which the speeds were pretty impressive (1 Gbps download, but sadly still 15 Mbps upload due to the ongoing signal issue). I also learned that these routers have one 10 Gbps port, the rest being 1 Gbps. In effect, Cogeco’s ***t show turned into a learning experience in many unexpected ways. I discovered a utility called <em>networkQuality</em> that measures realized network speed (open software written by 3 Apple engineers), and was getting around 800 Mbps down and 15 Mbps up using this metric. You may think “this guy is an idiot, everyone knows they should do this”, but I didn’t, and I am probably not alone.</p>
@@ -158,46 +157,46 @@ Idle Latency: 6.000 milliseconds | 10000 RPM</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/B022A8E1-7A34-41B3-9135-C013DD97F86E.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>Bell Arrives On Time And Equipped</figcaption>
+<figcaption class="figure-caption">Bell Arrives On Time And Equipped</figcaption>
 </figure>
 </div>
 <p>He next ran fiber optic cable from the pole to the house, drilled a hole in the exterior wall to thread the cable into the house, and then relocated the router to the middle of the house on the main floor and threaded the cable directly to the new location with zero splices (the old router was situated on one side of the house in the basement where the coaxial cable entered the house, anything but central).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/D7F19534-D431-4194-A859-3F2FEFD87F6D.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>Fiber Is In The House</figcaption>
+<figcaption class="figure-caption">Fiber Is In The House</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/A80B1AA5-EDCC-4DB2-8EFF-EDCEB1D3B1B7.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>Let There Be Light!</figcaption>
+<figcaption class="figure-caption">Let There Be Light!</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/49FACC5A-83C7-40C4-9445-1401B06C482E.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>Room Temperature Fusion Happening Indoors…</figcaption>
+<figcaption class="figure-caption">Room Temperature Fusion Happening Indoors…</figcaption>
 </figure>
 </div>
 <p>After the main fiber cable was installed, glass fused at the router side to create a wall mount connection, and the router plugged in and tested, we fished Ethernet cables to my computer and to a pod on the far side of the house (a two-person job and I was more than happy to participate), and though the tech had brought 6 pods at my urging we kept only 4 and he felt that even this was overkill (he was right, we only need at most 3, and some online sleuthing revealed that the Bell branded equipment was a Sagemcom Fast 5689E gateway and Plume Wi-Fi 6E Superpods). When we first fired up my computer to test the transfer speeds (a 2023 M2 Apple Mac Studio), it was only measuring 1 Gbps up and down and I suspected a cable issue, but the installer had unknowingly plugged the cable into the 1 Gbps port and once he connected instead to the 10 Gbps port we instantly measured 3 Gbps up and down<sup>2</sup>, and he was positively giddy and took a screenshot declaring it was the fastest he has ever seen (typically maxes out around 2.5 Gbps he said - we subscribed to their 3 Gbps up/down service, the fastest currently offered in our neighborhood). Post-installation I experienced some interference glitches, and the Bell Wi-Fi app won’t be available to me for a week as this is a new install so I can’t yet fully optimize the system, but otherwise all is good. On Wi-Fi the transmission speeds range from roughly 250 Mbps to 750 Mbps (fastest near the router and wired pod), and hard wired to the 10 Gbps port we are consistently seeing 3 Gbps up and down. And, as an aside, the Bell Fibe TV is much better than Cogeco’s, and the Bell Fibe TV app is very well designed (we can watch TV on a phone, tablet, laptop or desktop anywhere in the house by simply pointing a browser at <a href="tv.bell.ca">tv.bell.ca</a>, and it is super fast and responsive). So, at the end of the day we have much faster internet (and hopefully more reliable), a better TV experience, no increase in price and the very latest Wi-Fi 6E equipment - color me happy!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/066224F9-DD31-4BF1-90FE-B4BF2F79EF62.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>Fiber Is Lit, On With The Show</figcaption>
+<figcaption class="figure-caption">Fiber Is Lit, On With The Show</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/CF7BBA67-8D3E-45BF-98F9-4A8EDABD9FDD.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>After The (Cogeco ***t) Show, Kudos To Bell (Bell Branded Sagemcom 5689E Gateway)</figcaption>
+<figcaption class="figure-caption">After The (Cogeco ***t) Show, Kudos To Bell (Bell Branded Sagemcom 5689E Gateway)</figcaption>
 </figure>
 </div>
 <p>Epilogue - Cogeco’s <em>***t show</em> nudged me to learn about mesh networking, Ethernet cable transmission speeds (Cat 5 versus 6), Wi-Fi 6 versus Wi-Fi 6E (Cogeco supported the former, Bell the latter), coaxial versus fiber cabling, and inadvertently led me to diagnose a network issue that had affected me for far too many years at work. My wading through the network tech literature allowed me to determine a better location for the router in our home, figure out how to get my system running at the fastest possible speed, and wind up in a far better place both at home and at the university. Hat-tip to Bell as a company, to the Bell manager who patiently walked me through the installation process and detailed all of the unpleasant yet uncommon things that might have occurred during installation (but did not, thanks Anar!), and most of all to the Bell tech who patiently tolerated my desire to get the most from their fiber optic network (thanks Chris!). I am truly grateful, and have benefited both from Cogeco’s failure and from Bell’s poaching prowess and professionalism.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/images/3A469198-3AAF-4EB7-A020-B12013C7A3CB.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>Things That Apparently Make Install Techs Giddy</figcaption>
+<figcaption class="figure-caption">Things That Apparently Make Install Techs Giddy</figcaption>
 </figure>
 </div>
 
@@ -227,7 +226,6 @@ No matching items
   <dc:creator>Jeffrey S. Racine</dc:creator>
   <link>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/index.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -265,7 +263,6 @@ No matching items
   <dc:creator>Jeffrey S. Racine</dc:creator>
   <link>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/index.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -535,7 +532,6 @@ No matching items
 
 
 
-
 <p>It is not uncommon to encounter practitioners who scribble down a parametric regression model and then proceed <em>as if their model had generated the data</em>.<sup>1</sup> No model selection exercise is attempted, model uncertainty is ignored, and statements are made about the underlying process that generated the data based solely on the model they scribbled down. That is, they proceed as if their ad hoc model is the <em>one true model</em> that faithfully mimics the unknown <em>data generating process</em> (DGP) and therefore could plausibly have generated the data. Any bridge that might otherwise connect the DGP to their model remains uncrossed. This is a conceit that betrays an excessively favourable opinion of the practitioner’s ability to divine the true nature of unknown relationships.</p>
 <!-- To run the gauntlet is to take part in a form of corporal
 punishment in which the party judged guilty is forced to run between
@@ -574,7 +570,6 @@ No matching items
   <dc:creator>Jeffrey S. Racine</dc:creator>
   <link>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/index.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -627,7 +622,6 @@ No matching items
 
 
 
-
 <p>Yesterday I was discussing workflow with a PhD student who I recently started supervising and I encouraged her to get up to speed with <a href="https://github.com">GitHub</a>, which she did.</p>
 <p>I also discussed how I use GitHub when working with co-authors on R packages by adding them as “contributors” to a public GitHub repository (the default repository type on GitHub).</p>
 <p>I further suggested that this could be an ideal way for me to guide her through the process of writing her dissertation since, for one, tracking changes is trivial and relieves me of having to re-read chapters multiple times (she is writing her dissertation using R Markdown and bookdown, naturally).</p>
@@ -671,7 +665,6 @@ No matching items
 
 
 
-
 <p>The R package blogdown “is an effort to integrate R Markdown with static website generators” according to its creator, Yihui Xie. He writes “Besides the advantage in website structures, another highlight of blogdown is that it inherited bookdown’s Markdown extensions (based on Pandoc’s Markdown), which means you can easily write technical content on your website, including everything that Pandoc supports (e.g., headings, lists, footnotes, tables, figures, citations, <img src="https://latex.codecogs.com/png.latex?%5Crm%5CLaTeX"> math, and quotes, etc) and bookdown’s extensions (e.g., figure and table captions, cross-references, theorems, proofs, numbered equations, and HTML widgets, etc).”</p>
 <p>I have been so focused on website and blog creation that the obvious had escaped my notice, namely that we have access to the entire universe of R Markdown and bookdown capabilities from within our website.</p>
 <p>By way of illustration, we can embed R code and enable code syntax highlighting:</p>
@@ -689,7 +682,7 @@ font-style: inherit;">summary</span>(x)</span></code></pre></div>
 </div>
 <p>Furthermore, we can create mathematical expressions and equations using standard <img src="https://latex.codecogs.com/png.latex?%5Crm%5CLaTeX"> commands: <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%5Chat%5Cbeta=(X'X)%5E%7B-1%7DX'Y%0A%5Cend%7Bequation%7D"></p>
 <p>We can also create tables using standard markdown syntax:</p>
-<table class="caption-top table">
+<table class="table">
 <caption>Here’s the caption. It, too, may span multiple lines.</caption>
 <colgroup>
 <col style="width: 16%">
@@ -723,14 +716,10 @@ font-style: inherit;">summary</span>(x)</span></code></pre></div>
 <p>And, naturally, we can effortlessly generate figures via inline R code, complete with captions and figure numbering if desired:</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-testfig" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-testfig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index_files/figure-html/fig-testfig-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-testfig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Kernel Density Estimator Example.
-</figcaption>
+<div id="fig-testfig" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/index_files/figure-html/fig-testfig-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Kernel Density Estimator Example.</figcaption>
 </figure>
 </div>
 </div>
@@ -760,7 +749,7 @@ Figure&nbsp;1: Kernel Density Estimator Example.
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-bookdown" class="csl-entry">
 Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <span>R</span> Markdown</em>. Boca Raton, Florida: Chapman; Hall/CRC. <a href="https://github.com/rstudio/bookdown">https://github.com/rstudio/bookdown</a>.
 </div>
@@ -776,7 +765,6 @@ Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <sp
   <dc:creator>Jeffrey S. Racine</dc:creator>
   <link>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/index.html</link>
   <description><![CDATA[ 
-
 
 
 
