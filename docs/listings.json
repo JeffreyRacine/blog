@@ -1,5 +1,36 @@
 [
   {
+    "listing": "/about.html",
+    "items": [
+      "/posts/2024-12-20/index.html",
+      "/posts/2024-11-20-kitchen-reno/index.html",
+      "/posts/2023-11-18-wifi-update/index.html",
+      "/posts/2023-08-11-quarto-migration/index.html",
+      "/posts/2018-12-15-my-sourdough-adventure/index.html",
+      "/posts/2018-07-27-why-this-function/index.html",
+      "/posts/2018-06-23-academic-networks-public-profiles/index.html",
+      "/posts/2018-06-01-github-education-and-private-repositories/index.html",
+      "/posts/2018-05-29-more-on-blogdown/index.html",
+      "/posts/2018-05-27-hugo-websites-and-blogdown/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/2018-07-27-why-this-function/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2023-08-11-quarto-migration/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2024-11-20-kitchen-reno/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2018-05-29-more-on-blogdown/index.html",
+    "items": []
+  },
+  {
     "listing": "/posts/2023-11-18-wifi-update/index.html",
     "items": []
   },
@@ -8,15 +39,7 @@
     "items": []
   },
   {
-    "listing": "/posts/2018-05-29-more-on-blogdown/index.html",
-    "items": []
-  },
-  {
     "listing": "/posts/2018-06-01-github-education-and-private-repositories/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/2024-11-20-kitchen-reno/index.html",
     "items": []
   },
   {
@@ -24,20 +47,13 @@
     "items": []
   },
   {
-    "listing": "/posts/2023-08-11-quarto-migration/index.html",
-    "items": []
-  },
-  {
     "listing": "/posts/2018-05-27-hugo-websites-and-blogdown/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/2018-07-27-why-this-function/index.html",
     "items": []
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024-12-20/index.html",
       "/posts/2024-11-20-kitchen-reno/index.html",
       "/posts/2023-11-18-wifi-update/index.html",
       "/posts/2023-08-11-quarto-migration/index.html",
@@ -50,17 +66,7 @@
     ]
   },
   {
-    "listing": "/about.html",
-    "items": [
-      "/posts/2024-11-20-kitchen-reno/index.html",
-      "/posts/2023-11-18-wifi-update/index.html",
-      "/posts/2023-08-11-quarto-migration/index.html",
-      "/posts/2018-12-15-my-sourdough-adventure/index.html",
-      "/posts/2018-07-27-why-this-function/index.html",
-      "/posts/2018-06-23-academic-networks-public-profiles/index.html",
-      "/posts/2018-06-01-github-education-and-private-repositories/index.html",
-      "/posts/2018-05-29-more-on-blogdown/index.html",
-      "/posts/2018-05-27-hugo-websites-and-blogdown/index.html"
-    ]
+    "listing": "/posts/2024-12-20/index.html",
+    "items": []
   }
 ]
