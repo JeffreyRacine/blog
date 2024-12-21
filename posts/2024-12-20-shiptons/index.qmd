@@ -2,7 +2,7 @@
 title: Shipton's Heating, Cooling, Unnecessary Repair, Ransom, Bullying and Blackmail Company
 author: Jeffrey S. Racine
 date: 2024-12-21
-draft: false
+draft: true
 feed: true
 editor: 
   markdown: 
