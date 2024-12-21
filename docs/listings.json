@@ -23,19 +23,7 @@
     "items": []
   },
   {
-    "listing": "/posts/2024-11-20-kitchen-reno/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/2018-05-29-more-on-blogdown/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/2023-11-18-wifi-update/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/2018-06-23-academic-networks-public-profiles/index.html",
+    "listing": "/posts/2018-12-15-my-sourdough-adventure/index.html",
     "items": []
   },
   {
@@ -43,7 +31,23 @@
     "items": []
   },
   {
-    "listing": "/posts/2018-12-15-my-sourdough-adventure/index.html",
+    "listing": "/posts/2018-06-23-academic-networks-public-profiles/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2023-11-18-wifi-update/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2018-05-29-more-on-blogdown/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2024-11-20-kitchen-reno/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2024-12-20-shiptons/index.html",
     "items": []
   },
   {
@@ -64,13 +68,5 @@
       "/posts/2018-05-29-more-on-blogdown/index.html",
       "/posts/2018-05-27-hugo-websites-and-blogdown/index.html"
     ]
-  },
-  {
-    "listing": "/posts/2024-12-20/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/2024-12-20-shiptons/index.html",
-    "items": []
   }
 ]
