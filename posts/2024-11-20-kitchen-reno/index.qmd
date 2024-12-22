@@ -218,7 +218,7 @@ woefully inadequate in the previous configuration.
 ![](images/install_paint/windows.jpg){width="150"}
 :::
 
-# Countertops, Sinks, Appliances, Finishing Touches
+# Countertops And Sinks
 
 As scheduled (Dec. 16), countertops were installed, sinks were
 installed, and I have to say that the craftsmanship and quality continue
@@ -237,8 +237,7 @@ and done. Other trades were doing odd tasks in the kitchen and around
 the house while this was occurring (new bathroom fans were installed in
 all bathrooms as the old ones were noisy and not all were working, cast
 iron replacement heating vents were installed in the kitchen, pantry,
-and mudroom, etc.) and the following day the delivery and installation
-of the new appliances occurred (stove, two fridges, washer/dryer).
+and mudroom, etc.).
 
 ::: {layout-col="4"}
 ![](images/install_counter/truck.jpg){width="150"}
@@ -255,6 +254,24 @@ of the new appliances occurred (stove, two fridges, washer/dryer).
 ![](images/install_counter/pantry_completed.jpg){width="150"}
 ![](images/install_counter/kitchen_windows.jpg){width="150"}
 ![](images/install_counter/cabinet_completed.jpg){width="150"}
+:::
+
+# Appliances And Finishing Touches
+
+On the scheduled day we received delivery and they proceeded with
+installation of the new appliances (stove, two fridges, dishwasher,
+washer/dryer). Then more painting, electrical work, plumbing, and finally (drum roll please) the protective floor covering was removed to reveal the 200+ year old original flooring. There are still tons of small things to be done which will take another week or so (more electrical and plumbing, touch ups, one cabinet being build, etc.) but with just a few days left to go until Christmas we are back to washing dishes in the kitchen and could not be more grateful nor happier with the quality of the work.
+
+::: {layout-col="4"}
+![](images/install_appliances/kitchen.jpg){width="150"}
+![](images/install_appliances/pantry.jpg){width="150"}
+![](images/install_appliances/mudroom.jpg){width="150"}
+![](images/install_appliances/windows.jpg){width="150"}
+
+![](images/post_install/kitchen.jpg){width="150"}
+![](images/post_install/pantry.jpg){width="150"}
+![](images/post_install/mudroom.jpg){width="150"}
+![](images/post_install/windows.jpg){width="150"}
 :::
 
 # What We Appreciate Most...
@@ -289,4 +306,4 @@ get the point...
 We would like to thank not only the incredibly talented people who made
 this project blossom, but also our son who watched his future
 inheritance being squandered yet encouraged us to proceed texting "Spend
-as much as you like!! You’ve more than earned it, xoxo" ::::
+as much as you like!! You’ve more than earned it, xoxo"

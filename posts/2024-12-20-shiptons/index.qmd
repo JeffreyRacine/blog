@@ -2,7 +2,7 @@
 title: Shipton's Heating, Cooling, Unnecessary Repair, Ransom, Bullying and Blackmail Company
 author: Jeffrey S. Racine
 date: 2024-12-21
-draft: false
+draft: true
 feed: true
 editor: 
   markdown: 
@@ -145,11 +145,20 @@ until the unit stops working and recharge it then.*
 
 In December 2024 we had our annual furnace maintenance.
 
-At the end of his visit, on the invoice he presented, the technician
-(Josh) wrote "immediate repair: 1) collector box (\$470.25+HST), 2)
-venting repair (\$1,399+HST), and 3) it may be time to have a home
-comfort adviser provide options on a more efficient system". He also
-wrote "Furnace 1 has mixed venting that is against code".
+Before continuing, let me point out that Shipton's has maintained these
+systems for the past 20 years. During a maintenance visit in March 2015
+we were told that some furnace venting was not up to then current code
+but that we were grandfathered in (many homes are obviously in a similar
+situation). When the technician explained that some of the vent pipe
+material (PVC) is no longer used, prone to cracking, and could create a
+hazard, we had them replace it with their suggested material (PBS).
+
+Back to the December 2024 maintenance visit. At the end of this visit,
+on the invoice presented, the technician (Josh) wrote "immediate
+repair: 1) collector box (\$470.25+HST), 2) venting repair
+(\$1,399+HST), and 3) it may be time to have a home comfort adviser
+provide options on a more efficient system". He also wrote "Furnace 1
+has mixed venting that is against code".
 
 Let me remind you that 1) is the exact same issue a different technician
 (Pete) reported last year (“they tell us to write something”) and that
@@ -158,34 +167,26 @@ box to do the repair told us “I don’t know why I am here, replacing the
 collector box won’t fix the leak in the unit”. So, naturally, we have
 some reason to be suspicious at this stage.
 
-As an aside, Shipton's has maintained these systems for the past 20
-years. We were told at one point that some venting was not up to code
-but that we were grandfathered in (many homes are obviously in a similar
-situation). And, when the Shipton's technician explained that some of
-the vent pipe material (PVC) is no longer used, prone to cracking, and
-could create a hazard, we had them replace it with a different material
-(PBS) at our discretion.
-
-But then, out of the blue, the technician (Josh) produces a "Safety
-Violation Notice" giving us 42 days to complete the repairs, which
-states "If not corrected, the gas supply will be discontinued on DUE
-DATE and charges may apply". And have the repairs completed by whom you
-might ask?
+But then, out of the blue, the technician (Josh) hands my wife a "Safety
+Violation Notice" giving us 42 days to complete the repairs, which reads
+"If not corrected, the gas supply will be discontinued on DUE DATE and
+charges may apply". And have the repairs completed by whom, you might
+ask?
 
 I was out of the country and the technician (Josh) was appraised of the
-fact that I was called away to deal with a family emergency. He
-obviously could see that we had renovations going on and that the house
-was full of trades who were calling on my wife for various decisions,
-yet Josh insisted my wife sign the document authorizing the repairs on
-the spot and would not leave until she did (with the threat of posting
-the safety violation notice on our system and notifying the gas company
-hanging over her head). She said we would like time to think about this
-and get a second opinion since she had her hands full at the moment as
-he could plainly see, reminding him I had been called away on an
-emergency. She said that it was always our understanding that we were
-grandfathered in, that Shipton's has been maintaining our systems for 20
-years, so can this not wait until my return? He refused her request for
-either and said he would not leave until she signed.
+fact that I was called away to deal with a family emergency. Josh saw
+that we were in the midst of renovations and the house was full of
+trades calling on my wife for various decisions, yet he insisted that my
+wife sign the document authorizing the repairs on the spot and would not
+leave until she did (with the threat of posting the safety violation
+notice on our system and notifying the gas company hanging over her
+head). She said we would like time to think about this and get a second
+opinion since she had her hands full at the moment as he could plainly
+see, reminding him I had been called away on an emergency. She said that
+it was always our understanding that we were grandfathered in, that
+Shipton's has been maintaining our systems for 20 years, so can this not
+simply wait until my return? He refused her request for either and said
+he would not leave until she signed.
 
 In order to get Josh to leave our property (recall we are in the midst
 of renovations), my wife had to approach our contractor (who happened to
@@ -195,11 +196,14 @@ without my wife signing to authorize the repairs on the spot.
 Apparently, the technician was willing to deal with a middle-aged male
 contractor but not with an older retired female. This type of sexist
 bullying behaviour is unacceptable. It is also a short-sighted business
-model, presuming you rely on reputation, trust, and goodwill that is.
-
-Note the violation notice clearly states "The appliance and/or piping
+practice, presuming you rely on reputation, trust, and goodwill that is.
+Furthermore, the violation notice states "The appliance and/or piping
 does not constitute an immediate hazard", so there was absolutely no
 reason to deny us time to discuss this issue upon my return.
+
+Threaten to have our gas supply cut off in the middle of winter in order
+to gin up business? Really Shipton's, you have sunk to the very bottom
+of an odious cesspool.
 
 A scan of the violation notice can be found below, you can scroll
 through them to view them in their entirety (PDFs are scrollable):
