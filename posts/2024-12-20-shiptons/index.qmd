@@ -2,7 +2,7 @@
 title: Shipton's Heating, Cooling, Unnecessary Repair, Ransom, Bullying and Blackmail Company
 author: Jeffrey S. Racine
 date: 2024-12-21
-draft: true
+draft: false
 feed: true
 editor: 
   markdown: 
@@ -13,47 +13,57 @@ File this post under the "fool me three times, shame on me" category.
 
 # Are Guerrilla Business Tactics the New Norm?
 
-Our home has two furnaces and one A/C unit. They were installed in 2005
-when we bought our home, and we purchased well built energy efficient
-units designed to last. We prefer to have our equipment inspected and
-serviced regularly before problems arise, rather than waiting for
-something to go wrong then address the underlying issue. We also prefer
-to maintain equipment that is serviceable for as long as possible rather
-than dumping it in a landfill prematurely.
+Some background may be in order before proceeding further:
 
-So, we took out a maintenance service contract that promised savings by
-bundling the three units, and we pay \$29/month (we provide the
-replacement furnace humidifier pads and charcoal filters). This contract
-covers annual cleaning and maintenance for each unit, and the units have
-been maintained and inspected annually and have performed admirably over
-the years.
+-   Our home has two furnaces and one A/C unit
 
-The service contract company (Shipton's Heating and Cooling) had a good
-reputation we were told (at least they did a decade or two ago), and
-they generally show up as scheduled, test the units, replace humidifier
-pads and clean and service the units annually. We were told that good
-equipment, well maintained, can last far beyond the average life
-expectancy often reported by the industry.
+-   They were installed in 2005 when we bought the home
+
+-   We purchased well built energy efficient units designed to last
+
+-   We prefer to have our equipment inspected and serviced regularly
+    before problems arise, rather than waiting for something to go wrong
+    then address the underlying issue
+
+-   We also prefer to maintain equipment that is serviceable for as long
+    as possible rather than dumping it in a landfill prematurely
+
+So, when the units were installed, we took out a maintenance service
+contract with [Shipton's Heating and Cooling](https://shiptons.ca) that
+promised savings by bundling the three units, and we pay \$340/year for
+two cleaning and maintenance visits (one for the furnaces in the Winter,
+one for the A/C in the Summer), and we provide some parts (replacement
+furnace humidifier pads and charcoal filters). The units have been
+maintained and inspected regularly and have performed admirably over the
+years.
+
+We selected [Shipton's Heating and Cooling](https://shiptons.ca) as we
+were told they had a good reputation (at least they did two decades
+ago). We believe that good equipment, well maintained, can last far
+beyond the average life expectancy often reported by the industry, which
+has been and continues to be our experience.
 
 Unfortunately, over the past two years we have come to realize that this
 particular service contract company employs what might be described as
 "guerrilla business tactics", and I penned this post to link to in my
 online reviews of the company for those interested in the details.
 
-To summarize, it took three strikes to push us over the edge:
+To summarize, it took three strikes to push us over the edge and to
+terminate our contract with Shipton's:
 
 1.  Unnecessary Repairs Recommended: *Replace your collector box
     immediately at the cost of \$471.88*
 
 2.  Hijacking/Ransom: *We disabled your A/C unit and are dispatching a
-    sales rep for a new unit (in the peak of summer)*
+    sales rep to arrange for a new unit (in the peak of summer, without
+    consultation, on a system performing admirably)*
 
-3.  Blackmail: *Sign immediately to authorize repairs or we will arrange
-    to have your gas cut off in 42 days (in the dead of winter)*
+3.  Blackmail: *Authorize repairs or we will arrange to have your gas
+    cut off in 42 days (in the dead of winter)*
 
 ## Strike One (Unnecessary Repairs)
 
-In October 2023 during the routine maintenance of our furnaces, the
+In October 2023, during the routine maintenance of our furnaces, the
 technician who was dispatched (Peter) told us that one unit was showing
 its age (there was some rust visible on the inside floor of the unit but
 no evidence of any active leaking), and in the written summary of his
@@ -102,27 +112,33 @@ In June 2024 a technician was dispatched for the annual maintenance of
 the A/C unit (Stephen).
 
 At the end of the service call, and with zero prior discussion, Steven
-said he had completed the maintenance, had disabled the A/C from the
-exterior of the house, and would arrange for Scott to come to our house
-that afternoon to discuss replacement options. The A/C unit had been
-operating perfectly (and, it still does for the record). I was stunned,
-and told him the unit works fine. He said it is low on refrigerant and
-that it could freeze up and leak. I said Shipton's installed *two*
-automatic shut off devices to prevent leak damage (one redundant), which
-he was aware of. I instructed him to go outside and enable the A/C unit.
+said he had disabled the A/C unit, that it could no longer be turned on
+from the inside thermostat, and that he would arrange for the owner
+(Scott) to come to our house that afternoon to discuss replacement
+options (it was the middle of summer and the A/C was running perfectly
+when he arrived). The A/C unit had been operating admirably (and, it
+still does for the record). I was stunned, and told him the unit works
+fine. He said it is low on refrigerant and that it could freeze up and
+leak. I said that years ago we had Shipton's install *two* automatic
+shut off devices to prevent leak damage (one in the drip pan, one in the
+condensate pump enclosure), which he admitted he was aware of. I
+instructed him to go outside and re-enable the A/C unit immediately,
+which he did.
 
 We did not receive a call from Scott to schedule a visit, but the next
 day were told someone else (Daniel) came to the house unannounced and we
 were not home, so he left. Daniel's visit was rescheduled for the
-following day, and on his second visit said the unit was old, was low on
-refrigerant and could not be recharged so our only option was to
-replace. I told Daniel how frustrated I was with this situation, but
-asked for a quote out of curiosity and weeks later got the following
-email:
+following day, and on his second visit he told us that the unit was low
+on refrigerant and could not be recharged so our only option was to
+replace it ASAP. I told Daniel how frustrated I was with the Shipton's
+technician who disabled our unit without any prior discussion, and how
+frustrated I was with Shipton's unannounced visits with no prior
+notification, but asked for a quote out of curiosity and weeks later
+received the following email:
 
 > "Hey Jeffrey, I spoke with Scott and we figured out more or less what
 > needs to be done. The cost to replace the 3 ton air conditioner and
-> the air handler unit is. \$15,395 plus HST".
+> the air handler unit is \$15,395 plus HST".
 
 On July 3 2024 I replied to Daniel's quote, writing:
 
@@ -139,19 +155,22 @@ and are seeking ransom in the amount of the cost of replacement"...
 
 *P.S., the A/C unit continues to perform flawlessly, and a competitor to
 Shipton's gave us the option to recharge the unit immediately or wait
-until the unit stops working and recharge it then.*
+until the unit stops working and recharge it then (at a fraction of the
+\$15,395 plus HST Shipton's had quoted for a new unit).*
 
 ## Strike Three (Bullying and Blackmail)
 
 In December 2024 we had our annual furnace maintenance.
 
-Before continuing, let me point out that Shipton's has maintained these
-systems for the past 20 years. During a maintenance visit in March 2015
-we were told that some furnace venting was not up to then current code
-but that we were grandfathered in (many homes are obviously in a similar
-situation). When the technician explained that some of the vent pipe
-material (PVC) is no longer used, prone to cracking, and could create a
-hazard, we had them replace it with their suggested material (PBS).
+Before continuing, let me again point out that Shipton's has maintained
+these systems for the past 20 years. During a maintenance visit in 2015
+we were told that some furnace venting was no longer "up to code" but
+that we were "grandfathered in" and, legally, don't have to keep up with
+evolving building codes (many homes are obviously in a similar
+situation). However, when this technician explained that some of the
+vent pipe material (PVC) is no longer used because it is prone to
+cracking and could create a hazard, we had them replace it with their
+suggested material (PBS) at our discretion.
 
 Back to the December 2024 maintenance visit. At the end of this visit,
 on the invoice presented, the technician (Josh) wrote "immediate
@@ -160,14 +179,15 @@ repair: 1) collector box (\$470.25+HST), 2) venting repair
 provide options on a more efficient system". He also wrote "Furnace 1
 has mixed venting that is against code".
 
-Let me remind you that 1) is the exact same issue a different technician
-(Pete) reported last year (“they tell us to write something”) and that
-when the technician (Pete) was dispatched last year with the collector
-box to do the repair told us “I don’t know why I am here, replacing the
-collector box won’t fix the leak in the unit”. So, naturally, we have
-some reason to be suspicious at this stage.
+Let me remind you that 1) is the same component that a different
+technician (Pete) reported last year (“they tell us to write something”)
+and that when the technician (Pete) was dispatched last year with the
+collector box to do the repair, he told us “I don’t know why I am here,
+replacing the collector box won’t fix the leak in the unit”. Let me also
+remind you that, for a previous furnace venting issue noted by the same
+company in 2015, we were told that we were "grandfathered in".
 
-But then, out of the blue, the technician (Josh) hands my wife a "Safety
+Then, out of the blue, the technician (Josh) hands my wife a "Safety
 Violation Notice" giving us 42 days to complete the repairs, which reads
 "If not corrected, the gas supply will be discontinued on DUE DATE and
 charges may apply". And have the repairs completed by whom, you might
@@ -175,35 +195,30 @@ ask?
 
 I was out of the country and the technician (Josh) was appraised of the
 fact that I was called away to deal with a family emergency. Josh saw
-that we were in the midst of renovations and the house was full of
+that we were in the midst of renovations and that the house was full of
 trades calling on my wife for various decisions, yet he insisted that my
-wife sign the document authorizing the repairs on the spot and would not
-leave until she did (with the threat of posting the safety violation
-notice on our system and notifying the gas company hanging over her
+wife sign a document on the spot and would not leave until she did (with
+the specter of gas termination in the middle of winter hanging over her
 head). She said we would like time to think about this and get a second
 opinion since she had her hands full at the moment as he could plainly
 see, reminding him I had been called away on an emergency. She said that
-it was always our understanding that we were grandfathered in, that
-Shipton's has been maintaining our systems for 20 years, so can this not
-simply wait until my return? He refused her request for either and said
-he would not leave until she signed.
+Shipton's has been maintaining our systems on contract for the past 20
+years and that it was her understanding that we were "grandfathered in",
+and can this not simply wait until my return? He refused her request for
+either and would not leave until she signed a document.
 
 In order to get Josh to leave our property (recall we are in the midst
 of renovations), my wife had to approach our contractor (who happened to
 be on site) and ask him to take time out of his day to go into the
-basement with Josh to review the issue. Only after that would Josh leave
-without my wife signing to authorize the repairs on the spot.
-Apparently, the technician was willing to deal with a middle-aged male
-contractor but not with an older retired female. This type of sexist
-bullying behaviour is unacceptable. It is also a short-sighted business
-practice, presuming you rely on reputation, trust, and goodwill that is.
-Furthermore, the violation notice states "The appliance and/or piping
-does not constitute an immediate hazard", so there was absolutely no
-reason to deny us time to discuss this issue upon my return.
-
-Threaten to have our gas supply cut off in the middle of winter in order
-to gin up business? Really Shipton's, you have sunk to the very bottom
-of an odious cesspool.
+basement with Josh to review the issue. Only after that did Josh leave.
+Apparently, the technician was willing to reason with a middle-aged male
+contractor but not with an older retired female. This type of sexist and
+bullying behaviour is absolutely unacceptable. It is also a
+short-sighted business practice, presuming you rely on reputation,
+trust, and goodwill that is. Furthermore, the violation notice states
+"The appliance and/or piping does not constitute an immediate hazard",
+so there was absolutely no reason to deny us time to discuss this issue
+upon my return before signing anything.
 
 A scan of the violation notice can be found below, you can scroll
 through them to view them in their entirety (PDFs are scrollable):
@@ -214,7 +229,8 @@ through them to view them in their entirety (PDFs are scrollable):
 ![](images/form.pdf){width="400"}
 :::
 
-I then sent the following to Shipton's three days ago:
+I sent the email below to Shipton's early the following morning (6 AM)
+while abroad dealing with a family situation:
 
 > Greetings \[\],
 
@@ -237,6 +253,10 @@ Crickets... zero response to date.
 So, chalk this visit up to "intimidation, bullying, sexism and blackmail
 are our current business model"...
 
+*P.S., threatening to have our gas supply cut off in the middle of
+winter in order to gin up some business? Really Shipton's, you have sunk
+to a new low with this one.*
+
 ```{=html}
 <!--
 
@@ -251,13 +271,13 @@ In retrospect, warning signs about dealing with this company had
 surfaced multiple times, and it is on us for not acting sooner. For
 example,
 
--   A few years ago a technician was dispatched by Shipton's to do the
-    maintenance. I asked how Shipton's was treating them and they said
-    they were going to work for another company. They added without any
-    prompting that we have really good equipment, that Shipton's advises
-    their technicians to encourage clients to upgrade their equipment
-    prematurely (which was one reason they were leaving), and to resist
-    pressure to replace equipment prematurely.
+-   A few years ago a technician was dispatched by Shipton's to perform
+    routine maintenance. I asked how Shipton's was treating them and
+    they said they were going to work for another company. They added
+    without any prompting that we have really good equipment and that
+    Shipton's advises their technicians to encourage clients to upgrade
+    their equipment prematurely (which was one reason they were leaving
+    as it did not sit well with them).
 
 -   A former employee (not the one just mentioned) told us that
     Shipton's use high pressure sales tactics and financially rewards
@@ -270,6 +290,6 @@ example,
     cleaned). And when did this company examine the furnaces, you might
     ask? The afternoon of the same day on which Shipton's had done their
     regular cleaning, maintenance, bullying and blackmail, i.e., just a
-    few hours apart!
+    few hours later!
 
 Enough said.
