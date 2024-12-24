@@ -1,6 +1,6 @@
 ---
 title: Shipton's Heating and Cooling
-subtitle: A series of unfortunate events, or a case in shady business ethics?
+subtitle: A series of unfortunate events, or a case study in shady business ethics?
 author: Jeffrey S. Racine
 date: 2024-12-24
 draft: false
