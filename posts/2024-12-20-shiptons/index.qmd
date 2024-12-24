@@ -1,7 +1,8 @@
 ---
-title: Shipton's Heating, Cooling, Unnecessary Repair, Ransom, Bullying and Blackmail Company
+title: Shipton's Heating and Cooling
+subtitle: A series of unfortunate events, or a case in shady business ethics?
 author: Jeffrey S. Racine
-date: 2024-12-21
+date: 2024-12-24
 draft: false
 feed: true
 editor: 
@@ -52,14 +53,17 @@ To summarize, it took three strikes to push us over the edge and to
 terminate our contract with Shipton's:
 
 1.  Unnecessary Repairs Recommended: *Replace your collector box
-    immediately at the cost of \$471.88*
+    immediately at the cost of \$472*
 
 2.  Hijacking/Ransom: *We disabled your A/C unit and are dispatching a
-    sales rep to arrange for a new unit (in the peak of summer, without
-    consultation, with the system performing admirably)*
+    sales rep to arrange for a new unit at the cost of \$17,396 (in the
+    peak of summer, without consultation, with the system performing
+    admirably)*
 
-3.  Blackmail: *Authorize repairs or we will arrange to have your gas
-    cut off in 42 days (in the dead of winter)*
+3.  Blackmail: *Authorize furnace repairs on the spot at the cost of
+    \$2,112 that "does not constitute an immediate hazard" or we will
+    arrange to have your gas cut off in 42 days (in the dead of winter,
+    without consultation, with the system performing admirably)*
 
 ## Strike One (Unnecessary Repairs)
 
@@ -190,45 +194,51 @@ wrote "Furnace 1 has mixed venting that is against code".
 Then, out of the blue with zero prior discussion, the technician (Josh)
 hands my wife an official "Safety Violation Notice" giving us 42 days to
 complete the repairs, which reads "If not corrected, the gas supply will
-be discontinued on DUE DATE and charges may apply". And have the repairs
-completed by whom, you might ask?
+be discontinued on DUE DATE and charges may apply", asking for her
+signature on a document.
 
-I was out of the country and the technician (Josh) was appraised of the
-fact that I was called away to deal with a family emergency. Josh saw
-that we were in the midst of renovations and that the house was full of
-trades calling on my wife for various decisions, yet he insisted that my
-wife sign a document on the spot and would not leave until she did (with
-the specter of gas termination in the middle of winter hanging over her
-head). She said we would like time to think about this and get a second
-opinion since she had her hands full at the moment as he could plainly
-see, reminding him I had been called away on an emergency. She said that
-Shipton's has been maintaining our systems on contract for the past 20
-years and that it was her understanding that we were "grandfathered in",
-and can this not simply wait until my return in two days? He refused her
-request for either and would not leave until she signed a document.
+And have the repairs completed by whom, you might ask?
 
-In order to get Josh to leave our property (recall we are in the midst
-of renovations), my wife had to approach our contractor (who happened to
-be on site) and ask him to take time out of his day to go into the
-basement with Josh to review the issue. Only after that did Josh leave.
-Apparently, the technician was willing to reason with a middle-aged male
-contractor but not with an older retired female. This type of sexist and
-bullying behaviour is absolutely unacceptable. It is also a
-short-sighted business practice, presuming you rely on reputation,
-trust, and goodwill that is. Furthermore, the violation notice checked
-on the form states "B: The appliance and/or piping does not constitute
-an immediate hazard", so there was absolutely no reason to deny us time
-to discuss this issue upon my return (or get a second opinion) before
-signing anything (the other violation option on the form is "A: The
-appliance and/or appliance is unsafe", which was not checked).
+I was out of the country and the technician (Josh) knew that I was
+called away to deal with a family emergency. Josh saw that we were in
+the midst of renovations and that the house was full of trades calling
+on my wife for various decisions, yet he expected her to sign a document
+on the spot (with the specter of gas termination in the middle of winter
+hanging over her head). She told him that we would like some time to
+think about this and get a second opinion since she had her hands full
+at the moment. She said that Shipton's has been maintaining our systems
+for the past 20 years, and can this not simply wait until my return?
+Exasperated, my wife approached the contractor (who happened to be on
+site) and asked him to take time out of his day to go into the basement
+with Josh to review the issue. Apparently, the technician was willing to
+reason with a middle-aged male contractor but not with an older retired
+female. Furthermore, the infraction checked on the notice reads "B: The
+appliance and/or piping does not constitute an immediate hazard", so
+there was absolutely no reason to deny us time to discuss this issue
+upon my return (or get a second opinion) before signing anything (the
+only other infraction on the notice is "A: The appliance and/or
+appliance is unsafe", which was not checked).
 
-A scan of the violation notice can be found below, you can scroll
-through them to view them in their entirety (PDFs are scrollable):
+Of course, if the violation constituted an immediate life-threatening
+safety hazard, e.g., "A: The appliance and/or piping is unsafe", I would
+probably be grateful, not upset, and we would be staying with friends
+until the repairs were completed. But that is not the case here. The
+"mixed venting that is against code" did not magically appear out of
+thin air (remember, Shipton's has been maintaining the furnaces for 20
+years). So, is this a crass revenue grab or a selfless move by
+Shipton's, required by law, motivated solely for our protection? And, is
+it ethical for a profit-maximizing entity to both a) judge whether a
+code violation that "does not constitute an immediate hazard" has
+occurred and b) pressure customers to authorize them to complete the
+repairs?
+
+Here is a scan of the cover page of the violation notice (the PDF is
+scrollable):
 
 ::: {layout-row="2"}
-![](images/notice.pdf){width="400"}
-
-![](images/form.pdf){width="400"}
+![](images/notice.pdf){width="800"} <!--
+![](images/form.pdf){width="800"}
+-->
 :::
 
 I sent the email below to Shipton's early the following morning (6 AM)
@@ -250,7 +260,7 @@ while abroad dealing with a family situation:
 > confirmation and we appreciate your timely attention to this
 > unpleasant matter.
 
-Crickets... zero response to date.
+Crickets... zero response up to date on this post.
 
 So, chalk this visit up to "intimidation, bullying, sexism and blackmail
 are our current business model"...
@@ -259,14 +269,10 @@ are our current business model"...
 winter in order to gin up some business? Really Shipton's, you have sunk
 to a new low with this one.*
 
-*P.S.S., is it ethical (or even legal?) for a profit-maximizing entity
-to both enforce code violations that "do not constitute an immediate
-hazard" and to demand they make the repairs on a system that is
-"grandfathered in" ? Of course, if the violation constituted an
-immediate life-threatening safety hazard, e.g., "A: The appliance and/or
-piping is unsafe", I would be grateful, not upset, and we would be
-staying with friends until the repairs were completed. But that is not
-the case here.*
+*P.S.S., immediately after this visit, we had the system independently
+inspected for safety by a competitor to Shipton's who was recommended by
+our contractor, and the company doing the new inspection did not issue a
+safety notice violation for what that is worth (more below).*
 
 # Epilogue
 

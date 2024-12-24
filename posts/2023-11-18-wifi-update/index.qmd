@@ -1,5 +1,5 @@
 ---
-title: Lighting up six cats
+title: Lighting up six cats (hat tip to Bell, bid farewell to Cogeco)
 author: Jeffrey S. Racine
 date: 2023-11-18
 draft: false
