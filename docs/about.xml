@@ -17,7 +17,7 @@
 <width>144</width>
 </image>
 <generator>quarto-1.6.39</generator>
-<lastBuildDate>Tue, 24 Dec 2024 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 26 Dec 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Shipton’s Heating and Cooling</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
@@ -33,7 +33,7 @@
 <h1>Are Guerrilla Business Tactics the New Norm?</h1>
 <p>Some background may be in order:</p>
 <ul>
-<li><p>Our home has three HVAC units (two furnaces and one A/C unit), installed in 2005.</p></li>
+<li><p>Our home has three HVAC units (two furnaces and one A/C), installed in 2005.</p></li>
 <li><p>We purchased well-built, energy-efficient HVAC units designed to last.</p></li>
 <li><p>We have our HVAC equipment serviced regularly, before problems arise.</p></li>
 <li><p>We prefer to maintain the equipment rather than prematurely dispose of it in a landfill.</p></li>
@@ -73,7 +73,7 @@
 <h2 class="anchored" data-anchor-id="strike-two-ransom">Strike Two (Ransom)</h2>
 <p>In June 2024 a technician (Stephen) was dispatched for the annual maintenance of the A/C unit.</p>
 <p>When finished, with zero prior discussion, Steven said he had disabled the unit and arranged for the owner (Scott) to visit and go over replacement options. I was stunned, and told him the unit works fine. He said it needs refrigerant and could ice up and leak. I said that years ago we had Shipton’s install <em>two</em> automatic shut off devices to prevent leak damage (one in the drip pan, one in the condensate pump enclosure), which he admitted he was aware of. I told him to re-enable the A/C unit immediately.</p>
-<p>We did not receive a call from Scott to schedule a visit, but the next day received a phone call to tell us that someone else (Daniel) came to the house unannounced when we were not home, so they left. Daniel’s visit was rescheduled for the following day, and on his second visit he told us that the unit was low on refrigerant, could not be recharged, and our only option was to replace it ASAP. I told Daniel how frustrated I was with the Shipton’s technician who disabled our functioning unit without any prior discussion, and how frustrated I was with Shipton’s unannounced visits with no prior notification, but asked for a quote out of curiosity and weeks later received the following email:</p>
+<p>We did not receive a call from Scott to schedule a visit, but the next day received a phone call to tell us that someone else (Daniel) came to the house unannounced when we were not home, so they left. Daniel’s visit was rescheduled for the following day, and on his second visit he told us that the unit was low on refrigerant, could not be recharged, and our only option was to replace it ASAP. I told Daniel how frustrated I was with the Shipton’s technician who disabled our perfectly functional unit without any prior discussion, and how frustrated I was with Shipton’s unannounced visits with no prior notification, but asked for a quote out of curiosity and weeks later received the following email:</p>
 <blockquote class="blockquote">
 <p>“Hey Jeffrey, I spoke with Scott and we figured out more or less what needs to be done. The cost to replace the 3 ton air conditioner and the air handler unit is $15,395 plus HST”.</p>
 </blockquote>
@@ -99,14 +99,20 @@
 <p>And have the repairs completed by whom, you might ask?</p>
 <p>I was out of the country and Josh had been told that I was called away unexpectedly to deal with a family matter. He saw that we were in the midst of renovations and that the house was full of trades calling on my wife for various decisions, yet he was pressuring her to sign a document on the spot (with the spectre of gas termination in the middle of winter hanging over her head)? She told him that we would like some time to think about this and get a second opinion since she had her hands full at the moment. She pointed out that Shipton’s has been maintaining our systems for the past 20 years, and can this not simply wait until my return?</p>
 <p>Exasperated, my wife approached the contractor (who happened to be on site) and asked him to take time out of his day to go into the basement with Josh to review the issue. Apparently, the technician was willing to reason with a middle-aged male contractor but not with an older retired female. Furthermore, the infraction checked on the notice reads “B: The appliance and/or piping does not constitute an immediate hazard”, so there was absolutely no reason to deny us time to discuss this issue upon my return (or get a second opinion) before signing anything (the only other infraction on the notice is “A: The appliance and/or appliance is unsafe”, which was not checked).</p>
-<p>Of course, if the violation constituted an immediate life-threatening safety hazard, e.g., “A: The appliance and/or piping is unsafe”, I would probably be grateful, not upset. But “A:…” is not the case here. The “mixed venting that is against code” (“B:…”) did not magically appear out of thin air. Shipton’s has been maintaining the furnaces for 20 years, so every single tech has seen how it is vented. Is this a high pressure sales job <em>or</em> a selfless move by Shipton’s motivated solely for our protection? And, is it ethical (or even legal?) for a company to both a) judge whether a code violation that “does not constitute an immediate hazard” has occurred and b) pressure customers to authorize them to complete the repairs?</p>
+<p>Of course, if the violation constituted an immediate life-threatening safety hazard, e.g., “A: The appliance and/or piping is unsafe”, I would probably be grateful, not upset. But “A:…” is not the case here. The “mixed venting that is against code” (“B:…”) did not magically appear out of thin air. Shipton’s has been maintaining the furnaces for 20 years, so every single tech has seen how it is vented. This raises a few questions:</p>
+<ol type="1">
+<li><p>Is this a high pressure sales job or a selfless move by Shipton’s motivated solely for our protection?</p></li>
+<li><p>Is it ethical for a company to both:</p>
+<p>a) judge whether evolving HVAC codes warrant issuing safety violations when the infraction does not constitute an immediate hazard, and</p>
+<p>b) pressure customers to authorize them to complete the repairs?</p></li>
+</ol>
 <p>Here is a scan of the cover page of the violation notice (the PDF is scrollable):</p>
 <div data-layout-row="2">
 <p><embed src="images/notice.pdf" class="img-fluid" width="800"> <!--
 ![](images/form.pdf){width="800"}
 --></p>
 </div>
-<p>I sent the this to Shipton’s the next morning (6 AM) while abroad dealing with a family situation:</p>
+<p>I sent an email to Shipton’s the next morning (6 AM) while abroad dealing with a family situation:</p>
 <blockquote class="blockquote">
 <p>Greetings [],</p>
 </blockquote>
@@ -148,7 +154,7 @@ No matching items
 </div>
 </div> ]]></description>
   <guid>https://jeffreyracine.github.io/blog/posts/2024-12-20-shiptons/</guid>
-  <pubDate>Tue, 24 Dec 2024 05:00:00 GMT</pubDate>
+  <pubDate>Thu, 26 Dec 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Tired old kitchen gets a face-lift</title>

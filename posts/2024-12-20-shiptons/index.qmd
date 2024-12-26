@@ -2,7 +2,7 @@
 title: Shipton's Heating and Cooling
 subtitle: A series of unfortunate events, or a case study in shady business ethics?
 author: Jeffrey S. Racine
-date: 2024-12-24
+date: 2024-12-26
 draft: false
 feed: true
 editor: 
@@ -16,8 +16,8 @@ File this post under the "fool me three times, shame on me" category.
 
 Some background may be in order:
 
--   Our home has three HVAC units (two furnaces and one A/C unit),
-    installed in 2005.
+-   Our home has three HVAC units (two furnaces and one A/C), installed
+    in 2005.
 
 -   We purchased well-built, energy-efficient HVAC units designed to
     last.
@@ -118,10 +118,11 @@ the house unannounced when we were not home, so they left. Daniel's
 visit was rescheduled for the following day, and on his second visit he
 told us that the unit was low on refrigerant, could not be recharged,
 and our only option was to replace it ASAP. I told Daniel how frustrated
-I was with the Shipton's technician who disabled our functioning unit
-without any prior discussion, and how frustrated I was with Shipton's
-unannounced visits with no prior notification, but asked for a quote out
-of curiosity and weeks later received the following email:
+I was with the Shipton's technician who disabled our perfectly
+functional unit without any prior discussion, and how frustrated I was
+with Shipton's unannounced visits with no prior notification, but asked
+for a quote out of curiosity and weeks later received the following
+email:
 
 > "Hey Jeffrey, I spoke with Scott and we figured out more or less what
 > needs to be done. The cost to replace the 3 ton air conditioner and
@@ -210,12 +211,19 @@ safety hazard, e.g., "A: The appliance and/or piping is unsafe", I would
 probably be grateful, not upset. But "A:..." is not the case here. The
 "mixed venting that is against code" ("B:...") did not magically appear
 out of thin air. Shipton's has been maintaining the furnaces for 20
-years, so every single tech has seen how it is vented. Is this a high
-pressure sales job *or* a selfless move by Shipton's motivated solely
-for our protection? And, is it ethical (or even legal?) for a company to
-both a) judge whether a code violation that "does not constitute an
-immediate hazard" has occurred and b) pressure customers to authorize
-them to complete the repairs?
+years, so every single tech has seen how it is vented. This raises a few
+questions:
+
+1.  Is this a high pressure sales job or a selfless move by Shipton's
+    motivated solely for our protection?
+
+2.  Is it ethical for a company to both:
+
+    a\) judge whether evolving HVAC codes warrant issuing safety
+    violations when the infraction does not constitute an immediate
+    hazard, and
+
+    b\) pressure customers to authorize them to complete the repairs?
 
 Here is a scan of the cover page of the violation notice (the PDF is
 scrollable):
@@ -226,7 +234,7 @@ scrollable):
 -->
 :::
 
-I sent the this to Shipton's the next morning (6 AM) while abroad
+I sent an email to Shipton's the next morning (6 AM) while abroad
 dealing with a family situation:
 
 > Greetings \[\],
