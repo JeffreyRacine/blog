@@ -105,7 +105,7 @@ recommended"?
 
 ## Strike Two (Hijacking and Ransom?)
 
-In June 2024 a technician (Stephen) was dispatched for the annual
+In June 2024, a technician (Stephen) was dispatched for the annual
 maintenance of the A/C unit.
 
 When finished, with zero prior discussion, Steven said he had disabled
