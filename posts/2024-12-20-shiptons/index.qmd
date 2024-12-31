@@ -221,16 +221,13 @@ out of thin air. Shipton's has been maintaining this furnace for 20
 years, so every single tech has seen how it is vented. This raises a few
 questions:
 
-1.  Is this a high pressure sales job or a selfless move by Shipton's
+1.  Is this a high pressure sales job, or a selfless move by Shipton's
     motivated solely for our protection?
 
-2.  Is it ethical for a company to both:
-
-    a\) judge whether evolving HVAC codes warrant issuing safety
-    violations when the infraction does not constitute an immediate
-    hazard, and
-
-    b\) pressure customers to authorize them to complete the repairs?
+2.  Is it ethical for a company to both a) judge whether evolving HVAC
+    codes warrant issuing safety violations when the infraction does not
+    constitute an immediate hazard, and b) pressure customers to
+    authorize them to complete the repairs?
 
 Here is a scan of the cover page of the violation notice (the PDF is
 scrollable):
