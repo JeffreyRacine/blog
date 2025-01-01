@@ -37,9 +37,9 @@ filters).
 Unfortunately, Shipton’s recently threw a series of hardballs our way
 and, as a consequence, we decided to terminate our contract. And even
 though the last three service visits rank among the most unpleasant
-ever, we considered each a one-off unfortunate event and let three
-strikes in a row pass by before finally calling Shipton's out. The
-strikes were:
+ever, we felt that each might simply be unfortunate one-off events and
+let three strikes in a row pass by before finally calling Shipton's out.
+The strikes were:
 
 -   *Strike 1 - Replace your furnace collector box immediately at the
     cost of \$472* (immediate unnecessary repairs recommended?)
