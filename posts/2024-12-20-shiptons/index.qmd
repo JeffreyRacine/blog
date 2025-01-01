@@ -37,8 +37,8 @@ filters).
 Unfortunately, Shipton’s recently threw a series of hardballs our way
 and, as a consequence, we decided to terminate our contract. And even
 though the last three service visits rank among the most unpleasant
-ever, we wondered whether each might simply be unfortunate one-off
-events. In fact, we let three strikes in a row pass by before finally
+ever, we wondered whether each might simply be a unfortunate one-off
+event. In fact, we let three strikes in a row pass by before finally
 calling Shipton's out. The strikes were:
 
 -   *Strike 1 - Replace your furnace collector box immediately at the
