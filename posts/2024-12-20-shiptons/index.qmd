@@ -2,7 +2,7 @@
 title: HVAC circles of hell (apologies Dante, sayonara Shipton's)
 subtitle: A series of unfortunate events, or a case study in questionable business ethics?
 author: Jeffrey S. Racine
-date: 2025-01-01
+date: 2025-01-02
 draft: false
 feed: true
 editor: 
