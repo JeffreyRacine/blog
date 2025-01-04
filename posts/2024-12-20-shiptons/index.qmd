@@ -116,15 +116,20 @@ said it needs refrigerant and could ice up and leak. I said that years
 ago we had Shipton's install *two* automatic shut off devices to prevent
 leak damage (one in the drip pan, one in the condensate pump enclosure),
 which he admitted he was aware of. I told him to re-enable the A/C unit
-immediately.
+immediately. In the summary Stephen provided after he re-enabled the
+unit, he wrote:
 
-We did not receive a call from Scott to schedule a visit, but the next
-day received a phone call to tell us that someone else (Daniel, a new
-sales rep) came to the house unannounced when we were not home, so they
-left. Daniel's visit was rescheduled for the following day, and on his
-second visit he told us that the unit was low on refrigerant, could not
-be recharged, and our only option was to replace it ASAP. I told Daniel
-how frustrated I was with the Shipton's technician who disabled our
+> "Customer opted to continue running system despite chance of icing up,
+> Scott to follow up. \[\] It may be time to have a home comfort adviser
+> provide options on a more efficient system."
+
+We did not receive a follow up call from Scott, but the next day
+received a phone call to tell us that someone else (Daniel, a new sales
+rep) came to the house unannounced when we were not home, then left.
+Daniel's visit was rescheduled for the following day, and on his second
+visit he told us that the unit was low on refrigerant, could not be
+recharged, and our only option was to replace it ASAP. I told Daniel how
+frustrated I was with the Shipton's technician who disabled our
 perfectly functional unit in peak season without any prior discussion,
 and how frustrated I was with Shipton's unannounced visits with no prior
 notification, but asked for a quote out of curiosity and weeks later
@@ -169,10 +174,11 @@ On December 18 2024 we had our annual furnace maintenance.
 
 At the end of the December 2024 visit, on the invoice presented, the
 technician (Josh) wrote "immediate repair: 1) collector box
-(\$470.25+HST), 2) venting repair (\$1,399+HST), and 3) it may be time
+(\$470.25+HST), 2) venting repair (\$1,399+HST), and 3) *it may be time
 to have a home comfort adviser provide options on a more efficient
-system". He also wrote "Furnace 1 has mixed venting that is against
-code".
+system*" (interesting to note that identical wording was used by the
+technician in the previous visit for A/C unit). He also wrote "Furnace 1
+has mixed venting that is against code".
 
 > *Before continuing, remember that 1) is the same component that a
 > different technician (Pete) reported last year (“they tell us to write
