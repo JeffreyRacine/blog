@@ -70,15 +70,15 @@ replace collector box" with a price of \$417.60+HST.
 I emailed Shipton's dispatch to schedule the repair and received this
 reply:
 
-> I can confirm the price of the Collector Box is \$417.60+H.S.T. (which
-> includes the installation). \[\] As discussed, upon arrival of the
-> part, I'll be directly in touch with Mrs. Racine & yourself to
-> coordinate a date/time for the repair.
+> "I can confirm the price of the Collector Box is \$417.60+H.S.T.
+> (which includes the installation). \[\] As discussed, upon arrival of
+> the part, I'll be directly in touch with Mrs. Racine & yourself to
+> coordinate a date/time for the repair."
 
 Here is the email I sent to Shipton's *after* Pete showed up at the
 house to do the repair:
 
-> This morning the tech arrived to install the collector box we were
+> "This morning the tech arrived to install the collector box we were
 > advised to fix (the same tech who serviced the unit recently and wrote
 > on the attached summary “immediate repair” Collector Box \$417+HST).
 > When he arrived he said “I don’t know why I am here, replacing the
@@ -97,7 +97,7 @@ house to do the repair:
 > email is to request that, going forward, kindly put a note on our file
 > to not dispatch this technician to our residence (Peter).
 >
-> Thanks for your understanding.
+> Thanks for your understanding."
 
 So, should I chalk this visit up to "immediate unnecessary repairs
 recommended"?
