@@ -309,9 +309,7 @@ example,
     coincidences, or is this a full court press? Do "more efficient"
     furnaces even exist? (A standard furnace has an Annual Fuel
     Utilization Efficiency (AFUE) of 80%, while our furnaces are among
-    the most efficient systems in the industry at 96% AFUE; replacing
-    them with newer models wouldn't shave a dime off of our annual gas
-    bill.)
+    the most efficient systems in the industry at 96% AFUE.)
 
 *P.S., Any one of these strikes might be dismissed as some unfortunate
 one-off event. Do three in a row constitute a series of unfortunate
