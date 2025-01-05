@@ -304,9 +304,9 @@ example,
     1"), we were again presented with boilerplate wording used by two
     different Shipton's technicians on their recent visits (last
     summer's A/C service and the previous fall's furnace service on
-    "Furnace 2"). Does identical wording (i.e., "have a home comfort
-    adviser provide options on a more efficient system") encouraging us
-    to have Shipton's replace three *independent* systems constitute a
+    "Furnace 2"). Does identical wording encouraging us to have
+    Shipton's replace three *independent* systems ("have a home comfort
+    adviser provide options on a more efficient system") constitute a
     series of coincidences, or is this a full court press? Do "more
     efficient" furnaces even exist? (A standard furnace has an Annual
     Fuel Utilization Efficiency (AFUE) of 80%, while our furnaces are
