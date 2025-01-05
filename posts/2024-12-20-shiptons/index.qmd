@@ -229,7 +229,6 @@ questions:
 
 1.  Is this a high pressure sales job, or a selfless move by Shipton's
     motivated solely for our protection?
-
 2.  Is it ethical for a company to both a) judge whether evolving HVAC
     codes warrant issuing safety violations when the infraction does not
     constitute an immediate hazard, and b) pressure customers to
