@@ -27,7 +27,7 @@ Some background may be in order:
 
 When the HVAC units were installed, we took out a service contract with
 [Shipton's Heating and Cooling](https://shiptons.ca). We paid \$340/year
-for two annual cleaning and maintenance visits (winter furnace, summer
+for two annual service and maintenance visits (winter furnace, summer
 A/C; we provided the replacement furnace humidifier pads and charcoal
 filters).
 
@@ -307,10 +307,10 @@ example,
 -   After the most recent event, a HVAC company recommended by our
     contractor inspected the furnaces, and guess one thing they noticed?
     That the furnaces were dirty and could use a good cleaning (they did
-    not know we just had the systems cleaned). And when did this company
-    inspect the furnaces, you might ask? The afternoon of the same day
-    on which Shipton's had done their regular cleaning, maintenance,
-    pressuring and blackmail, i.e., just a few hours later!
+    not know we just had the systems serviced). And when did this
+    company inspect the furnaces, you might ask? The afternoon of the
+    same day on which Shipton's had done their regular service,
+    maintenance, pressuring and blackmail, i.e., just a few hours later!
 
 *P.S., Any one of these strikes might be dismissed as some unfortunate
 one-off event. Do three in a row constitute a series of unfortunate
