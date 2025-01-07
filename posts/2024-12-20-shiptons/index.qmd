@@ -287,12 +287,10 @@ example,
     without any prompting that we have really good equipment and that
     Shipton's advises their technicians to encourage clients to upgrade
     their equipment prematurely (which was one reason they were leaving
-    as it did not sit well with them; "It may be time to have a home
-    comfort adviser...")
+    as it did not sit well with them).
 -   A former employee (not the one just mentioned) told us that
     Shipton's use high pressure sales tactics and financially rewards
-    technicians who successfully generate sales during their visits ("It
-    may be time to have a home comfort adviser...").
+    technicians who successfully generate sales during their visits.
 -   Many Shipton's reports included the boilerplate text "have a home
     comfort adviser provide options on a more efficient system". Is this
     a coincidence, or does this reflect one technician's admission “they
