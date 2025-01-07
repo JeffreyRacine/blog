@@ -18,12 +18,10 @@ Some background may be in order:
 
 -   Our home has three HVAC units (two furnaces and one A/C), installed
     in 2005.
--   We purchased well-built, energy-efficient HVAC units designed to
-    last.
--   We have our HVAC equipment serviced regularly, before problems
-    arise.
--   We prefer to maintain the equipment rather than prematurely dispose
-    of it in a landfill.
+-   We purchased well-built, energy-efficient units designed to last.
+-   We have our equipment serviced regularly, before problems arise.
+-   We prefer to maintain serviceable equipment rather than prematurely
+    dispose of it in a landfill.
 
 When the HVAC units were installed, we took out a service contract with
 [Shipton's Heating and Cooling](https://shiptons.ca). We paid \$340/year
