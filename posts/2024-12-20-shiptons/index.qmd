@@ -301,7 +301,7 @@ example,
     something being to encourage upgrading functioning, serviceable
     systems)? As an aside, a standard furnace has an Annual Fuel
     Utilization Efficiency (AFUE) of 80%, while our furnaces are among
-    the most efficient available having 96% AFUE. Do "more efficient"
+    the most efficient available having a 96% AFUE. Do "more efficient"
     furnaces even exist?
 -   After the most recent event, a HVAC company recommended by our
     contractor inspected the furnaces, and guess one thing they noticed?
