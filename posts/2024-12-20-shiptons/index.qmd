@@ -295,7 +295,7 @@ example,
     may be time to have a home comfort adviser...").
 -   After the most recent service, the written summary included
     boilerplate text used by three different Shipton's technicians (this
-    fall's furnace service \["Furnace 1"\], last summer's A/C service
+    fall's furnace service \["Furnace 1"\], last summer's A/C service,
     and the previous fall's furnace service \["Furnace 2"\], i.e., "have
     a home comfort adviser provide options on a more efficient system").
     Is this a coincidence, or does this reflect one technician's
