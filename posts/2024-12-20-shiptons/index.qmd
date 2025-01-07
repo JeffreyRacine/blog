@@ -294,16 +294,15 @@ example,
     technicians who successfully generate sales during their visits ("It
     may be time to have a home comfort adviser...").
 -   After the most recent service, the written summary included
-    boilerplate text used by three different Shipton's technicians (this
-    fall's furnace service \["Furnace 1"\], last summer's A/C service,
-    and the previous fall's furnace service \["Furnace 2"\], i.e., "have
-    a home comfort adviser provide options on a more efficient system").
-    Is this a coincidence, or does this reflect one technician's
-    admission “they tell us to write something” (the something being to
-    encourage upgrading functioning, serviceable systems)? As an aside,
-    a standard furnace has an Annual Fuel Utilization Efficiency (AFUE)
-    of 80%, while our furnaces are among the most efficient available
-    having 96% AFUE. Do "more efficient" furnaces even exist?
+    boilerplate text used by three different Shipton's technicians
+    (i.e., "have a home comfort adviser provide options on a more
+    efficient system"). Is this a coincidence, or does this reflect one
+    technician's admission “they tell us to write something” (the
+    something being to encourage upgrading functioning, serviceable
+    systems)? As an aside, a standard furnace has an Annual Fuel
+    Utilization Efficiency (AFUE) of 80%, while our furnaces are among
+    the most efficient available having 96% AFUE. Do "more efficient"
+    furnaces even exist?
 -   After the most recent event, a HVAC company recommended by our
     contractor inspected the furnaces, and guess one thing they noticed?
     That the furnaces were quite dirty and should be serviced. And when
