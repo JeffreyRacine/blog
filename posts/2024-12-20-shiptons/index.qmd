@@ -293,15 +293,15 @@ example,
     Shipton's use high pressure sales tactics and financially rewards
     technicians who successfully generate sales during their visits ("It
     may be time to have a home comfort adviser...").
--   After the most recent furnace service ("Furnace 1"), we were again
-    presented with boilerplate wording used by two different Shipton's
-    technicians on their recent visits (last summer's A/C service and
-    the previous fall's furnace service on "Furnace 2"). Does identical
-    wording encouraging us to let Shipton's replace three independent,
-    perfectly functioning, well maintained systems (i.e., "have a home
-    comfort adviser provide options on a more efficient system")
-    constitute a series of coincidences, or is this a full court press?
-    A standard furnace has an Annual Fuel Utilization Efficiency (AFUE)
+-   After the most recent service, the written summary included
+    boilerplate text used by three different Shipton's technicians (this
+    fall's furnace service \["Furnace 1"\], last summer's A/C service
+    and the previous fall's furnace service \["Furnace 2"\], i.e., "have
+    a home comfort adviser provide options on a more efficient system").
+    Is this a coincidence, or does this reflect one technician's
+    admission “they tell us to write something” (the something being to
+    encourage upgrading functioning, serviceable systems)? As an aside,
+    a standard furnace has an Annual Fuel Utilization Efficiency (AFUE)
     of 80%, while our furnaces are among the most efficient available
     having 96% AFUE. Do "more efficient" furnaces even exist?
 -   After the most recent event, a HVAC company recommended by our
