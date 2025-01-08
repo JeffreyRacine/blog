@@ -219,13 +219,12 @@ notice is "A: The appliance and/or piping is unsafe", which was not
 checked).
 
 Of course, if the violation constituted an immediate life-threatening
-safety hazard, e.g., "A: The appliance and/or piping is unsafe", I would
-probably be grateful, not upset. But "A:...is unsafe" is not the case
-here. The "mixed venting that is against code" ("B:...does not
-constitute an immediate hazard") did not magically appear out of thin
-air. Shipton's has been maintaining this furnace for years, so every
-single technician servicing it has seen how it is vented. This raises a
-few questions:
+safety hazard, e.g., "A: ...is unsafe", I would probably be grateful,
+not upset. But "A:...is unsafe" is not the case here. The "mixed venting
+that is against code" ("B:...does not constitute an immediate hazard")
+did not magically appear out of thin air. Shipton's has been maintaining
+this furnace for years, so every single technician servicing it has seen
+how it is vented. This raises a few questions:
 
 1.  Is this a high pressure sales job, or a selfless move by Shipton's
     motivated solely for our protection?
