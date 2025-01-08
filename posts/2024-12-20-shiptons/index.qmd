@@ -219,7 +219,7 @@ notice is "A: The appliance and/or piping is unsafe", which was not
 checked).
 
 Of course, if the violation constituted an immediate life-threatening
-safety hazard (i.e., the furnace "is unsafe"), I would probably be
+safety hazard (i.e., if the furnace "is unsafe"), I would probably be
 grateful, not upset. But "is unsafe" is not the case here. The "mixed
 venting that is against code" that "does not constitute an immediate
 hazard" did not magically appear out of thin air. Shipton's has been
