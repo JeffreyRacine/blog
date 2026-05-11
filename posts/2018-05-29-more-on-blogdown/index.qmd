@@ -5,6 +5,9 @@ date: 2018-05-29
 draft: false
 feed: true
 bibliography: [post.bib]  
+categories:
+  - Computing
+  - Open Web
 ---
 
 The R package blogdown "is an effort to integrate R Markdown with static website generators" according to its creator, Yihui Xie. He writes "Besides the advantage in website structures, another highlight of blogdown is that it inherited bookdown’s Markdown extensions (based on Pandoc’s Markdown), which means you can easily write technical content on your website, including everything that Pandoc supports (e.g., headings, lists, footnotes, tables, figures, citations,  $\rm\LaTeX$  math, and quotes, etc) and bookdown’s extensions (e.g., figure and table captions, cross-references, theorems, proofs, numbered equations, and HTML widgets, etc)."

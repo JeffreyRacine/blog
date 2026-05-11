@@ -1,5 +1,5 @@
 ---
-title: "Posts"
+title: "Notes"
 listing:
   contents: posts
   sort: "date desc"
@@ -8,7 +8,61 @@ listing:
   sort-ui: false
   filter-ui: false
   feed: true
-page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
 
+::: {.blog-hero}
+## Notes from the margins of research, software, and ordinary life
+
+Occasional essays and field notes from Jeffrey S. Racine: reproducible tools,
+public scholarship, computing workflows, nonparametric thinking, and the odd
+domestic case study when the machinery of daily life becomes interesting enough
+to write down.
+:::
+
+::: {.pathway-grid}
+::: {.pathway-card}
+### Research and Public Scholarship
+
+Notes on academic visibility, public profiles, reproducible work, and the
+research web.
+
+[Browse notes below](#latest-notes)
+:::
+
+::: {.pathway-card}
+### Computing and Open Tools
+
+Quarto, blogdown, GitHub, R, and the practical craft of keeping public work
+online.
+
+[Browse notes below](#latest-notes)
+:::
+
+::: {.pathway-card}
+### Econometric Notes
+
+Longer reflections on modeling habits, functional form, and statistical
+practice.
+
+[Browse notes below](#latest-notes)
+:::
+
+::: {.pathway-card}
+### Home and Infrastructure
+
+Occasional notes where home systems, service providers, and technology collide.
+
+[Browse notes below](#latest-notes)
+:::
+:::
+
+::: {.link-strip}
+[Research](https://jeffreyracine.github.io/research/) ·
+[Gallery of Code](https://jeffreyracine.github.io/gallery/) ·
+[CV](https://jeffreyracine.github.io/vitae/) ·
+[GitHub](https://github.com/JeffreyRacine) ·
+[RSS](index.xml)
+:::
+
+## Latest Notes

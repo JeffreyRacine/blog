@@ -4,6 +4,9 @@ author: Jeffrey S. Racine
 date: 2023-08-11
 draft: false
 feed: true
+categories:
+  - Computing
+  - Open Web
 ---
 
 Ahh, the joys and sorrows of technological progress! 

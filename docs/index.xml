@@ -132,6 +132,7 @@
 </section>
 
  ]]></description>
+  <category>Home</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2024-12-20-shiptons/</guid>
   <pubDate>Thu, 02 Jan 2025 05:00:00 GMT</pubDate>
 </item>
@@ -224,6 +225,7 @@
 </section>
 
  ]]></description>
+  <category>Home</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2024-11-20-kitchen-reno/</guid>
   <pubDate>Sun, 22 Dec 2024 05:00:00 GMT</pubDate>
 </item>
@@ -336,6 +338,8 @@ Idle Latency: 6.000 milliseconds | 10000 RPM</p>
 <li id="fn2"><p>Sgt.&nbsp;Major Dickerson [Pointing to his rank insignia]: What does three up and three down mean to you, airman? Adrian Cronauer: End of an inning? Goooooooood morning Vietnam!↩︎</p></li>
 </ol>
 </section></div> ]]></description>
+  <category>Computing</category>
+  <category>Home</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2023-11-18-wifi-update/</guid>
   <pubDate>Sat, 18 Nov 2023 05:00:00 GMT</pubDate>
 </item>
@@ -366,6 +370,8 @@ Idle Latency: 6.000 milliseconds | 10000 RPM</p>
 <li id="fn2"><p>Quarto is a multi-language, next-generation version of R Markdown from Posit and includes dozens of new features and capabilities while at the same being able to render most existing Rmd files without modification. Quarto was recently released, has evolved rapidly, and is now quite stable (Version 1.0 was released publicly July 28 2022 - see the <a href="https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system">Quarto Announcement</a> for details).↩︎</p></li>
 </ol>
 </section></div> ]]></description>
+  <category>Computing</category>
+  <category>Open Web</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/</guid>
   <pubDate>Fri, 11 Aug 2023 04:00:00 GMT</pubDate>
 </item>
@@ -624,6 +630,7 @@ Idle Latency: 6.000 milliseconds | 10000 RPM</p>
 <li id="fn13"><p>As Emily Beuhler, author of <em>Bread Science</em> explains, oven-spring occurs primarily during the first ten minutes of baking. During these ten minutes, the yeasts—feeling the coming heat—speed up their fermentation and respiration, belching out a final burst of CO<img src="https://latex.codecogs.com/png.latex?_2">. As that CO<img src="https://latex.codecogs.com/png.latex?_2"> heats up, what was dissolved in our dough’s water comes out of solution. Like any gas, the CO<img src="https://latex.codecogs.com/png.latex?_2"> in our dough expands as it heats up. This same process occurs to the ethanol created by fermentation and a portion of the water mixed into our dough—i.e., they evaporate and expand upon heating. Since these gases are trapped inside our dough by the gluten matrix we formed during our mixing and fermentation stages, as they expand, so does our bread. It’s this expansion that causes our dough to leap upwards and outwards while in the oven. This is what oven-spring is, and we want as much as we can get.↩︎</p></li>
 </ol>
 </section></div> ]]></description>
+  <category>Home</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-12-15-my-sourdough-adventure/</guid>
   <pubDate>Sat, 15 Dec 2018 05:00:00 GMT</pubDate>
 </item>
@@ -659,6 +666,8 @@ two rows of soldiers who strike out and attack them. -->
 <li id="fn1"><p>An easy <em>tell</em> is a parametric model that is additive, linear in parameters and predictors, and devoid of interaction terms.↩︎</p></li>
 </ol>
 </section></div> ]]></description>
+  <category>Econometrics</category>
+  <category>Research</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/</guid>
   <pubDate>Fri, 27 Jul 2018 04:00:00 GMT</pubDate>
 </item>
@@ -700,6 +709,8 @@ two rows of soldiers who strike out and attack them. -->
 
 
  ]]></description>
+  <category>Research</category>
+  <category>Open Web</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/</guid>
   <pubDate>Sat, 23 Jun 2018 04:00:00 GMT</pubDate>
 </item>
@@ -736,6 +747,8 @@ two rows of soldiers who strike out and attack them. -->
 
 
  ]]></description>
+  <category>Computing</category>
+  <category>Research</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/</guid>
   <pubDate>Fri, 01 Jun 2018 04:00:00 GMT</pubDate>
 </item>
@@ -837,6 +850,8 @@ Xie, Yihui. 2016. <em>Bookdown: Authoring Books and Technical Documents with <sp
 Xie, Yihui. 2018. <em>Blogdown: Create Blogs and Websites with r Markdown</em>. <a href="https://github.com/rstudio/blogdown">https://github.com/rstudio/blogdown</a>.
 </div>
 </div></section></div> ]]></description>
+  <category>Computing</category>
+  <category>Open Web</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-05-29-more-on-blogdown/</guid>
   <pubDate>Tue, 29 May 2018 04:00:00 GMT</pubDate>
 </item>
@@ -860,6 +875,8 @@ Xie, Yihui. 2018. <em>Blogdown: Create Blogs and Websites with r Markdown</em>. 
 
 
  ]]></description>
+  <category>Computing</category>
+  <category>Open Web</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/</guid>
   <pubDate>Sun, 27 May 2018 04:00:00 GMT</pubDate>
 </item>

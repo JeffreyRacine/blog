@@ -4,6 +4,8 @@ author: Jeffrey S. Racine
 date: 2024-12-22
 draft: false
 feed: true
+categories:
+  - Home
 editor: 
   markdown: 
     wrap: 72

@@ -4,6 +4,9 @@ author: Jeffrey S. Racine
 date: 2023-11-18
 draft: false
 feed: true
+categories:
+  - Computing
+  - Home
 ---
 
 When life gives you lemons, you don't have to make lemonade do you?

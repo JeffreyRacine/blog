@@ -5,6 +5,8 @@ author: Jeffrey S. Racine
 date: 2025-01-02
 draft: false
 feed: true
+categories:
+  - Home
 editor: 
   markdown: 
     wrap: 72

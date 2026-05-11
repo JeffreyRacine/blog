@@ -4,6 +4,9 @@ author: Jeffrey S. Racine
 date: 2018-07-27
 draft: false
 feed: true
+categories:
+  - Econometrics
+  - Research
 ---
 
 It is not uncommon to encounter practitioners who scribble down a parametric regression model and then proceed *as if their model had generated the data*.^[An easy *tell* is a parametric model that is additive, linear in parameters and predictors, and devoid of interaction terms.] No model selection exercise is attempted, model uncertainty is ignored, and statements are made about the underlying process that generated the data based solely on the model they scribbled down. That is, they proceed as if their ad hoc model is the *one true model* that faithfully mimics the unknown *data generating process* (DGP) and therefore could plausibly have generated the data. Any bridge that might otherwise connect the DGP to their model remains uncrossed. This is a conceit that betrays an excessively favourable opinion of the practitioner's ability to divine the true nature of unknown relationships. 
