@@ -1,0 +1,140 @@
+---
+title: "npRmpi is back from the grave"
+subtitle: "A draft note on the forthcoming np/npRmpi 0.70-2 release"
+author: "Jeffrey S. Racine"
+date: "2026-05-11"
+draft: true
+feed: false
+image: "images/preview.svg"
+image-alt: "Abstract release graphic connecting np, npRmpi, crs, CRAN, and the gallery"
+categories:
+  - Research
+  - Computing
+  - Open Web
+editor:
+  markdown:
+    wrap: 72
+---
+
+File this one under "things I did not quite expect to be writing about
+in 2026".
+
+Some background is likely in order. The `np` package has been on CRAN
+for a very long time now, and has quietly accumulated the joys and
+sorrows that come with long-lived research software. It is used in
+courses, papers, replications, and by people I have never met who are
+trying to estimate something flexible without pretending that every
+object in sight is Gaussian, linear, or continuous. That remains the
+point of the package.
+
+The upcoming `np` 0.70-2 release is therefore not a new package dressed
+up with a new version number. It is a fairly substantial modernization
+of a package whose core purpose remains unchanged: nonparametric kernel
+methods for regression, density, distribution, quantile, partially
+linear, single-index, and smooth-coefficient models, with mixed data
+types treated as first-class citizens rather than as an afterthought.
+
+The slightly more surprising news is that `npRmpi` is also back. The
+package had effectively gone dormant after its
+[2014 CRAN archive entry](https://cran.r-project.org/src/contrib/Archive/npRmpi/),
+then received the small 0.60-20 update needed to get it listed on CRAN
+again. The goal now is to have `npRmpi` move in step with `np` for users
+whose problems are large enough that parallel bandwidth selection,
+bootstrap inference, or plot-data construction are worth spreading over
+MPI workers. In other words, `npRmpi` is not a different statistical
+story. It is the same story with more machinery available when the job
+calls for it.
+
+There is a third package in this release train as well. The refreshed
+`crs` package supplies the current NOMAD solver interface used heavily
+by `np` and `npRmpi`, and the old `crs::npglpreg()` surface has been
+retired in favour of the more natural
+
+```r
+npreg(..., nomad = TRUE)
+```
+
+interface in `np` and `npRmpi`. This is the sort of change that is not
+especially glamorous, but it matters. Users should not have to remember
+which package temporarily housed which optimization route. They should
+be able to ask the estimator for the model they want, select NOMAD when
+appropriate, and get on with the analysis.
+
+The visible usability changes are mostly in that spirit. Plotting has a
+cleaner public interface, so common requests now look like ordinary R
+arguments rather than a tour through historical option names. Bootstrap
+bands, asymptotic standard errors, plot behavior, renderer choice, grid
+controls, and perspective controls are now much easier to express, while
+the older `plot.errors.*` names remain accepted for compatibility. The
+goal was to make the common things readable without breaking old code
+that people may reasonably still have in a replication archive.
+
+There are also a number of repairs and extensions under the surface.
+Conditional quantile regression has improved support for gradients and
+standard errors. Partially linear regression prediction can now return
+standard errors. Several local-linear and adaptive-nearest-neighbor
+routes have been tightened so that selected degree and basis choices are
+honoured consistently. Discrete probability estimates are projected back
+onto a proper probability simplex where appropriate. Bandwidth-search
+and plot-bootstrap routes now fail earlier and more informatively when
+they should, and are less inclined to sit silently while they do useful
+work.
+
+For `npRmpi`, the corresponding work was not simply a matter of turning
+on MPI and hoping for the best. The resurrected package needed renewed
+attention to worker setup, OpenMPI runtime discovery, master/worker
+dispatch, object-fed plot helpers, bootstrap fanout, and keeping the
+parallel package genuinely independent at runtime. The intended result
+is simple to state: the serial and MPI packages should agree in
+statistical behaviour, while the MPI version should give users a
+practical path for computationally heavier work.
+
+All of this has also prompted a broader cleanup of the public-facing
+material around the packages. The package gallery has been refreshed so
+that examples, documentation, vignettes, and issue links are easier to
+find. My research and CV pages have also been updated so that software,
+papers, books, and replication material are less scattered across the
+web. This may sound like housekeeping, but for open research software it
+is not a minor detail. If people cannot find the work, understand what
+is current, or report a problem when they find one, the software is less
+useful than it ought to be.
+
+Once the final tarballs have cleared CRAN, the links below should be the
+first places to look. Before this becomes the R-announce note, the
+version numbers should be checked one last time against CRAN; the
+intended release train is `np` 0.70-2, `npRmpi` 0.70-2, and `crs`
+0.15-43.
+
+- [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
+- [`npRmpi` on CRAN](https://cran.r-project.org/web/packages/npRmpi/index.html)
+- [`crs` on CRAN](https://cran.r-project.org/web/packages/crs/index.html)
+- [The package gallery](https://jeffreyracine.github.io/gallery/)
+- [Research contributions](https://jeffreyracine.github.io/research/)
+- [Curriculum vitae](https://jeffreyracine.github.io/vitae/)
+- [`np`/`npRmpi` source and issues](https://github.com/JeffreyRacine/R-Package-np)
+- [`crs` source and issues](https://github.com/JeffreyRacine/R-Package-crs)
+
+If you are coming to the packages after a long absence, the main thing
+to try is probably the simplest:
+
+```r
+library(np)
+
+fit <- npreg(y ~ x1 + x2, data = dat, nomad = TRUE)
+
+plot(fit, errors = "bootstrap", bootstrap = "inid", B = 399)
+```
+
+For larger jobs, the corresponding `npRmpi` workflow is intended to feel
+familiar rather than exotic. Start the workers, ask for the same
+statistical object, and let the package spread the computationally
+expensive parts where it can.
+
+This post is still a draft because CRAN has the last word on timing,
+and because announcement prose should never get too far ahead of the
+actual packages sitting on the CRAN mirrors. But the milestone is close
+enough that it seems worth saying out loud: `np` has received a serious
+usability pass, `crs` has been simplified around its current role, and
+`npRmpi` is no longer merely a line in the archive.
+
+Color me happy.

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">npRmpi release draft preview</title>
+  <desc id="desc">A clean abstract package release graphic with nodes for np, npRmpi, crs, CRAN, and the gallery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5f1e7"/>
+      <stop offset="0.48" stop-color="#eef4f0"/>
+      <stop offset="1" stop-color="#eaf1f7"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#17324d" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .small { font: 600 26px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #254052; }
+      .label { font: 700 42px/1.1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #142b3f; }
+      .title { font: 800 58px/1.1 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #142b3f; }
+      .sub { font: 500 30px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #426173; }
+      .line { fill: none; stroke: #8aa2a8; stroke-width: 7; stroke-linecap: round; stroke-opacity: 0.62; }
+      .dash { stroke-dasharray: 16 16; }
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M0 556 C164 499 269 599 439 532 C616 463 715 486 855 543 C992 599 1085 564 1200 512 L1200 675 L0 675 Z" fill="#d9e6e2"/>
+  <path d="M0 595 C159 563 283 641 447 589 C606 538 738 552 876 607 C1007 659 1105 621 1200 579 L1200 675 L0 675 Z" fill="#cbd9df" opacity="0.75"/>
+  <g transform="translate(104 78)">
+    <text class="title" x="0" y="0" dominant-baseline="hanging">npRmpi is back</text>
+    <text class="sub" x="2" y="79" dominant-baseline="hanging">np, npRmpi, crs, and a cleaner public research trail</text>
+  </g>
+  <g transform="translate(170 378)">
+    <path class="line" d="M130 -96 C247 -175 383 -177 517 -94"/>
+    <path class="line dash" d="M517 -94 C631 -23 725 -18 866 -89"/>
+    <path class="line" d="M130 -96 C224 -14 359 28 517 -94"/>
+    <path class="line" d="M517 -94 C621 -175 739 -172 866 -89"/>
+    <g filter="url(#softShadow)">
+      <circle cx="130" cy="-96" r="86" fill="#ffffff"/>
+      <circle cx="517" cy="-94" r="104" fill="#ffffff"/>
+      <circle cx="866" cy="-89" r="86" fill="#ffffff"/>
+      <rect x="368" y="103" width="298" height="112" rx="28" fill="#ffffff"/>
+    </g>
+    <circle cx="130" cy="-96" r="64" fill="#c7522a"/>
+    <circle cx="517" cy="-94" r="79" fill="#2f6f73"/>
+    <circle cx="866" cy="-89" r="64" fill="#3b6796"/>
+    <rect x="389" y="125" width="256" height="68" rx="21" fill="#d9a441"/>
+    <text class="label" x="130" y="-101" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">np</text>
+    <text class="label" x="517" y="-101" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">npRmpi</text>
+    <text class="label" x="866" y="-101" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">crs</text>
+    <text class="small" x="517" y="160" text-anchor="middle" dominant-baseline="middle" fill="#142b3f">CRAN + Gallery</text>
+  </g>
+  <g transform="translate(102 588)">
+    <text class="small" x="0" y="0">Forthcoming release note draft</text>
+    <text class="small" x="884" y="0" text-anchor="end">GPL research software</text>
+  </g>
+</svg>

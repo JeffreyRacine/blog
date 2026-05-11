@@ -11,4 +11,7 @@
 
 **/*.quarto_ipynb
 
+# Keep unpublished announcement drafts out of the GitHub Pages tree.
+/docs/posts/2026-05-11-nprmpi-back-from-the-grave/
+
 Readme.shiptons
