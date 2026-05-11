@@ -1,0 +1,190 @@
+---
+title: "Mixed-degree local polynomials arrive in np (and npRmpi rises from the grave)"
+subtitle: "Joint bandwidth and degree selection across conditional estimators"
+author: "Jeffrey S. Racine"
+date: "2026-05-11"
+image: "images/preview.svg"
+image-alt: "Abstract release graphic connecting mixed-degree local polynomial estimation, NOMAD, np, npRmpi, and crs"
+bibliography: "references.bib"
+categories:
+  - Research
+  - Computing
+  - Open Web
+editor:
+  markdown:
+    wrap: 72
+---
+
+File this one under "ideas that took a while to become practical".
+
+Some background is likely in order. The `np` package has been on CRAN
+for a very long time now, and has quietly accumulated the joys and
+sorrows that come with long-lived research software. It is used in
+courses, papers, replications, and by people I have never met who want
+to estimate something flexible without pretending that every object in
+sight is Gaussian, linear, or continuous. That remains the point of the
+package.
+
+The upcoming `np` 0.70-2 release is therefore not a new package dressed
+up with a new version number. It is a fairly substantial extension of a
+package whose core purpose remains unchanged: nonparametric kernel
+methods for regression, density, distribution, quantile, partially
+linear, single-index, smooth-coefficient, and modal models, with mixed
+data types treated as first-class citizens rather than afterthoughts.
+
+The headline change is the extension of local polynomial methods across
+the conditional estimators in the package. Historically, most of these
+methods were local constant. Regression had the familiar
+`regtype = "ll"` option for local linear estimation, but density,
+distribution, semiparametric regression, conditional quantiles, and
+modes largely lived in the local-constant world. That was useful, often
+enough, and also a real limitation.
+
+What is new is not merely that higher-order local polynomials are
+available. The more interesting step is that polynomial degree and
+bandwidths can be selected jointly. Better still, the selected
+polynomial degree need not be the same for every continuous covariate.
+One variable may call for a local constant fit, another for local
+linear, another for a higher order. Hall and Racine
+[-@hall-racine-2015] proposed infinite-order local polynomial
+regression; work currently under revision extends this logic to
+bounded-support conditional density estimation with known or unknown
+support [-@li-li-racine-2026-bkcde]. This is the practical idea: let
+the data help choose the amount of local polynomial structure variable
+by variable, rather than forcing the practitioner to make an ad hoc
+global choice before estimation begins.
+
+That sounds simple when written in one sentence, but computationally it
+is anything but simple. Jointly selecting continuous bandwidths and
+integer-valued polynomial degrees is a mixed-integer optimization
+problem, and these problems are famously difficult. In the past, serious
+work in this direction often meant reaching for commercial solvers such
+as [IBM ILOG CPLEX Optimizer](https://www.ibm.com/docs/en/icos/22.1.1?topic=in-cplex-class).
+That is powerful software, but not the open research-software path I
+wanted for `np`.
+
+The bridge is [NOMAD](https://www.gerad.ca/en/software/nomad/),
+developed by the team at GERAD. They kindly gave me permission to
+include NOMAD in the
+[`crs`](https://cran.r-project.org/web/packages/crs/index.html)
+package, which I authored with Zhenghua Nie, and that has made it
+possible to bring this machinery into the `np` and `npRmpi` workflows
+using sophisticated open-source optimization tools that sit much more
+naturally with the [R philosophy](https://www.r-project.org/). The
+refreshed `crs` package now supplies the NOMAD solver interface used by
+`np` and `npRmpi`, while the old `crs::npglpreg()` surface has been
+retired in favour of the more natural
+
+```r
+npreg(..., nomad = TRUE)
+```
+
+interface in `np` and `npRmpi`. Users should not have to remember which
+package temporarily housed which optimization route. They should be able
+to ask the estimator for the model they want, select NOMAD when
+appropriate, and get on with the analysis.
+
+There is a broader cluster of recent extensions around that central
+change. The Gallery now highlights several of them more prominently:
+
+- bounded-support and proper local-polynomial conditional density and
+  distribution methods;
+- a more direct `npqreg` workflow, including formula support, vector
+  `tau`, gradients, standard errors, and NOMAD degree-and-bandwidth
+  pass-through;
+- a more natural `npconmode` workflow for classification and conditional
+  modes;
+- Bonferroni and simultaneous variability bounds on plots;
+- interactive plotting surfaces through `renderer = "rgl"` when `rgl`
+  is available.
+
+These are not separate stories so much as consequences of making the
+conditional-family machinery more coherent.
+
+The slightly more surprising news is that `npRmpi` is also back from
+the grave. The package had effectively gone dormant after its
+[2014 CRAN archive entry](https://cran.r-project.org/src/contrib/Archive/npRmpi/),
+then received the small 0.60-20 update needed to get it listed on CRAN
+again. The goal now is to have `npRmpi` move in step with `np` for users
+whose problems are large enough that parallel bandwidth selection,
+mixed-degree searches, bootstrap inference, or plot-data construction
+are worth spreading over MPI workers. In other words, `npRmpi` is not a
+different statistical story. It is the same story with more machinery
+available when the job calls for it.
+
+This matters practically because the old `npRmpi` workflow often
+required users to wrap ordinary code in explicit MPI calls. That is
+still available through the profile/manual-broadcast route for people
+who want that level of control, but it is no longer the only way to
+work. The current package supports profile, attach, and session modes.
+In session mode, once MPI has been initialized, the analysis code is
+essentially interchangeable with ordinary `np` code: fit the model,
+inspect the object, plot it, and move between serial and MPI execution
+with far less ceremony. That should make it much easier to exploit the
+multiple cores already sitting on a desktop or laptop without turning
+every analysis script into an MPI programming exercise.
+
+The visible usability changes are in the same spirit. Plotting has a
+cleaner public interface, so common requests now look like ordinary R
+arguments rather than a tour through historical option names. Bootstrap
+bands, asymptotic standard errors, plot behavior, renderer choice, grid
+controls, and perspective controls are now easier to express, while the
+older `plot.errors.*` names remain accepted for compatibility. There
+has also been renewed attention to worker setup, OpenMPI runtime
+discovery, master/worker dispatch, object-fed plot helpers, bootstrap
+fanout, and keeping `npRmpi` genuinely independent at runtime. The
+intended result is simple: serial and MPI packages should agree in
+statistical behaviour, while the MPI version gives users a practical
+path for computationally heavier work.
+
+All of this has also prompted a broader cleanup of the public-facing
+material around the packages. The package gallery has been refreshed so
+that examples, documentation, vignettes, and issue links are easier to
+find. My research and CV pages have also been updated so that software,
+papers, books, and replication material are less scattered across the
+web. This may sound like housekeeping, but for open research software it
+is not a minor detail. If people cannot find the work, understand what
+is current, or report a problem when they find one, the software is less
+useful than it ought to be.
+
+Once the final tarballs have cleared CRAN, the links below should be the
+first places to look. Before this becomes the R-announce note, the
+version numbers should be checked one last time against CRAN; the
+intended release train is `np` 0.70-2, `npRmpi` 0.70-2, and `crs`
+0.15-43.
+
+- [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
+- [`npRmpi` on CRAN](https://cran.r-project.org/web/packages/npRmpi/index.html)
+- [`crs` on CRAN](https://cran.r-project.org/web/packages/crs/index.html)
+- [The package gallery](https://jeffreyracine.github.io/gallery/)
+- [Research contributions](https://jeffreyracine.github.io/research/)
+- [Curriculum vitae](https://jeffreyracine.github.io/vitae/)
+- [`np`/`npRmpi` source and issues](https://github.com/JeffreyRacine/R-Package-np)
+- [`crs` source and issues](https://github.com/JeffreyRacine/R-Package-crs)
+
+If you are coming to the packages after a long absence, the main thing
+to try is probably the simplest:
+
+```r
+library(np)
+
+fit <- npreg(y ~ x1 + x2, data = dat, nomad = TRUE)
+
+plot(fit, errors = "bootstrap", bootstrap = "inid", B = 399)
+```
+
+For larger jobs, the corresponding `npRmpi` workflow is intended to feel
+familiar rather than exotic. Initialize session mode, ask for the same
+statistical object, and let the package spread the computationally
+expensive parts where it can.
+
+This note remains provisional because CRAN has the last word on timing,
+and because announcement prose should never get too far ahead of the
+actual packages sitting on the CRAN mirrors. But the milestone is close
+enough that it seems worth saying out loud: local polynomial methods in
+`np` are no longer confined to a narrow corner of regression, joint
+degree-bandwidth selection is available through open tools, and `npRmpi`
+is no longer merely a line in the archive or a wrapper-heavy MPI
+exercise.
+
+Color me happy.

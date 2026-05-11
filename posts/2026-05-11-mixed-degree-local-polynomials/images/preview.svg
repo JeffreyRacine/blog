@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">npRmpi release draft preview</title>
-  <desc id="desc">A clean abstract package release graphic with nodes for np, npRmpi, crs, CRAN, and the gallery.</desc>
+  <title id="title">Mixed-degree local polynomial release preview</title>
+  <desc id="desc">A clean abstract release graphic with nodes for mixed-degree local polynomial estimation, NOMAD, np, npRmpi, and crs.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0" stop-color="#f5f1e7"/>
@@ -23,8 +23,8 @@
   <path d="M0 556 C164 499 269 599 439 532 C616 463 715 486 855 543 C992 599 1085 564 1200 512 L1200 675 L0 675 Z" fill="#d9e6e2"/>
   <path d="M0 595 C159 563 283 641 447 589 C606 538 738 552 876 607 C1007 659 1105 621 1200 579 L1200 675 L0 675 Z" fill="#cbd9df" opacity="0.75"/>
   <g transform="translate(104 78)">
-    <text class="title" x="0" y="0" dominant-baseline="hanging">npRmpi is back</text>
-    <text class="sub" x="2" y="79" dominant-baseline="hanging">np, npRmpi, crs, and a cleaner public research trail</text>
+    <text class="title" x="0" y="0" dominant-baseline="hanging">Mixed-degree local polynomials</text>
+    <text class="sub" x="2" y="79" dominant-baseline="hanging">np gains mixed-degree LP; npRmpi rises again</text>
   </g>
   <g transform="translate(170 378)">
     <path class="line" d="M130 -96 C247 -175 383 -177 517 -94"/>
@@ -42,12 +42,12 @@
     <circle cx="866" cy="-89" r="64" fill="#3b6796"/>
     <rect x="389" y="125" width="256" height="68" rx="21" fill="#d9a441"/>
     <text class="label" x="130" y="-101" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">np</text>
-    <text class="label" x="517" y="-101" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">npRmpi</text>
+    <text class="label" x="517" y="-101" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">NOMAD</text>
     <text class="label" x="866" y="-101" text-anchor="middle" dominant-baseline="middle" fill="#ffffff">crs</text>
-    <text class="small" x="517" y="160" text-anchor="middle" dominant-baseline="middle" fill="#142b3f">CRAN + Gallery</text>
+    <text class="small" x="517" y="160" text-anchor="middle" dominant-baseline="middle" fill="#142b3f">np + npRmpi</text>
   </g>
   <g transform="translate(102 588)">
-    <text class="small" x="0" y="0">Forthcoming release note draft</text>
+    <text class="small" x="0" y="0">Forthcoming release note</text>
     <text class="small" x="884" y="0" text-anchor="end">GPL research software</text>
   </g>
 </svg>
