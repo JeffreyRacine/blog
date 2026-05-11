@@ -4,6 +4,8 @@ author: Jeffrey S. Racine
 date: 2018-06-23
 draft: false
 feed: true
+image: images/preview.svg
+image-alt: "Network of public academic profile nodes"
 categories:
   - Research
   - Open Web

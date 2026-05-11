@@ -4,6 +4,8 @@ author: Jeffrey S. Racine
 date: 2023-08-11
 draft: false
 feed: true
+image: images/preview.svg
+image-alt: "Abstract migration from blogdown to Quarto"
 categories:
   - Computing
   - Open Web

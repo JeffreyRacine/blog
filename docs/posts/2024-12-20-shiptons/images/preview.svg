@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">HVAC service note</title>
+  <desc id="desc">Abstract service note with vents, warning marks, and a restrained editorial palette.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e5efe8"/>
+      <stop offset="1" stop-color="#f7f4eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="135" y="120" width="930" height="560" rx="36" fill="#fffefa" stroke="#d8ded8" stroke-width="6"/>
+  <rect x="210" y="195" width="410" height="260" rx="22" fill="#edf4f3" stroke="#c9d8d5" stroke-width="5"/>
+  <path d="M265 255h300M265 315h300M265 375h300" stroke="#144e58" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="820" cy="305" r="105" fill="#f6e6df" stroke="#8f4f3f" stroke-width="10"/>
+  <path d="M820 235v95" stroke="#8f4f3f" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="820" cy="390" r="13" fill="#8f4f3f"/>
+  <path d="M230 540h560M230 595h410" stroke="#5f7077" stroke-width="20" stroke-linecap="round" opacity=".6"/>
+  <path d="M900 520l75 75M975 520l-75 75" stroke="#8f4f3f" stroke-width="22" stroke-linecap="round"/>
+</svg>

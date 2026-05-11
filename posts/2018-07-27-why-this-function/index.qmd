@@ -4,6 +4,8 @@ author: Jeffrey S. Racine
 date: 2018-07-27
 draft: false
 feed: true
+image: images/preview.svg
+image-alt: "Model specification graphic showing a straight line and flexible curve"
 categories:
   - Econometrics
   - Research

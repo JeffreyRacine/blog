@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Model specification</title>
+  <desc id="desc">A rigid straight line contrasted with a flexible curve on a small coordinate plane.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e5efe8"/>
+      <stop offset="1" stop-color="#f7f4eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="145" y="115" width="910" height="570" rx="36" fill="#fffefa" stroke="#d8ded8" stroke-width="6"/>
+  <path d="M255 585V220M255 585h725" stroke="#18343f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M300 520C410 380 505 435 600 330S785 210 950 270" fill="none" stroke="#0f6b6f" stroke-width="20" stroke-linecap="round"/>
+  <path d="M305 505L945 255" stroke="#8f4f3f" stroke-width="16" stroke-linecap="round" stroke-dasharray="34 28"/>
+  <circle cx="350" cy="465" r="14" fill="#144e58"/>
+  <circle cx="500" cy="405" r="14" fill="#144e58"/>
+  <circle cx="660" cy="320" r="14" fill="#144e58"/>
+  <circle cx="820" cy="255" r="14" fill="#144e58"/>
+  <text x="340" y="195" fill="#18343f" font-family="Georgia, serif" font-size="96" font-weight="700">WTF?</text>
+  <text x="340" y="655" fill="#5f7077" font-family="Arial, sans-serif" font-size="34">functional form is not a guess</text>
+</svg>

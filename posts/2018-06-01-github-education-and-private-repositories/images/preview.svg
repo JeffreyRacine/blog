@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Education</title>
+  <desc id="desc">Private repository and education symbols in an academic web style.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e5efe8"/>
+      <stop offset="1" stop-color="#f7f4eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="185" y="170" width="830" height="430" rx="36" fill="#fffefa" stroke="#d8ded8" stroke-width="6"/>
+  <path d="M295 305h330M295 375h250M295 445h410" stroke="#5f7077" stroke-width="20" stroke-linecap="round" opacity=".55"/>
+  <rect x="760" y="300" width="150" height="135" rx="18" fill="#edf4f3" stroke="#144e58" stroke-width="10"/>
+  <path d="M790 300v-45c0-48 36-82 82-82s82 34 82 82v45" fill="none" stroke="#144e58" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="835" cy="365" r="17" fill="#0f6b6f"/>
+  <path d="M835 382v42" stroke="#0f6b6f" stroke-width="16" stroke-linecap="round"/>
+  <path d="M245 630h710" stroke="#0f6b6f" stroke-width="16" stroke-linecap="round" opacity=".75"/>
+  <text x="285" y="260" fill="#18343f" font-family="Georgia, serif" font-size="66" font-weight="700">GitHub Education</text>
+</svg>

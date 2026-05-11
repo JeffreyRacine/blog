@@ -135,6 +135,7 @@
   <category>Home</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2024-12-20-shiptons/</guid>
   <pubDate>Thu, 02 Jan 2025 05:00:00 GMT</pubDate>
+  <media:content url="https://jeffreyracine.github.io/blog/posts/2024-12-20-shiptons/images/preview.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>Tired old kitchen gets a face-lift</title>
@@ -374,6 +375,7 @@ Idle Latency: 6.000 milliseconds | 10000 RPM</p>
   <category>Open Web</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/</guid>
   <pubDate>Fri, 11 Aug 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://jeffreyracine.github.io/blog/posts/2023-08-11-quarto-migration/images/preview.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>My sourdough adventure</title>
@@ -670,6 +672,7 @@ two rows of soldiers who strike out and attack them. -->
   <category>Research</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/</guid>
   <pubDate>Fri, 27 Jul 2018 04:00:00 GMT</pubDate>
+  <media:content url="https://jeffreyracine.github.io/blog/posts/2018-07-27-why-this-function/images/preview.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>Academic networks &amp; public profiles</title>
@@ -713,6 +716,7 @@ two rows of soldiers who strike out and attack them. -->
   <category>Open Web</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/</guid>
   <pubDate>Sat, 23 Jun 2018 04:00:00 GMT</pubDate>
+  <media:content url="https://jeffreyracine.github.io/blog/posts/2018-06-23-academic-networks-public-profiles/images/preview.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>GitHub Education and private repositories</title>
@@ -751,6 +755,7 @@ two rows of soldiers who strike out and attack them. -->
   <category>Research</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/</guid>
   <pubDate>Fri, 01 Jun 2018 04:00:00 GMT</pubDate>
+  <media:content url="https://jeffreyracine.github.io/blog/posts/2018-06-01-github-education-and-private-repositories/images/preview.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>More on blogdown</title>
@@ -879,6 +884,7 @@ Xie, Yihui. 2018. <em>Blogdown: Create Blogs and Websites with r Markdown</em>. 
   <category>Open Web</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/</guid>
   <pubDate>Sun, 27 May 2018 04:00:00 GMT</pubDate>
+  <media:content url="https://jeffreyracine.github.io/blog/posts/2018-05-27-hugo-websites-and-blogdown/images/preview.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
 </rss>
