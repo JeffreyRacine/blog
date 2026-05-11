@@ -4,14 +4,23 @@ image: headshot_cropped_circle.png
 about:
   template: jolla
   links:
+    - icon: journal-text
+      text: Research Website
+      href: https://jeffreyracine.github.io/research/
+    - icon: code-square
+      text: Gallery of Code
+      href: https://jeffreyracine.github.io/gallery/
+    - icon: file-earmark-person
+      text: CV
+      href: https://jeffreyracine.github.io/vitae/
     - icon: github
       text: Public GitHub Repositories
       href: https://github.com/JeffreyRacine
 ---
 
-This website exists to encourage discussion about any manner of things, academic or otherwise. If this site has a bias, it is likely towards open and free computing technology that streamlines workflow, particularly tools for pursuing reproducible research. One difference between this site and my [primary academic website](https://experts.mcmaster.ca/display/racinej) is the presence of a blog that presents a forum for further discussion in the public sphere.
+This website exists to encourage discussion about any manner of things, academic or otherwise. If this site has a bias, it is likely towards open and free computing technology that streamlines workflow, particularly tools for pursuing reproducible research. One difference between this site and my [research website](https://jeffreyracine.github.io/research/) is the presence of a blog that presents a forum for further discussion in the public sphere.
 
-If you are searching for working papers, information about R packages or textbooks that I have authored, a current curriculum vitae, course information and the like, kindly [visit my primary McMaster academic website](https://experts.mcmaster.ca/display/racinej).
+If you are searching for working papers, information about R packages or textbooks that I have authored, a current curriculum vitae, course information and the like, kindly visit my [research website](https://jeffreyracine.github.io/research/), [gallery of code](https://jeffreyracine.github.io/gallery/), or [CV](https://jeffreyracine.github.io/vitae/). My [McMaster profile](https://experts.mcmaster.ca/display/racinej) remains available as the institutional profile.
 
 <i class="fa fa-rss"></i> To receive blog updates from this site, you can subscribe using an [RSS feed reader](https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader) by simply adding the URL for this site to your RSS feed (I use [feedly](https://feedly.com/i/welcome)).
 
@@ -21,4 +30,4 @@ I am a Professor in the Department of Economics and a Professor in the Graduate 
 
 My research interests include nonparametric estimation and inference, shape constrained estimation, cross-validatory model selection, frequentist model averaging, nonparametric instrumental methods, and entropy-based measures of dependence and their statistical underpinnings. I am also interested in parallel distributed computing paradigms and their application to computationally intensive nonparametric estimators.
 
-I am currently serving as an Associate Editor for the journal [*Econometric Reviews*](https://www.tandfonline.com/loi/lecr20).
+I served as an Associate Editor for the journal [*Econometric Reviews*](https://www.tandfonline.com/loi/lecr20) from 2012 to 2025.

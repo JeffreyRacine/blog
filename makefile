@@ -1,7 +1,10 @@
-all:
+all: render stage
 
+render:
 	quarto render
-	git add docs posts
+
+stage:
+	git add -A .
 
 preview:
 
@@ -9,4 +12,7 @@ preview:
 
 clean:
 
-	rm -rf docs _freeze */*~ */*/*~ */*/*/*~ */*.bak */*/*.bak */*/*/*.bak
+	rm -rf docs _freeze .quarto
+	find . -name ".DS_Store" -delete
+	find . -name ".Rhistory" -delete
+	find . \( -name "*~" -o -name "*.bak" \) -delete

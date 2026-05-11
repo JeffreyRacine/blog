@@ -4,27 +4,27 @@ project:
 
 website:
   title: Jeffrey S. Racine's Personal Blog
-  site-url: https://jeffreyracine.github.io/blog
+  site-url: https://jeffreyracine.github.io/blog/
+  repo-url: https://github.com/JeffreyRacine/blog
+  repo-actions: [source]
   navbar:
     right:
       - about.qmd
+      - text: Research
+        href: https://jeffreyracine.github.io/research/
+      - text: Gallery
+        href: https://jeffreyracine.github.io/gallery/
+      - text: CV
+        href: https://jeffreyracine.github.io/vitae/
       - icon: github
-        href: https://github.com/JeffreyRacine
+        href: https://github.com/JeffreyRacine/blog
+        aria-label: Blog source on GitHub
       - icon: rss
         href: index.xml
-
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  feed: true
+        aria-label: RSS feed
 
 format:
   html:
     theme: cosmo
     css: styles.css
-
-
-
+    link-external-newwindow: true

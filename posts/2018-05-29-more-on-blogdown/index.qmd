@@ -41,10 +41,11 @@ Table: Here's the caption. It, too, may span
 multiple lines.
 
 And, naturally, we can effortlessly generate figures via inline R code, complete with captions and figure numbering if desired:
-```{r testfig,echo=FALSE,fig.align='center'}
+```{r}
 #| label: fig-testfig
+#| echo: false
+#| fig-align: center
 #| fig-cap: "Kernel Density Estimator Example."
-## Modified by adding the above in order for Quarto Markdown to produce proper reference
 set.seed(42)
 plot(density(rchisq(10000,df=5)),main="")
 ```
@@ -55,8 +56,9 @@ As well, we can use Bib$\rm\TeX$ for references using bookdown reference syntax,
 
 And, finally, we can create interactive HTML widgets using a simple R Markdown code chunk (this required only one line of R code); enter 0.2 in the search bar which will filter on rows with a Petal Width of 0.2:
 
-```{r,echo=FALSE}
-widgetframe::frameWidget(DT::datatable(iris), height='90%', width='90%')
+```{r}
+#| echo: false
+DT::datatable(iris)
 ```
 
 So, from an academic perspective, this is pretty exciting since it takes all of the standard tools of the trade (R,  $\rm\LaTeX$, Bib$\rm\TeX$, markdown and bookdown) and allows one to leverage these tools without having to master the art of website creation. *Focus on the narrative, not the tools*.
