@@ -47,12 +47,12 @@ polynomial degree need not be the same for every continuous covariate.
 One variable may call for a local constant fit, another for local
 linear, another for a higher order. Hall and Racine
 [-@hall-racine-2015] proposed infinite-order local polynomial
-regression; work currently under revision extends this logic to
-bounded-support conditional density estimation with known or unknown
-support [-@li-li-racine-2026-bkcde]. This is the practical idea: let
-the data help choose the amount of local polynomial structure variable
-by variable, rather than forcing the practitioner to make an ad hoc
-global choice before estimation begins.
+regression; Li, Li, and Racine [-@li-li-racine-2026-bkcde] extend this
+logic to bounded-support conditional density estimation with known or
+unknown support in work currently under revision. This is the practical
+idea: let the data help choose the amount of local polynomial structure
+variable by variable, rather than forcing the practitioner to make an ad
+hoc global choice before estimation begins.
 
 That sounds simple when written in one sentence, but computationally it
 is anything but simple. Jointly selecting continuous bandwidths and
@@ -88,12 +88,17 @@ There is a broader cluster of recent extensions around that central
 change. The Gallery now highlights several of them more prominently:
 
 - bounded-support and proper local-polynomial conditional density and
-  distribution methods;
+  distribution methods, exposed through `ckerbound` and the conditional
+  `cxkerbound`/`cykerbound` controls (`"range"` for empirical support,
+  `"fixed"` with `*lb`/`*ub` for user-supplied bounds), drawing on
+  boundary-adaptive kernel ideas [@racine-li-wang-2024];
 - a more direct `npqreg` workflow, including formula support, vector
   `tau`, gradients, standard errors, and NOMAD degree-and-bandwidth
   pass-through;
 - a more natural `npconmode` workflow for classification and conditional
-  modes;
+  modes, with ordered-datatype probability smoothing available through
+  the Racine-Li-Yan ordered kernel (`okertype = "racineliyan"`, and
+  `oxkertype`/`oykertype` in conditional routes) [-@racine-li-yan-2020];
 - Bonferroni and simultaneous variability bounds on plots;
 - interactive plotting surfaces through `renderer = "rgl"` when `rgl`
   is available.
@@ -168,10 +173,29 @@ to try is probably the simplest:
 ```r
 library(np)
 
-fit <- npreg(y ~ x1 + x2, data = dat, nomad = TRUE)
+set.seed(42)
+n <- 1000
 
-plot(fit, errors = "bootstrap", bootstrap = "inid", B = 399)
+x <- sort(runif(n, -2, 2))
+y <- x + 0.1*x^5 + rnorm(n)
+
+fit <- npreg(y ~ x, nomad = TRUE)
+
+plot(fit, errors = "bootstrap", band = "all")
+
+summary(fit)
 ```
+
+In this simple example NOMAD recovers the fifth-degree polynomial
+structure without being told the data-generating process. Since the
+selected polynomial order matches the DGP and cross-validation selects a
+large bandwidth, the estimator effectively becomes a global polynomial
+fit rather than a local one, and achieves the parametric $\sqrt{n}$ rate
+shown by Hall and Racine [-@hall-racine-2015]. But the point is not
+limited to finite polynomials: their theory covers a rich class of
+particularly smooth analytic DGPs, including trigonometric functions and
+exponentiated polynomials, so the method remains nonparametric while
+being capable of parametric-rate behavior when the data support it.
 
 For larger jobs, the corresponding `npRmpi` workflow is intended to feel
 familiar rather than exotic. Initialize session mode, ask for the same
