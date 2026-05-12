@@ -222,6 +222,18 @@ particularly smooth analytic DGPs, including trigonometric functions and
 exponentiated polynomials, so the method remains nonparametric while
 being capable of parametric-rate behavior when the data support it.
 
+For comparison, it is also worth looking at the corresponding local
+constant and local linear fits. They are the traditional defaults one
+might have used before the mixed-degree route was available.
+
+```r
+fit.lc <- npreg(y ~ x)
+plot(fit.lc, errors = "bootstrap", band = "all")
+
+fit.ll <- npreg(y ~ x, regtype = "ll")
+plot(fit.ll, errors = "bootstrap", band = "all")
+```
+
 For larger jobs, the corresponding `npRmpi` workflow is intended to feel
 familiar and, hopefully, comfortable. Initialize session mode, ask for
 the same statistical object, and let the package spread the computationally

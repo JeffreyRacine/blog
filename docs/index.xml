@@ -138,6 +138,48 @@ font-style: inherit;">"all"</span>)</span>
 background-color: null;
 font-style: inherit;">summary</span>(fit)</span></code></pre></div></div>
 <p>In this simple example NOMAD recovers the fifth-degree polynomial structure without being told the data-generating process. Since the selected polynomial order matches the DGP and cross-validation selects a large bandwidth, the estimator effectively becomes a global polynomial fit rather than a local one, and achieves the parametric <img src="https://latex.codecogs.com/png.latex?%5Csqrt%7Bn%7D"> rate shown by Hall and Racine <span class="citation" data-cites="hall-racine-2015">(2015)</span>. But the point is not limited to finite polynomials: their theory covers a rich class of particularly smooth analytic DGPs, including trigonometric functions and exponentiated polynomials, so the method remains nonparametric while being capable of parametric-rate behavior when the data support it.</p>
+<p>For comparison, it is also worth looking at the corresponding local constant and local linear fits. They are the traditional defaults one might have used before the mixed-degree route was available.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">fit.lc <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">npreg</span>(y <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> x)</span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(fit.lc, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">errors =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bootstrap"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">band =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"all"</span>)</span>
+<span id="cb3-3"></span>
+<span id="cb3-4">fit.ll <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">npreg</span>(y <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> x, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">regtype =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ll"</span>)</span>
+<span id="cb3-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(fit.ll, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">errors =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bootstrap"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">band =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"all"</span>)</span></code></pre></div></div>
 <p>For larger jobs, the corresponding <code>npRmpi</code> workflow is intended to feel familiar and, hopefully, comfortable. Initialize session mode, ask for the same statistical object, and let the package spread the computationally expensive parts where it can.</p>
 <p>This note remains provisional because CRAN has the last word on timing, and because announcement prose should never get too far ahead of the actual packages sitting on the CRAN mirrors. But the milestone is close enough that it seems worth saying out loud: local polynomial methods in <code>np</code> are no longer confined to a narrow corner of regression, joint degree-bandwidth selection is available through open tools, and <code>npRmpi</code> is no longer merely a line in the archive or a wrapper-heavy MPI exercise.</p>
 <p>Color me happy.</p>
