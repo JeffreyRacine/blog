@@ -17,39 +17,46 @@ editor:
 
 File this one under "ideas that took a while to become mainstream".
 
-Some background is likely in order. The `np` package has been on CRAN
-for a very long time now, and has quietly accumulated the joys and
-sorrows that come with long-lived research software. It is used in
-courses, papers, replications, and by people I have never met who want
+Some background is likely in order. The `np` and `npRmpi` packages have
+been on CRAN for a very long time now, and have lived through the ups
+and downs experienced by any long-lived research software project: bug
+fixes, maintenance, refreshes, updates, and so forth. In fact, the CRAN
+archives indicate that the first archived version was `np_0.12-1.tar.gz`,
+released on `2006-11-19` and weighing in at 246K
+(<https://cran.r-project.org/src/contrib/Archive/np/>). These packages
+are used in courses, papers, replications, and by people I have never met who want
 to estimate something flexible without pretending that every object in
 sight is Gaussian, linear, or continuous. That remains the point of the
-package.
+packages.
 
-The upcoming `np` 0.70-2 release is therefore not a new package dressed
-up with a new version number. It is a fairly substantial extension of a
-package whose core purpose remains unchanged: nonparametric kernel
-methods for regression, density, distribution, quantile, partially
-linear, single-index, smooth-coefficient, and modal models, with mixed
-data types treated as first-class citizens rather than afterthoughts.
+The upcoming `np` and `npRmpi` 0.70-2 releases are not simply minor
+updates dressed up with new version numbers. They are fairly substantial
+extensions of packages whose core purpose remains unchanged: providing
+researchers and practitioners with useful open-source nonparametric
+kernel methods for regression, density, distribution, quantile,
+partially linear, single-index, smooth-coefficient, and modal models,
+with mixed data types treated as first-class citizens rather than
+afterthoughts.
 
-The headline change is the extension of local polynomial methods across
-the conditional estimators in the package. Historically, most of these
-methods were local constant. Regression had the familiar
+The headline change, among several, is the extension of local polynomial
+methods across the conditional estimators in the package. Historically,
+most of these methods were local constant. Regression had the familiar
 `regtype = "ll"` option for local linear estimation, but density,
 distribution, semiparametric regression, conditional quantiles, and
 modes largely lived in the local-constant world. That was useful, often
-enough, and also a real limitation.
+enough, and also a potential limitation.
 
 What is new is not merely that higher-order local polynomials are
-available. The more interesting step is that polynomial degree and
-bandwidths can be selected jointly. Better still, the selected
+available. The more interesting update is that the polynomial degree and
+bandwidth vectors can be selected jointly. Better still, the selected
 polynomial degree need not be the same for every continuous covariate.
-One variable may call for a local constant fit, another for local
-linear, another for a higher order. Hall and Racine
+One variable may call for a local constant fit (degree 0), another for
+local linear (degree 1), another for a higher order (degree $p$). Hall
+and Racine
 [-@hall-racine-2015] proposed infinite-order local polynomial
 regression; Li, Li, and Racine [-@li-li-racine-2026-bkcde] extend this
 logic to bounded-support conditional density estimation with known or
-unknown support in work currently under revision. This is the practical
+unknown support in work currently under revision. Here is the basic
 idea: let the data help choose the amount of local polynomial structure
 variable by variable, rather than forcing the practitioner to make an ad
 hoc global choice before estimation begins.
@@ -84,44 +91,57 @@ package temporarily housed which optimization route. They should be able
 to ask the estimator for the model they want, select NOMAD when
 appropriate, and get on with the analysis.
 
-There is a broader cluster of recent extensions around that central
-change. The Gallery now highlights several of them more prominently:
+There is also a broader set of recent extensions around that central
+change. The [Gallery of Code](https://jeffreyracine.github.io/gallery/)
+is being updated to highlight several of them more prominently:
 
-- bounded-support and proper local-polynomial conditional density and
-  distribution methods, exposed through `ckerbound` and the conditional
+- bounded-support and *statistically proper* local-polynomial extensions
+  of conditional density and distribution methods, exposed through
+  `proper = TRUE`, `ckerbound`, and the conditional
   `cxkerbound`/`cykerbound` controls (`"range"` for empirical support,
   `"fixed"` with `*lb`/`*ub` for user-supplied bounds), drawing on
   boundary-adaptive kernel ideas [@racine-li-wang-2024];
-- a more direct `npqreg` workflow, including formula support, vector
-  `tau`, gradients, standard errors, and NOMAD degree-and-bandwidth
-  pass-through;
-- a more natural `npconmode` workflow for classification and conditional
-  modes, with ordered-datatype probability smoothing available through
+- more natural and complete `npqreg` and `npconmode` workflows, including
+  formula support, vector `tau` (`npqreg`), gradients, standard errors,
+  and NOMAD degree-and-bandwidth pass-through;
+- ordered-datatype probability smoothing available through
   the Racine-Li-Yan ordered kernel (`okertype = "racineliyan"`, and
   `oxkertype`/`oykertype` in conditional routes) [@racine-li-yan-2020];
-- Bonferroni and simultaneous variability bounds on plots;
+- Bonferroni and simultaneous variability bounds on plots with data
+  overlays by default;
 - interactive plotting surfaces through `renderer = "rgl"` when `rgl`
-  is available.
+  is available, with transparent wireframes replacing the previous
+  perspective plots.
 
-These are not separate stories so much as consequences of making the
-conditional-family machinery more coherent.
+These are not simply incremental patches. They are consequences of
+making the conditional-family machinery more coherent.
 
-The slightly more surprising news is that `npRmpi` is also back from
-the grave. The package had effectively gone dormant after its
-[2014 CRAN archive entry](https://cran.r-project.org/src/contrib/Archive/npRmpi/),
-then received the small 0.60-20 update needed to get it listed on CRAN
-again. The goal now is to have `npRmpi` move in step with `np` for users
+For a small but devoted band of users who endured years of working with
+an outdated version of the `npRmpi` package, the slightly more
+noteworthy news may be that `npRmpi` is now back from the grave. The
+package had effectively lain dormant after its last
+[2014 CRAN-era release](https://cran.r-project.org/src/contrib/Archive/npRmpi/)
+because my co-author Tristen Hayfield, largely responsible for bringing
+this package to life, had moved on after completing his Ph.D. in
+computational astrophysics at ETH Zurich, and I never seemed able to
+muster the time or energy to keep it current. That changed toward the
+end of 2025, and the package received the small 0.60-20 update needed
+to get it listed on CRAN again in early 2026. The goal now is to have
+`npRmpi` move in step with `np` for users
 whose problems are large enough that parallel bandwidth selection,
 mixed-degree searches, bootstrap inference, or plot-data construction
 are worth spreading over MPI workers. In other words, `npRmpi` is not a
 different statistical story. It is the same story with more machinery
-available when the job calls for it.
+available when the job calls for it: a fully fleshed-out companion
+implementation of `np` designed for heavier workloads.
 
-This matters practically because the old `npRmpi` workflow often
-required users to wrap ordinary code in explicit MPI calls. That is
-still available through the profile/manual-broadcast route for people
-who want that level of control, but it is no longer the only way to
-work. The current package supports profile, attach, and session modes.
+What users of the previous versions may notice most is that the old
+`npRmpi` workflow often required users to wrap ordinary code in explicit
+MPI calls, while the new version does not. That route remains available
+through the profile/manual-broadcast interface for people who want that
+level of control and the small but consistent speed advantages it
+affords, but it is no longer the only way to work. The current package
+supports `profile`, `attach`, and `session` modes.
 In session mode, once MPI has been initialized, the analysis code is
 essentially interchangeable with ordinary `np` code: fit the model,
 inspect the object, plot it, and move between serial and MPI execution
@@ -130,12 +150,13 @@ multiple cores already sitting on a desktop or laptop without turning
 every analysis script into an MPI programming exercise.
 
 The visible usability changes are in the same spirit. Plotting has a
-cleaner public interface, so common requests now look like ordinary R
+cleaner public interface (both packages have received a substantial plot
+redesign), so common requests now look like ordinary R
 arguments rather than a tour through historical option names. Bootstrap
 bands, asymptotic standard errors, plot behavior, renderer choice, grid
 controls, and perspective controls are now easier to express, while the
 older `plot.errors.*` names remain accepted for compatibility. There
-has also been renewed attention to worker setup, OpenMPI runtime
+has also been substantial work on worker setup, OpenMPI runtime
 discovery, master/worker dispatch, object-fed plot helpers, bootstrap
 fanout, and keeping `npRmpi` genuinely independent at runtime. The
 intended result is simple: serial and MPI packages should agree in
@@ -143,14 +164,15 @@ statistical behaviour, while the MPI version gives users a practical
 path for computationally heavier work.
 
 All of this has also prompted a broader cleanup of the public-facing
-material around the packages. The package gallery has been refreshed so
-that examples, documentation, vignettes, and issue links are easier to
-find. My research and CV pages have also been updated so that software,
-papers, books, and replication material are less scattered across the
-web. This may sound like housekeeping, but for open research software it
-is not a minor detail. If people cannot find the work, understand what
-is current, or report a problem when they find one, the software is less
-useful than it ought to be.
+material around the packages. The package gallery is being refreshed in
+parallel so that examples, documentation, vignettes, and issue links are
+easier to find once the CRAN-facing APIs are public. My research and CV
+pages have also been updated so that software, papers, books, and
+replication material are less scattered across the web. This may sound
+like housekeeping, but for open research software it is not a minor
+detail. If people cannot find the work, access working examples,
+understand what is current, or report a problem when they find one, the
+software is less useful than it ought to be.
 
 Once the final tarballs have cleared CRAN, the links below should be the
 first places to look. Before this becomes the R-announce note, the
@@ -165,7 +187,9 @@ the current `crs` 0.15-42 release unless final checks require another
 - [The package gallery](https://jeffreyracine.github.io/gallery/)
 - [Research contributions](https://jeffreyracine.github.io/research/)
 - [Curriculum vitae](https://jeffreyracine.github.io/vitae/)
-- [`np`/`npRmpi` source and issues](https://github.com/JeffreyRacine/R-Package-np)
+- [`np` source](https://github.com/JeffreyRacine/R-Package-np)
+- [`npRmpi` source branch](https://github.com/JeffreyRacine/R-Package-np/tree/npRmpi)
+- [`np` / `npRmpi` issues](https://github.com/JeffreyRacine/R-Package-np/issues)
 - [`crs` source and issues](https://github.com/JeffreyRacine/R-Package-crs)
 
 If you are coming to the packages after a long absence, the main thing
@@ -199,8 +223,8 @@ exponentiated polynomials, so the method remains nonparametric while
 being capable of parametric-rate behavior when the data support it.
 
 For larger jobs, the corresponding `npRmpi` workflow is intended to feel
-familiar rather than exotic. Initialize session mode, ask for the same
-statistical object, and let the package spread the computationally
+familiar and, hopefully, comfortable. Initialize session mode, ask for
+the same statistical object, and let the package spread the computationally
 expensive parts where it can.
 
 This note remains provisional because CRAN has the last word on timing,
