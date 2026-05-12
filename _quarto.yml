@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - scripts/style-rss.sh
 
 website:
   title: Jeffrey S. Racine's Personal Blog

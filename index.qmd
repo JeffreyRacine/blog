@@ -62,7 +62,7 @@ Occasional notes where home systems, service providers, and technology collide.
 [Gallery of Code](https://jeffreyracine.github.io/gallery/) ·
 [CV](https://jeffreyracine.github.io/vitae/) ·
 [GitHub](https://github.com/JeffreyRacine) ·
-[RSS](index.xml)
+[RSS feed](index.xml)
 :::
 
 ## Latest Notes
