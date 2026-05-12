@@ -59,7 +59,7 @@ is anything but simple. Jointly selecting continuous bandwidths and
 integer-valued polynomial degrees is a mixed-integer optimization
 problem, and these problems are famously difficult. In the past, serious
 work in this direction often meant reaching for commercial solvers such
-as [IBM ILOG CPLEX Optimizer](https://www.ibm.com/docs/en/icos/22.1.1?topic=in-cplex-class).
+as [IBM ILOG CPLEX Optimizer](https://www.ibm.com/docs/en/icos).
 That is powerful software, but not the open research-software path I
 wanted for `np`.
 
