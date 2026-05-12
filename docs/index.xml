@@ -22,7 +22,7 @@
 
 
 
-<p>File this one under “ideas that took a while to become practical”.</p>
+<p>File this one under “ideas that took a while to become mainstream”.</p>
 <p>Some background is likely in order. The <code>np</code> package has been on CRAN for a very long time now, and has quietly accumulated the joys and sorrows that come with long-lived research software. It is used in courses, papers, replications, and by people I have never met who want to estimate something flexible without pretending that every object in sight is Gaussian, linear, or continuous. That remains the point of the package.</p>
 <p>The upcoming <code>np</code> 0.70-2 release is therefore not a new package dressed up with a new version number. It is a fairly substantial extension of a package whose core purpose remains unchanged: nonparametric kernel methods for regression, density, distribution, quantile, partially linear, single-index, smooth-coefficient, and modal models, with mixed data types treated as first-class citizens rather than afterthoughts.</p>
 <p>The headline change is the extension of local polynomial methods across the conditional estimators in the package. Historically, most of these methods were local constant. Regression had the familiar <code>regtype = "ll"</code> option for local linear estimation, but density, distribution, semiparametric regression, conditional quantiles, and modes largely lived in the local-constant world. That was useful, often enough, and also a real limitation.</p>
