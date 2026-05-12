@@ -41,7 +41,7 @@ font-style: inherit;">TRUE</span>)</span></code></pre></div></div>
 <ul>
 <li>bounded-support and proper local-polynomial conditional density and distribution methods, exposed through <code>ckerbound</code> and the conditional <code>cxkerbound</code>/<code>cykerbound</code> controls (<code>"range"</code> for empirical support, <code>"fixed"</code> with <code>*lb</code>/<code>*ub</code> for user-supplied bounds), drawing on boundary-adaptive kernel ideas <span class="citation" data-cites="racine-li-wang-2024">(Racine et al. 2024)</span>;</li>
 <li>a more direct <code>npqreg</code> workflow, including formula support, vector <code>tau</code>, gradients, standard errors, and NOMAD degree-and-bandwidth pass-through;</li>
-<li>a more natural <code>npconmode</code> workflow for classification and conditional modes, with ordered-datatype probability smoothing available through the Racine-Li-Yan ordered kernel (<code>okertype = "racineliyan"</code>, and <code>oxkertype</code>/<code>oykertype</code> in conditional routes) <span class="citation" data-cites="racine-li-yan-2020">(2020)</span>;</li>
+<li>a more natural <code>npconmode</code> workflow for classification and conditional modes, with ordered-datatype probability smoothing available through the Racine-Li-Yan ordered kernel (<code>okertype = "racineliyan"</code>, and <code>oxkertype</code>/<code>oykertype</code> in conditional routes) <span class="citation" data-cites="racine-li-yan-2020">(Racine et al. 2020)</span>;</li>
 <li>Bonferroni and simultaneous variability bounds on plots;</li>
 <li>interactive plotting surfaces through <code>renderer = "rgl"</code> when <code>rgl</code> is available.</li>
 </ul>

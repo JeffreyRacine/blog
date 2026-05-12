@@ -98,7 +98,7 @@ change. The Gallery now highlights several of them more prominently:
 - a more natural `npconmode` workflow for classification and conditional
   modes, with ordered-datatype probability smoothing available through
   the Racine-Li-Yan ordered kernel (`okertype = "racineliyan"`, and
-  `oxkertype`/`oykertype` in conditional routes) [-@racine-li-yan-2020];
+  `oxkertype`/`oykertype` in conditional routes) [@racine-li-yan-2020];
 - Bonferroni and simultaneous variability bounds on plots;
 - interactive plotting surfaces through `renderer = "rgl"` when `rgl`
   is available.
