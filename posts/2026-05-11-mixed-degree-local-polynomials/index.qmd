@@ -108,6 +108,13 @@ is being updated to highlight several of them more prominently:
   two-dimensional probability-grid construction for the default copula
   route (`npcopula`), gradients, standard errors, and NOMAD
   degree-and-bandwidth pass-through where applicable;
+- one-call hat-matrix and operator helpers such as `npreghat`,
+  `npindexhat`, `npplreghat`, and `npscoefhat`, which now simplify
+  constrained nonparametric and semiparametric estimation by replacing
+  much of the older manual matrix-construction workflow, together with
+  `npudenshat`, `npudisthat`, `npcdenshat`, and `npcdisthat`, which
+  extend the same streamlined operator style to the density and
+  distribution family;
 - ordered-datatype probability smoothing available through
   the Racine-Li-Yan ordered kernel (`okertype = "racineliyan"`, and
   `oxkertype`/`oykertype` in conditional routes) [@racine-li-yan-2020];
