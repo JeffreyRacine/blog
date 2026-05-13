@@ -61,26 +61,26 @@ idea: let the data help choose the amount of local polynomial structure
 variable by variable, rather than forcing the practitioner to make an ad
 hoc global choice before estimation begins.
 
-That sounds simple when written in one sentence, but computationally it
-is anything but simple. Jointly selecting continuous bandwidths and
-integer-valued polynomial degrees is a mixed-integer optimization
-problem, and these problems are famously difficult. In the past, serious
+That may sound simple, but computationally it
+is anything but simple. Jointly selecting continuous predictor bandwidths, categorical predictor smoothing parameters, and
+integer-valued polynomial degrees is a bounded mixed-integer optimization
+problem, and these problems are famously difficult to solve. In the past, serious
 work in this direction often meant reaching for commercial solvers such
 as [IBM ILOG CPLEX Optimizer](https://www.ibm.com/docs/en/icos).
-That is powerful software, but not the open research-software path I
-wanted for `np`.
+That is powerful proprietary closed-source software, but not the open research-software path I
+could rely on for `np`.
 
-The bridge is [NOMAD](https://www.gerad.ca/en/software/nomad/),
+The solution turned out to be the Nonsmooth Optimization via Mesh Adaptive Direct search algorithm family ([NOMAD](https://www.gerad.ca/en/software/nomad/)),
 developed by the team at GERAD. They kindly gave me permission to
-include NOMAD in the
+include the open-source NOMAD algorithms in the
 [`crs`](https://cran.r-project.org/web/packages/crs/index.html)
-package, which I authored with Zhenghua Nie, and that has made it
-possible to bring this machinery into the `np` and `npRmpi` workflows
-using sophisticated open-source optimization tools that sit much more
-naturally with the [R philosophy](https://www.r-project.org/). The
+package many years ago, which I authored with Zhenghua Nie, and that has made it
+possible to now bring this machinery into the `np` and `npRmpi` workflows
+using sophisticated optimization tools that sit much more
+naturally with the open [R philosophy](https://www.r-project.org/). The
 refreshed `crs` package now supplies the NOMAD solver interface used by
 `np` and `npRmpi`, while the old `crs::npglpreg()` surface has been
-retired in favour of the more natural
+retired (deprecated) in favour of the more natural
 
 ```r
 npreg(..., nomad = TRUE)
@@ -91,9 +91,9 @@ package temporarily housed which optimization route. They should be able
 to ask the estimator for the model they want, select NOMAD when
 appropriate, and get on with the analysis.
 
-There is also a broader set of recent extensions around that central
-change. The [Gallery of Code](https://jeffreyracine.github.io/gallery/)
-is being updated to highlight several of them more prominently:
+There is also a broader set of recent extensions beyond this central
+change that bear highlighting. The [Gallery of Code](https://jeffreyracine.github.io/gallery/)
+is being updated to highlight several of them more prominently, including:
 
 - bounded-support and *statistically proper* local-polynomial extensions
   of conditional density and distribution methods, exposed through
@@ -101,7 +101,7 @@ is being updated to highlight several of them more prominently:
   `cxkerbound`/`cykerbound` controls (`"range"` for empirical support,
   `"fixed"` with `*lb`/`*ub` for user-supplied bounds), drawing on
   boundary-adaptive kernel ideas [@racine-li-wang-2024];
-- more natural and complete first-class `npqreg`, `npconmode`, and
+- more natural and complete `npqreg`, `npconmode`, and
   `npcopula` workflows, including formula support, automatic internal
   bandwidth selection when `bws` is omitted, vector `tau` (`npqreg`),
   `newdata`-friendly high-level usage (`npconmode`), automatic
@@ -125,7 +125,7 @@ is being updated to highlight several of them more prominently:
   perspective plots.
 
 These are not simply incremental patches. They are consequences of
-making the conditional-family machinery more coherent.
+making the conditional-family machinery more coherent and feature-rich.
 
 For a small but devoted band of users who endured years of working with
 an outdated version of the `npRmpi` package, the slightly more
@@ -135,7 +135,7 @@ package had effectively lain dormant after its last
 because my co-author Tristen Hayfield, largely responsible for bringing
 this package to life, had moved on after completing his Ph.D. in
 computational astrophysics at ETH Zurich, and I never seemed able to
-muster the time or energy to keep it current. That changed toward the
+muster the time nor energy to keep it current. That changed toward the
 end of 2025, and the package received the small 0.60-20 update needed
 to get it listed on CRAN again in early 2026. The goal now is to have
 `npRmpi` move in step with `np` for users
@@ -175,11 +175,14 @@ statistical behaviour, while the MPI version gives users a practical
 path for computationally heavier work.
 
 All of this has also prompted a broader cleanup of the public-facing
-material around the packages. The package gallery is being refreshed in
-parallel so that examples, documentation, vignettes, and issue links are
-easier to find once the CRAN-facing APIs are public. My research and CV
-pages have also been updated so that software, papers, books, and
-replication material are less scattered across the web. This may sound
+material around the packages. The
+[Gallery of Code](https://jeffreyracine.github.io/gallery/) is being
+refreshed in parallel so that examples, documentation, vignettes, and
+issue links are easier to find once the CRAN-facing APIs are public. My
+[research](https://jeffreyracine.github.io/research/) and
+[CV](https://jeffreyracine.github.io/vitae/) pages have also been
+updated so that software, papers, books, and replication material are
+less scattered across the web. This may sound
 like housekeeping, but for open research software it is not a minor
 detail. If people cannot find the work, access working examples,
 understand what is current, or report a problem when they find one, the
