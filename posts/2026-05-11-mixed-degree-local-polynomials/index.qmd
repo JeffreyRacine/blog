@@ -101,9 +101,11 @@ is being updated to highlight several of them more prominently:
   `cxkerbound`/`cykerbound` controls (`"range"` for empirical support,
   `"fixed"` with `*lb`/`*ub` for user-supplied bounds), drawing on
   boundary-adaptive kernel ideas [@racine-li-wang-2024];
-- more natural and complete `npqreg` and `npconmode` workflows, including
-  formula support, vector `tau` (`npqreg`), gradients, standard errors,
-  and NOMAD degree-and-bandwidth pass-through;
+- more natural and complete first-class `npqreg` and `npconmode`
+  workflows, including formula support, automatic internal bandwidth
+  selection when `bws` is omitted, vector `tau` (`npqreg`),
+  `newdata`-friendly high-level usage (`npconmode`), gradients,
+  standard errors, and NOMAD degree-and-bandwidth pass-through;
 - ordered-datatype probability smoothing available through
   the Racine-Li-Yan ordered kernel (`okertype = "racineliyan"`, and
   `oxkertype`/`oykertype` in conditional routes) [@racine-li-yan-2020];
