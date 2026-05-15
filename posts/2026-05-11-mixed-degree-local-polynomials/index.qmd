@@ -21,16 +21,12 @@ Some background is likely in order. The `np` and `npRmpi` packages have
 been on CRAN for a very long time now, and have lived through the ups
 and downs experienced by any long-lived research software project: bug
 fixes, maintenance, refreshes, updates, and so forth. In fact, the CRAN
-archives indicate that the first archived version was `np_0.12-1.tar.gz`,
-released on `2006-11-19` and weighing in at 246K
-(<https://cran.r-project.org/src/contrib/Archive/np/>). These packages
-are used in courses, papers, replications, and by people I have never met who want
-to estimate something flexible without pretending that every object in
-sight is Gaussian, linear, or continuous. That remains the point of the
-packages.
+archives indicate that the initial version to appear on CRAN was
+`np_0.12-1.tar.gz`, released on `2006-11-19`
+(<https://cran.r-project.org/src/contrib/Archive/np/>).
 
-The submitted `np` and `npRmpi` 0.70-2 releases are not simply minor
-updates dressed up with new version numbers. They are fairly substantial
+The submitted `np` and `npRmpi` 0.70-2 releases are not minor updates
+dressed up with new version numbers. They are fairly consequential
 extensions of packages whose core purpose remains unchanged: providing
 researchers and practitioners with useful open-source nonparametric
 kernel methods for regression, density, distribution, quantile,
@@ -38,43 +34,51 @@ partially linear, single-index, smooth-coefficient, and modal models,
 with mixed data types treated as first-class citizens rather than
 afterthoughts.
 
-The headline change, among several, is the extension of local polynomial
+The headline change, one of many, is the extension of local polynomial
 methods across the conditional estimators in the package. Historically,
-most of these methods were local constant. Regression had the familiar
+most of these methods were classical in nature, that is, local constant
+or what is now denoted `regtype = "lc"`. Regression had the familiar
 `regtype = "ll"` option for local linear estimation, but density,
 distribution, semiparametric regression, conditional quantiles, and
-modes largely lived in the local-constant world. That was useful, often
-enough, and also a potential limitation.
+modes largely lived in the local-constant world.
 
-What is new is not merely that higher-order local polynomials are
-available. The more interesting update is that the polynomial degree and
-bandwidth vectors can be selected jointly. Better still, the selected
+What is new is not merely that higher-order local polynomial
+approximations are available. The more exciting update is that the
+polynomial degree and
+bandwidth vectors can be selected jointly. Furthermore, the selected
 polynomial degree need not be the same for every continuous covariate.
-One variable may call for a local constant fit (degree 0), another for
-local linear (degree 1), another for a higher order (degree $p$). Hall
-and Racine
-[-@hall-racine-2015] proposed infinite-order local polynomial
-regression; Li, Li, and Racine [-@li-li-racine-2026-bkcde] extend this
+One dimension may call for degree 0 (local constant), another for
+degree 1 (local linear), and another for a higher-order degree, for
+example, $p=5$, requiring the degree vector `degree = c(0, 1, 5)`. This
+approach is grounded in the seminal work of @hall-racine-2015, who
+proposed this "infinite-order" local polynomial regression framework,
+and also in more recent work by @li-li-racine-2026-bkcde, who extended
+this
 logic to bounded-support conditional density estimation with known or
-unknown support in work currently under revision. Here is the basic
-idea: let the data help choose the amount of local polynomial structure
-variable by variable, rather than forcing the practitioner to make an ad
-hoc global choice before estimation begins.
+unknown support. The basic idea is to let the data determine the amount
+of local polynomial structure, which may differ variable by variable,
+rather than forcing the practitioner to make an ad hoc global (that is,
+common) choice before estimation can proceed, and to do this jointly
+with other key tuning parameters such as the bandwidths.
 
-That may sound simple, but computationally it
-is anything but simple. Jointly selecting continuous predictor bandwidths, categorical predictor smoothing parameters, and
+That may sound simple, but computationally it is anything but simple.
+Jointly selecting continuous predictor bandwidths, categorical
+predictor smoothing parameters, and
 integer-valued polynomial degrees is a bounded mixed-integer optimization
 problem, and these problems are famously difficult to solve. In the past, serious
 work in this direction often meant reaching for commercial solvers such
 as [IBM ILOG CPLEX Optimizer](https://www.ibm.com/docs/en/icos).
-That is powerful proprietary closed-source software, but not the open research-software path I
-could rely on for `np`.
+That is powerful proprietary closed-source software, but not the open
+research-software path I could rely on for `np`.
 
-The solution turned out to be the Nonsmooth Optimization via Mesh Adaptive Direct search algorithm family ([NOMAD](https://www.gerad.ca/en/software/nomad/)),
-developed by the team at GERAD. They kindly gave me permission to
+The solution turned out to be the Nonsmooth Optimization via Mesh
+Adaptive Direct Search algorithm family
+([NOMAD](https://www.gerad.ca/en/software/nomad/)), developed by the
+team at GERAD. They kindly gave us permission to
 include the open-source NOMAD algorithms in the
 [`crs`](https://cran.r-project.org/web/packages/crs/index.html)
-package many years ago, which I authored with Zhenghua Nie, and that has made it
+package many years ago, which I co-authored with Zhenghua Nie, and that
+has made it
 possible to now bring this machinery into the `np` and `npRmpi` workflows
 using sophisticated optimization tools that sit much more
 naturally with the open [R philosophy](https://www.r-project.org/). The
@@ -86,13 +90,10 @@ retired (deprecated) in favour of the more natural
 npreg(..., nomad = TRUE)
 ```
 
-interface in `np` and `npRmpi`. Users should not have to remember which
-package temporarily housed which optimization route. They should be able
-to ask the estimator for the model they want, select NOMAD when
-appropriate, and get on with the analysis.
+interface in `np` and `npRmpi`.
 
 There is also a broader set of recent extensions beyond this central
-change that bear highlighting. The [Gallery of Code](https://jeffreyracine.github.io/gallery/)
+change that bears highlighting. The [Gallery of Code](https://jeffreyracine.github.io/gallery/)
 is being updated to highlight several of them more prominently, including:
 
 - bounded-support and *statistically proper* local-polynomial extensions
@@ -101,8 +102,8 @@ is being updated to highlight several of them more prominently, including:
   `cxkerbound`/`cykerbound` controls (`"range"` for empirical support,
   `"fixed"` with `*lb`/`*ub` for user-supplied bounds), drawing on
   boundary-adaptive kernel ideas [@racine-li-wang-2024];
-- more natural and complete first-class conditional workflows more
-  broadly, including `npqreg`, `npconmode`, and `npcopula`, with
+- more natural and complete first-class conditional workflows across
+  the family, including `npqreg`, `npconmode`, and `npcopula`, with
   formula support, automatic internal bandwidth selection when `bws`
   is omitted, vector `tau` (`npqreg`), `newdata`-friendly high-level
   usage (`npconmode`), automatic two-dimensional probability-grid
@@ -130,9 +131,6 @@ is being updated to highlight several of them more prominently, including:
   is available, with transparent wireframes replacing the previous
   perspective plots.
 
-These are not simply incremental patches. They are consequences of
-making the conditional-family machinery more coherent and feature-rich.
-
 For a small but devoted band of users who endured years of working with
 an outdated version of the `npRmpi` package, the slightly more
 noteworthy news may be that `npRmpi` is now back from the grave. The
@@ -141,18 +139,15 @@ package had effectively lain dormant after its last
 because my co-author Tristen Hayfield, largely responsible for bringing
 this package to life, had moved on after completing his Ph.D. in
 computational astrophysics at ETH Zurich, and I never seemed able to
-muster the time nor energy to keep it current. That changed toward the
+muster the time or energy to keep it current. That changed toward the
 end of 2025, and the package received the small 0.60-20 update needed
 to get it listed on CRAN again in early 2026. The goal now is to have
 `npRmpi` move in step with `np` for users
 whose problems are large enough that parallel bandwidth selection,
 mixed-degree searches, bootstrap inference, or plot-data construction
-are worth spreading over MPI workers. In other words, `npRmpi` is not a
-different statistical story. It is the same story with more machinery
-available when the job calls for it: a fully fleshed-out companion
-implementation of `np` designed for heavier workloads.
+are worth spreading over MPI workers.
 
-What users of the previous versions may notice most is that the old
+What users of the previous `npRmpi` versions may notice most is that the old
 `npRmpi` workflow often required users to wrap ordinary code in explicit
 MPI calls, while the new version does not. That route remains available
 through the profile/manual-broadcast interface for people who want that
@@ -166,7 +161,7 @@ with far less ceremony. That should make it much easier to exploit the
 multiple cores already sitting on a desktop or laptop without turning
 every analysis script into an MPI programming exercise.
 
-The visible usability changes are in the same spirit. Plotting has a
+Other visible usability changes are similar in spirit. Plotting has a
 cleaner public interface (both packages have received a substantial plot
 redesign), so common requests now look like ordinary R
 arguments rather than a tour through historical option names. Bootstrap
@@ -189,7 +184,7 @@ issue links are easier to find once the CRAN-facing APIs are public. My
 [CV](https://jeffreyracine.github.io/vitae/) pages have also been
 updated so that software, papers, books, and replication material are
 less scattered across the web. This may sound
-like housekeeping, but for open research software it is not a minor
+like housekeeping, but for open research software it is no minor
 detail. If people cannot find the work, access working examples,
 understand what is current, or report a problem when they find one, the
 software is less useful than it ought to be.
