@@ -108,6 +108,11 @@ is being updated to highlight several of them more prominently, including:
   two-dimensional probability-grid construction for the default copula
   route (`npcopula`), gradients, standard errors, and NOMAD
   degree-and-bandwidth pass-through where applicable;
+- higher-order derivative estimation across the local-polynomial
+  conditional family, so derivatives of arbitrarily high order can now
+  be estimated in principle, limited only by the polynomial degree,
+  whether that degree is set manually or selected automatically to suit
+  the underlying smoothness class;
 - one-call hat-matrix and operator helpers such as `npreghat`,
   `npindexhat`, `npplreghat`, and `npscoefhat`, which now simplify
   constrained nonparametric and semiparametric estimation by replacing
