@@ -25,7 +25,7 @@ archives indicate that the initial version to appear on CRAN was
 `np_0.12-1.tar.gz`, released on `2006-11-19`
 (<https://cran.r-project.org/src/contrib/Archive/np/>).
 
-The submitted `np` and `npRmpi` 0.70-2 releases are not minor updates
+The new `np` and `npRmpi` 0.70-2 releases are not minor updates
 dressed up with new version numbers. They are fairly consequential
 extensions of packages whose core purpose remains unchanged: providing
 researchers and practitioners with useful open-source nonparametric
@@ -189,11 +189,9 @@ detail. If people cannot find the work, access working examples,
 understand what is current, or report a problem when they find one, the
 software is less useful than it ought to be.
 
-Once the final tarballs have cleared CRAN, the links below should be the
-first places to look. Before this becomes the R-announce note, the
-version numbers should still be checked one last time against CRAN; the
-intended public state is `np` 0.70-2, `npRmpi` 0.70-2, and `crs`
-0.15-43 once the CRAN mirrors finish updating.
+As of Friday, May 15, 2026, the public CRAN release state is `np`
+0.70-2, `npRmpi` 0.70-2, and `crs` 0.15-43. The links below should be
+the first places to look.
 
 - [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
 - [`npRmpi` on CRAN](https://cran.r-project.org/web/packages/npRmpi/index.html)
@@ -253,10 +251,8 @@ familiar and, hopefully, comfortable. Initialize session mode, ask for
 the same statistical object, and let the package spread the computationally
 expensive parts where it can.
 
-This note remains provisional because CRAN has the last word on timing,
-and because announcement prose should never get too far ahead of the
-actual packages sitting on the CRAN mirrors. But the milestone is close
-enough that it seems worth saying out loud: local polynomial methods in
+So the milestone is now real enough to say out loud: local polynomial
+methods in
 `np` are no longer confined to a narrow corner of regression, joint
 degree-bandwidth selection is available through open tools, and `npRmpi`
 is no longer merely a line in the archive or a wrapper-heavy MPI
