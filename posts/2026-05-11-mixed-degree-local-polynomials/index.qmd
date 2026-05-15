@@ -101,13 +101,14 @@ is being updated to highlight several of them more prominently, including:
   `cxkerbound`/`cykerbound` controls (`"range"` for empirical support,
   `"fixed"` with `*lb`/`*ub` for user-supplied bounds), drawing on
   boundary-adaptive kernel ideas [@racine-li-wang-2024];
-- more natural and complete `npqreg`, `npconmode`, and
-  `npcopula` workflows, including formula support, automatic internal
-  bandwidth selection when `bws` is omitted, vector `tau` (`npqreg`),
-  `newdata`-friendly high-level usage (`npconmode`), automatic
-  two-dimensional probability-grid construction for the default copula
-  route (`npcopula`), gradients, standard errors, and NOMAD
-  degree-and-bandwidth pass-through where applicable;
+- more natural and complete first-class conditional workflows more
+  broadly, including `npqreg`, `npconmode`, and `npcopula`, with
+  formula support, automatic internal bandwidth selection when `bws`
+  is omitted, vector `tau` (`npqreg`), `newdata`-friendly high-level
+  usage (`npconmode`), automatic two-dimensional probability-grid
+  construction for the default copula route (`npcopula`), gradients
+  now available across the conditional estimators, standard errors, and
+  NOMAD degree-and-bandwidth pass-through where applicable;
 - higher-order derivative estimation across the local-polynomial
   conditional family, so derivatives of arbitrarily high order can now
   be estimated in principle, limited only by the polynomial degree,
