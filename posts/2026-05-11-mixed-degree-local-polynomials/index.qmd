@@ -29,7 +29,7 @@ to estimate something flexible without pretending that every object in
 sight is Gaussian, linear, or continuous. That remains the point of the
 packages.
 
-The upcoming `np` and `npRmpi` 0.70-2 releases are not simply minor
+The submitted `np` and `npRmpi` 0.70-2 releases are not simply minor
 updates dressed up with new version numbers. They are fairly substantial
 extensions of packages whose core purpose remains unchanged: providing
 researchers and practitioners with useful open-source nonparametric
@@ -196,10 +196,9 @@ software is less useful than it ought to be.
 
 Once the final tarballs have cleared CRAN, the links below should be the
 first places to look. Before this becomes the R-announce note, the
-version numbers should be checked one last time against CRAN; the
-intended release train is `np` 0.70-2 and `npRmpi` 0.70-2, building on
-the current `crs` 0.15-42 release unless final checks require another
-`crs` update.
+version numbers should still be checked one last time against CRAN; the
+intended public state is `np` 0.70-2, `npRmpi` 0.70-2, and `crs`
+0.15-43 once the CRAN mirrors finish updating.
 
 - [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
 - [`npRmpi` on CRAN](https://cran.r-project.org/web/packages/npRmpi/index.html)
