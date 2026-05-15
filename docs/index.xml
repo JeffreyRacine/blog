@@ -11,7 +11,7 @@
 <atom:link href="https://jeffreyracine.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Mon, 11 May 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 15 May 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Mixed-degree local polynomials arrive in np (and npRmpi rises from the grave)</title>
   <dc:creator>Jeffrey S. Racine</dc:creator>
@@ -206,7 +206,7 @@ Racine, Jeffrey S., Qi Li, and K. X. Yan. 2020. <span>“Kernel Smoothed Probabi
   <category>Computing</category>
   <category>Open Web</category>
   <guid>https://jeffreyracine.github.io/blog/posts/2026-05-11-mixed-degree-local-polynomials/</guid>
-  <pubDate>Mon, 11 May 2026 04:00:00 GMT</pubDate>
+  <pubDate>Fri, 15 May 2026 04:00:00 GMT</pubDate>
   <media:content url="https://jeffreyracine.github.io/blog/posts/2026-05-11-mixed-degree-local-polynomials/images/preview.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
