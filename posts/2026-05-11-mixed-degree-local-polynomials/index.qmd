@@ -25,8 +25,8 @@ archives indicate that the initial version to appear on CRAN was
 `np_0.12-1.tar.gz`, released on `2006-11-19`
 (<https://cran.r-project.org/src/contrib/Archive/np/>).
 
-The new `np` and `npRmpi` 0.70-2 releases are not minor updates
-dressed up with new version numbers. They are fairly consequential
+The new `np` and `npRmpi` 0.70-3 releases are not minor updates
+dressed up with new version numbers. Together with `crs` 0.15-44, they are fairly consequential
 extensions of packages whose core purpose remains unchanged: providing
 researchers and practitioners with useful open-source nonparametric
 kernel methods for regression, density, distribution, quantile,
@@ -103,10 +103,11 @@ is being updated to highlight several of them more prominently, including:
   `"fixed"` with `*lb`/`*ub` for user-supplied bounds), drawing on
   boundary-adaptive kernel ideas [@racine-li-wang-2024];
 - more natural and complete first-class conditional workflows across
-  the family, including `npqreg`, `npconmode`, and `npcopula`, with
+  the family, including `npqreg`, `nplsqreg`, `npconmode`, and `npcopula`, with
   formula support, automatic internal bandwidth selection when `bws`
-  is omitted, vector `tau` (`npqreg`), `newdata`-friendly high-level
-  usage (`npconmode`), automatic two-dimensional probability-grid
+  is omitted, vector `tau` (`npqreg` and `nplsqreg`), prediction and
+  residual support (`nplsqreg`), `newdata`-friendly high-level usage
+  (`npconmode`), automatic two-dimensional probability-grid
   construction for the default copula route (`npcopula`), gradients
   now available across the conditional estimators, standard errors, and
   NOMAD degree-and-bandwidth pass-through where applicable;
@@ -125,6 +126,9 @@ is being updated to highlight several of them more prominently, including:
 - ordered-datatype probability smoothing available through
   the Racine-Li-Yan ordered kernel (`okertype = "racineliyan"`, and
   `oxkertype`/`oykertype` in conditional routes) [@racine-li-yan-2020];
+- runtime improvements such as the new `options(np.tree = "auto")`
+  default, automatic compression for repetitive categorical designs,
+  and tighter LP Ichimura single-index objective evaluation;
 - Bonferroni and simultaneous variability bounds on plots with data
   overlays by default;
 - interactive plotting surfaces through `renderer = "rgl"` when `rgl`
@@ -189,9 +193,10 @@ detail. If people cannot find the work, access working examples,
 understand what is current, or report a problem when they find one, the
 software is less useful than it ought to be.
 
-As of Friday, May 15, 2026, the public CRAN release state is `np`
-0.70-2, `npRmpi` 0.70-2, and `crs` 0.15-43. The links below should be
-the first places to look.
+As of Monday, June 1, 2026, the submitted CRAN release state is `np`
+0.70-3, `npRmpi` 0.70-3, and `crs` 0.15-44. This local post is being
+prepared to match that release surface ahead of CRAN mirror propagation.
+The links below should be the first places to look.
 
 - [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
 - [`npRmpi` on CRAN](https://cran.r-project.org/web/packages/npRmpi/index.html)
