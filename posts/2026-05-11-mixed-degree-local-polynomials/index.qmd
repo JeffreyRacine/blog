@@ -195,8 +195,7 @@ understand what is current, or report a problem when they find one, the
 software is less useful than it ought to be.
 
 As of Thursday, June 4, 2026, `crs` 0.15-44, `npRmpi` 0.70-3, and `np`
-0.70-3 are now available on CRAN. The package pages may still lag
-briefly while the mirrors update. The links below should be the first
+0.70-3 are now available on CRAN. The links below should be the first
 places to look.
 
 - [`np` on CRAN](https://cran.r-project.org/web/packages/np/index.html)
